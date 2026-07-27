@@ -3,6 +3,10 @@
   "updatedAt": "2026-07-27",
   "files": [
     {
+      "path": "knowledge/application/application-tab-overview.md",
+      "enabled": true
+    },
+    {
       "path": "knowledge/application/model-answers/guide-app-banner.md",
       "enabled": true
     },
@@ -52,6 +56,10 @@
     },
     {
       "path": "knowledge/application/model-answers/guide-view-pos-keys.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/assets-tab-overview.md",
       "enabled": true
     },
     {
@@ -139,6 +147,10 @@
       "enabled": true
     },
     {
+      "path": "knowledge/cms-users/cms-users-tab-overview.md",
+      "enabled": true
+    },
+    {
       "path": "knowledge/cms-users/model-answers/guide-boss-app-account.md",
       "enabled": true
     },
@@ -148,6 +160,10 @@
     },
     {
       "path": "knowledge/cms-users/model-answers/guide-staff.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/company-tab-overview.md",
       "enabled": true
     },
     {
@@ -215,6 +231,10 @@
       "enabled": true
     },
     {
+      "path": "knowledge/membership/membership-tab-overview.md",
+      "enabled": true
+    },
+    {
       "path": "knowledge/membership/model-answers/guide-blocked-number.md",
       "enabled": true
     },
@@ -243,6 +263,10 @@
       "enabled": true
     },
     {
+      "path": "knowledge/push/push-tab-overview.md",
+      "enabled": true
+    },
+    {
       "path": "knowledge/push/model-answers/guide-batch-point-adjustment.md",
       "enabled": true
     },
@@ -267,6 +291,10 @@
       "enabled": true
     },
     {
+      "path": "knowledge/report/report-tab-overview.md",
+      "enabled": true
+    },
+    {
       "path": "knowledge/report/model-answers/guide-auto-regular-alarm.md",
       "enabled": true
     },
@@ -276,6 +304,14 @@
     },
     {
       "path": "knowledge/report/model-answers/guide-storellet-report.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/system/system-tab-overview.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/system/rag-system-prompt.md",
       "enabled": true
     }
   ]
