@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-27",
+  "files": [
+    {
+      "path": "knowledge/application/model-answers/guide-app-banner.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/application/model-answers/guide-configure.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/application/model-answers/guide-front-page-setting.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/application/model-answers/guide-image.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/application/model-answers/guide-locale.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/application/model-answers/guide-merchant-web-config.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/application/model-answers/guide-pms-records.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/application/model-answers/guide-queuing-system.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/application/model-answers/guide-region-code-config.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/application/model-answers/guide-region.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/application/model-answers/guide-sms-service-config.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/application/model-answers/guide-tag-group.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/application/model-answers/guide-view-pos-keys.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-bingo.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-co-brand-purchase.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-coupon-code.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-coupon-external-code-group.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-coupon-package.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-coupon-trigger-rule.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-coupon.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-cross-brand-automation.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-discount-card.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-eshop-products.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-food-menu.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-operation-access-code.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-points.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-speedy-scanner-config.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-stamp-trigger-rule.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-stamp.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-survey.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-trigger-flow.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-user-activation-key.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-user-top-up-consumer-plan.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-user-top-up-deposit-plan.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/cms-users/model-answers/guide-boss-app-account.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/cms-users/model-answers/guide-cms-users.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/cms-users/model-answers/guide-staff.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-app-eshop-presentation.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-content-promotion.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-identity-discovery.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-lifecycle-member-profile.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-links-reservations.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-points-qr-pos.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-visual-design.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-group-branded-app.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-group-controls-compliance.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-group-identity-registration.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-group-membership-points.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-structure-overview.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/create-company.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/featured-item-setup.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/shop-access-visibility-audit.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/shop-identity-location-contact.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/guide-blocked-number.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/guide-coupon-payment.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/guide-invoice.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/guide-member-taiwan.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/guide-member.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/guide-qr-code-inspector.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/guide-verification-code.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/push/model-answers/guide-batch-point-adjustment.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/push/model-answers/guide-coupon.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/push/model-answers/guide-news.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/push/model-answers/guide-notification.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/push/model-answers/guide-user-favour-batch-operation.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/push/model-answers/guide-user-point-batch-operation.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/report/model-answers/guide-auto-regular-alarm.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/report/model-answers/guide-count-coupon.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/report/model-answers/guide-storellet-report.md",
+      "enabled": true
+    }
+  ]
+}

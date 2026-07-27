@@ -1,0 +1,2302 @@
+[
+  {
+    "Index":1,
+    "Section":"Assets",
+    "Sub-section":"Points List",
+    "Field \/ UI Item":"Points ID",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"Auto",
+    "Purpose \/ Front-end Impact":"\u986f\u793a point asset ID",
+    "Notes":"\u7528\u4f5c\u532f\u51fa \/ \u4fee\u6539 reference"
+  },
+  {
+    "Index":2,
+    "Section":"Assets",
+    "Sub-section":"Points List",
+    "Field \/ UI Item":"Group",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"Auto",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6240\u5c6c group",
+    "Notes":"\u53ef\u7528 group filter"
+  },
+  {
+    "Index":3,
+    "Section":"Assets",
+    "Sub-section":"Points List",
+    "Field \/ UI Item":"Point(s)",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"Auto",
+    "Purpose \/ Front-end Impact":"\u986f\u793a points value",
+    "Notes":null
+  },
+  {
+    "Index":4,
+    "Section":"Assets",
+    "Sub-section":"Points List",
+    "Field \/ UI Item":"Type",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"Auto",
+    "Purpose \/ Front-end Impact":"\u986f\u793a points type",
+    "Notes":"\u4f8b\u5982 Welcome Pack \/ Birthday Gift \/ Anniversary Gift \/ Push \/ Redeem Code"
+  },
+  {
+    "Index":5,
+    "Section":"Assets",
+    "Sub-section":"Points List",
+    "Field \/ UI Item":"Start Date",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"Auto",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u958b\u59cb\u65e5",
+    "Notes":"\u7528\u4f5c point item validity"
+  },
+  {
+    "Index":6,
+    "Section":"Assets",
+    "Sub-section":"Points List",
+    "Field \/ UI Item":"End Date",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"Auto",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u5b8c\u7d50\u65e5",
+    "Notes":"\u7528\u4f5c point item validity"
+  },
+  {
+    "Index":7,
+    "Section":"Assets",
+    "Sub-section":"Points List",
+    "Field \/ UI Item":"White Label",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"Auto",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u662f\u5426 White Label only",
+    "Notes":"\u6309 app availability \u5224\u65b7"
+  },
+  {
+    "Index":8,
+    "Section":"Assets",
+    "Sub-section":"Points List",
+    "Field \/ UI Item":"Status",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"Auto",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u72c0\u614b",
+    "Notes":"Active \/ Inactive"
+  },
+  {
+    "Index":9,
+    "Section":"Assets",
+    "Sub-section":"Points List",
+    "Field \/ UI Item":"Edit",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"Auto",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u4fee\u6539 points detail"
+  },
+  {
+    "Index":10,
+    "Section":"Assets",
+    "Sub-section":"Points List",
+    "Field \/ UI Item":"Export",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"Auto",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u532f\u51fa points details JSON file"
+  },
+  {
+    "Index":11,
+    "Section":"Assets",
+    "Sub-section":"Create new Points",
+    "Field \/ UI Item":"Import File",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Upload file if needed",
+    "Purpose \/ Front-end Impact":"\u532f\u5165 points config \/ image",
+    "Notes":"\u5982\u7121\u9700\u532f\u5165\u53ef\u7559\u7a7a"
+  },
+  {
+    "Index":12,
+    "Section":"Assets",
+    "Sub-section":"Create new Points",
+    "Field \/ UI Item":"Group",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Select Group",
+    "Purpose \/ Front-end Impact":"\u6307\u5b9a points \u6b78\u5c6c group",
+    "Notes":"\u9700\u9078\u6b63\u78ba merchant group"
+  },
+  {
+    "Index":13,
+    "Section":"Assets",
+    "Sub-section":"Create new Points",
+    "Field \/ UI Item":"Point(s)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Points value, e.g. 50 \/ 100",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a\u6d3e\u767c points \u6578\u91cf",
+    "Notes":"\u6703\u54e1\u9818\u53d6\u5f8c\u6703\u52a0\u5230 wallet"
+  },
+  {
+    "Index":14,
+    "Section":"Assets",
+    "Sub-section":"Create new Points",
+    "Field \/ UI Item":"Type",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Welcome Pack \/ Birthday Gift \/ Anniversary Gift \/ Push \/ Redeem Code",
+    "Purpose \/ Front-end Impact":"\u6c7a\u5b9a points \u985e\u578b\u53ca\u986f\u793a section",
+    "Notes":"\u6309\u6d3b\u52d5\u7528\u9014\u9078\u64c7"
+  },
+  {
+    "Index":15,
+    "Section":"Assets",
+    "Sub-section":"Create new Points",
+    "Field \/ UI Item":"Start Date",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Campaign start date",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 point item \u958b\u59cb\u986f\u793a \/ \u53ef\u9818\u53d6\u6642\u9593",
+    "Notes":"\u901a\u5e38\u8207 campaign start date \u4e00\u81f4"
+  },
+  {
+    "Index":16,
+    "Section":"Assets",
+    "Sub-section":"Create new Points",
+    "Field \/ UI Item":"End Date",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Campaign end date \/ long-term date",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 point item \u5b8c\u7d50\u6642\u9593",
+    "Notes":"\u9700\u540c campaign validity \u5c0d\u9f4a"
+  },
+  {
+    "Index":17,
+    "Section":"Assets",
+    "Sub-section":"Create new Points",
+    "Field \/ UI Item":"Image",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Image file, recommended 1MB",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 App \u986f\u793a points \u5716\u7247",
+    "Notes":"file size recommendation: 1MB"
+  },
+  {
+    "Index":18,
+    "Section":"Assets",
+    "Sub-section":"Create new Points",
+    "Field \/ UI Item":"Available to White Label App Only",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Untick unless white label only",
+    "Purpose \/ Front-end Impact":"\u9650\u5236\u53ea\u53ef\u65bc Branded App \u4f7f\u7528",
+    "Notes":"\u6309 app availability \u6c7a\u5b9a"
+  },
+  {
+    "Index":19,
+    "Section":"Assets",
+    "Sub-section":"Create new Points",
+    "Field \/ UI Item":"Available to Storellet App Only",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Untick unless Storellet App only",
+    "Purpose \/ Front-end Impact":"\u9650\u5236\u53ea\u53ef\u65bc Storellet App \u4f7f\u7528",
+    "Notes":"\u6309 app availability \u6c7a\u5b9a"
+  },
+  {
+    "Index":20,
+    "Section":"Assets",
+    "Sub-section":"Create new Points",
+    "Field \/ UI Item":"Not Transferable",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Tick \/ Untick",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a points \u662f\u5426\u53ef\u8f49\u8d08",
+    "Notes":"PPT \u6a19\u793a\u70ba point transferable to other member or not"
+  },
+  {
+    "Index":21,
+    "Section":"Assets",
+    "Sub-section":"Create new Points",
+    "Field \/ UI Item":"Status",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Active",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 points asset \u662f\u5426\u6709\u6548",
+    "Notes":"\u4e0a\u7dda\u6d3b\u52d5\u8a2d Active"
+  },
+  {
+    "Index":22,
+    "Section":"Assets",
+    "Sub-section":"Create new Points",
+    "Field \/ UI Item":"Create Date",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Auto \/ CMS date",
+    "Purpose \/ Front-end Impact":"\u5efa\u7acb\u7d00\u9304",
+    "Notes":"\u4e00\u822c\u4e0d\u7528\u6539"
+  },
+  {
+    "Index":23,
+    "Section":"Assets",
+    "Sub-section":"Discount Cards List",
+    "Field \/ UI Item":"Discount Card ID",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a discount card ID",
+    "Notes":"\u7528\u4f5c reference \/ export"
+  },
+  {
+    "Index":24,
+    "Section":"Assets",
+    "Sub-section":"Discount Cards List",
+    "Field \/ UI Item":"Brand",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6240\u5c6c brand",
+    "Notes":"\u53ef\u7528 brand filter"
+  },
+  {
+    "Index":25,
+    "Section":"Assets",
+    "Sub-section":"Discount Cards List",
+    "Field \/ UI Item":"Name",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a card name",
+    "Notes":"\u4f8b\u5982 Basic \/ VIP \/ Tier card"
+  },
+  {
+    "Index":26,
+    "Section":"Assets",
+    "Sub-section":"Discount Cards List",
+    "Field \/ UI Item":"Is Welcome Pack",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u662f\u5426 Welcome Pack",
+    "Notes":"\u6240\u6709 brand \u81f3\u5c11\u9700\u5efa\u7acb 1 \u500b Basic tier"
+  },
+  {
+    "Index":27,
+    "Section":"Assets",
+    "Sub-section":"Discount Cards List",
+    "Field \/ UI Item":"Start Date",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u958b\u59cb\u65e5",
+    "Notes":"\u63a7\u5236 card validity"
+  },
+  {
+    "Index":28,
+    "Section":"Assets",
+    "Sub-section":"Discount Cards List",
+    "Field \/ UI Item":"End Date",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u5b8c\u7d50\u65e5",
+    "Notes":"\u63a7\u5236 card validity"
+  },
+  {
+    "Index":29,
+    "Section":"Assets",
+    "Sub-section":"Discount Cards List",
+    "Field \/ UI Item":"White Label",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u662f\u5426 White Label only",
+    "Notes":"\u6309 app availability \u5224\u65b7"
+  },
+  {
+    "Index":30,
+    "Section":"Assets",
+    "Sub-section":"Discount Cards List",
+    "Field \/ UI Item":"Status",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u72c0\u614b",
+    "Notes":"Active \/ Inactive"
+  },
+  {
+    "Index":31,
+    "Section":"Assets",
+    "Sub-section":"Discount Cards List",
+    "Field \/ UI Item":"Edit",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u4fee\u6539 discount card detail"
+  },
+  {
+    "Index":32,
+    "Section":"Assets",
+    "Sub-section":"Discount Cards List",
+    "Field \/ UI Item":"Export",
+    "Status":"\u7cfb\u7d71\u7522\u751f",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u532f\u51fa card details JSON file"
+  },
+  {
+    "Index":33,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Import File",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Upload file if needed",
+    "Purpose \/ Front-end Impact":"\u532f\u5165 discount card config",
+    "Notes":"\u5982\u7121\u9700\u532f\u5165\u53ef\u7559\u7a7a"
+  },
+  {
+    "Index":34,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Brand",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Select Brand",
+    "Purpose \/ Front-end Impact":"\u6307\u5b9a card \u6240\u5c6c brand",
+    "Notes":"\u6bcf\u500b brand \u81f3\u5c11\u8981\u6709 1 \u500b Basic tier \/ Welcome Pack"
+  },
+  {
+    "Index":35,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"DiscountCard Type",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Normal Tier",
+    "Purpose \/ Front-end Impact":"\u6307\u5b9a card \/ tier \u985e\u578b",
+    "Notes":"\u6309 merchant tier structure \u8a2d\u5b9a"
+  },
+  {
+    "Index":36,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Discount Level",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Basic=1, Silver=2, Gold=3, VIP=4",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a\u6703\u54e1\u7b49\u7d1a\u6392\u5e8f",
+    "Notes":"\u9700\u8ddf Tier level \u4e00\u81f4"
+  },
+  {
+    "Index":37,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Name (English)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"English tier\/card name",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u82f1\u6587 card name",
+    "Notes":"\u4f8b\u5982 VIP Card"
+  },
+  {
+    "Index":38,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Name (Local Language)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Chinese\/local tier\/card name",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 card name",
+    "Notes":"\u4f8b\u5982 VIP \u6703\u54e1"
+  },
+  {
+    "Index":39,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Image (English)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Card image, recommended 1MB",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u82f1\u6587 discount card \u5716\u7247",
+    "Notes":"PPT \u8a3b\uff1aseems not working\uff1b\u4ecd\u4fdd\u7559\u70ba\u5716\u50cf\u6b04\u4f4d"
+  },
+  {
+    "Index":40,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Image (Local Language)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Card image, recommended 1MB",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 discount card \u5716\u7247",
+    "Notes":"\u5982\u4e2d\u82f1\u6587\u540c\u5716\u53ef\u91cd\u7528"
+  },
+  {
+    "Index":41,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Image 2 \/ 3",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Leave blank unless special implementation",
+    "Purpose \/ Front-end Impact":"\u984d\u5916 card image",
+    "Notes":"\u4e00\u822c\u524d\u53f0\u672a\u5fc5\u4f7f\u7528"
+  },
+  {
+    "Index":42,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Discount Rate",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"e.g. 20 = 20% off",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a card \u6298\u6263\u7387",
+    "Notes":"\u9700\u8ddf merchant benefit \u4e00\u81f4"
+  },
+  {
+    "Index":43,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Redemption Period",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Start date - End date",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 discount card \u6709\u6548\u671f",
+    "Notes":"valid period of discount card"
+  },
+  {
+    "Index":44,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Redemption Point",
+    "Status":"\u8996\u4e4e\u9700\u8981",
+    "Suggested \/ Default":"Points required if redeemable",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a\u7528 points \u514c\u63db card \u6240\u9700\u5206\u6578",
+    "Notes":"\u82e5\u975e\u514c\u63db\u578b tier \u53ef\u7559\u7a7a \/ default"
+  },
+  {
+    "Index":45,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Terms & Conditions (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 T&C section \u986f\u793a",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":46,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Terms & Conditions (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 T&C \u986f\u793a",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":47,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"How To Use (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4f7f\u7528\u8aaa\u660e",
+    "Notes":"PPT \u6307\u793a\u6703\u986f\u793a\u65bc front-end application"
+  },
+  {
+    "Index":48,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"How To Use (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587\u4f7f\u7528\u8aaa\u660e",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":49,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Set As Welcome Pack",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Yes for Basic welcome card",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236\u662f\u5426\u8a3b\u518a\u5f8c\u81ea\u52d5\u52a0\u5165 wallet",
+    "Notes":"Basic member card \u5efa\u8b70 Yes"
+  },
+  {
+    "Index":50,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Welcome Pack Period",
+    "Status":"\u8996\u4e4e\u9700\u8981",
+    "Suggested \/ Default":"Start date - End date",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 welcome pack \u6d3e\u767c\u671f\u9593",
+    "Notes":"Set As Welcome Pack = Yes \u6642\u9700\u8a2d\u5b9a"
+  },
+  {
+    "Index":51,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Upgrade From",
+    "Status":"\u8996\u4e4e tier",
+    "Suggested \/ Default":"Can't Upgrade by default",
+    "Purpose \/ Front-end Impact":"\u6307\u5b9a\u53ef\u7531\u54ea\u5f35 card upgrade",
+    "Notes":"\u9810\u8a2d Can't Upgrade"
+  },
+  {
+    "Index":52,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Point For Upgrade",
+    "Status":"\u8996\u4e4e tier",
+    "Suggested \/ Default":"-1 if not applicable",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a\u5347\u7d1a\u6240\u9700\u6700\u4f4e\u5206\u6578",
+    "Notes":"\u4e0d\u9069\u7528\u7559 -1"
+  },
+  {
+    "Index":53,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Renew Type",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Basic level set as Auto",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a card renewal method",
+    "Notes":"\u6309 tier renewal logic \u8a2d\u5b9a"
+  },
+  {
+    "Index":54,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Expiry Date Pattern",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Basic: Current date + 1 year \/ closest next 1\/4\/7\/10; Other tiers: Current date + 1 year",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 card \u5230\u671f\u65e5 pattern",
+    "Notes":"\u9700\u540c tier policy \u4e00\u81f4"
+  },
+  {
+    "Index":55,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Coupon List",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Select coupons + quantity",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a\u6b64 card \u5305\u542b\u7684 coupon(s)",
+    "Notes":"\u9700\u8f38\u5165\u6bcf\u5f35 coupon quantity"
+  },
+  {
+    "Index":56,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Available to White Label App Only",
+    "Status":"\u8996\u4e4e\u9700\u8981",
+    "Suggested \/ Default":"Tick \/ Untick",
+    "Purpose \/ Front-end Impact":"\u9650\u5236 White Label App \u4f7f\u7528",
+    "Notes":"\u6309 app availability \u6c7a\u5b9a"
+  },
+  {
+    "Index":57,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Available to Storellet App Only",
+    "Status":"\u8996\u4e4e\u9700\u8981",
+    "Suggested \/ Default":"Tick \/ Untick",
+    "Purpose \/ Front-end Impact":"\u9650\u5236 Storellet App \u4f7f\u7528",
+    "Notes":"\u6309 app availability \u6c7a\u5b9a"
+  },
+  {
+    "Index":58,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Point Multiply Ratio",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"1.0 \/ merchant ratio",
+    "Purpose \/ Front-end Impact":"\u6703\u54e1\u6301\u5361\u7372\u5f97 points \u500d\u7387",
+    "Notes":"\u9700\u540c\u6703\u54e1\u7b49\u7d1a\u898f\u5247\u4e00\u81f4"
+  },
+  {
+    "Index":59,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Stamp Multiply Ratio",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"1.0 \/ merchant ratio",
+    "Purpose \/ Front-end Impact":"\u6703\u54e1\u6301\u5361\u7372\u5f97 stamp \u500d\u7387",
+    "Notes":"actual stamp x rate = wallet stamp"
+  },
+  {
+    "Index":60,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Not Transferable",
+    "Status":"\u8996\u4e4e\u9700\u8981",
+    "Suggested \/ Default":"Tick \/ Untick",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a card \u662f\u5426\u53ef\u8f49\u8d08",
+    "Notes":"PPT \u6a19\u793a\u70ba transferable to other member or not"
+  },
+  {
+    "Index":61,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Share With Brands",
+    "Status":"\u8996\u4e4e master brand",
+    "Suggested \/ Default":"Select brands if needed",
+    "Purpose \/ Front-end Impact":"\u8de8\u54c1\u724c\u5206\u4eab card",
+    "Notes":"Master brand \/ multi-brand \u624d\u7528"
+  },
+  {
+    "Index":62,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Hidden",
+    "Status":"\u8996\u4e4e\u9700\u8981",
+    "Suggested \/ Default":"Untick by default",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236\u662f\u5426\u96b1\u85cf card",
+    "Notes":"\u9700\u6309\u524d\u53f0\u5c55\u793a\u9700\u8981"
+  },
+  {
+    "Index":63,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Event Tracking Submit Option",
+    "Status":"\u8996\u4e4e\u9700\u8981",
+    "Suggested \/ Default":"Default",
+    "Purpose \/ Front-end Impact":"event tracking submit \u8a2d\u5b9a",
+    "Notes":"\u5982\u7121\u7279\u5225\u9700\u6c42\u7528 default"
+  },
+  {
+    "Index":64,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Status",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Active",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 card \u662f\u5426\u6709\u6548",
+    "Notes":"\u4e0a\u7dda\u7528 Active"
+  },
+  {
+    "Index":65,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Colour Code",
+    "Status":"\u8996\u4e4e\u8a2d\u8a08",
+    "Suggested \/ Default":"Hex \/ selected color",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 card \u8272\u7cfb",
+    "Notes":"\u6309 UI \u8a2d\u8a08\u586b"
+  },
+  {
+    "Index":66,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Highlighted Colour Code",
+    "Status":"\u8996\u4e4e\u8a2d\u8a08",
+    "Suggested \/ Default":"Hex \/ selected color",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 highlight \u8272\u7cfb",
+    "Notes":"\u6309 UI \u8a2d\u8a08\u586b"
+  },
+  {
+    "Index":67,
+    "Section":"Assets",
+    "Sub-section":"Create Discount Cards",
+    "Field \/ UI Item":"Shopline Membership Tier ID",
+    "Status":"\u8996\u4e4e Shopline",
+    "Suggested \/ Default":"Enter 'null' for Shopline Basic Tier",
+    "Purpose \/ Front-end Impact":"Shopline tier mapping",
+    "Notes":"\u6709 Shopline integration \u5148\u9700\u8981"
+  },
+  {
+    "Index":68,
+    "Section":"Assets",
+    "Sub-section":"Bingo List",
+    "Field \/ UI Item":"Bingo ID",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a Bingo ID",
+    "Notes":"\u7528\u4f5c reference \/ export"
+  },
+  {
+    "Index":69,
+    "Section":"Assets",
+    "Sub-section":"Bingo List",
+    "Field \/ UI Item":"Brand",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6240\u5c6c brand",
+    "Notes":"\u53ef\u7528 brand filter"
+  },
+  {
+    "Index":70,
+    "Section":"Assets",
+    "Sub-section":"Bingo List",
+    "Field \/ UI Item":"Name",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a Bingo name",
+    "Notes":"CMS list \u986f\u793a"
+  },
+  {
+    "Index":71,
+    "Section":"Assets",
+    "Sub-section":"Bingo List",
+    "Field \/ UI Item":"Type",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a Bingo type",
+    "Notes":"\u4f8b\u5982 Day Part"
+  },
+  {
+    "Index":72,
+    "Section":"Assets",
+    "Sub-section":"Bingo List",
+    "Field \/ UI Item":"Start Date",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u958b\u59cb\u65e5",
+    "Notes":"validity"
+  },
+  {
+    "Index":73,
+    "Section":"Assets",
+    "Sub-section":"Bingo List",
+    "Field \/ UI Item":"End Date",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u5b8c\u7d50\u65e5",
+    "Notes":"validity"
+  },
+  {
+    "Index":74,
+    "Section":"Assets",
+    "Sub-section":"Bingo List",
+    "Field \/ UI Item":"White Label",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u662f\u5426 White Label only",
+    "Notes":"\u6309 app availability \u5224\u65b7"
+  },
+  {
+    "Index":75,
+    "Section":"Assets",
+    "Sub-section":"Bingo List",
+    "Field \/ UI Item":"Status",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u72c0\u614b",
+    "Notes":"Active \/ Inactive"
+  },
+  {
+    "Index":76,
+    "Section":"Assets",
+    "Sub-section":"Bingo List",
+    "Field \/ UI Item":"Edit",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u4fee\u6539 bingo detail"
+  },
+  {
+    "Index":77,
+    "Section":"Assets",
+    "Sub-section":"Bingo List",
+    "Field \/ UI Item":"Export",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u532f\u51fa bingo details JSON file"
+  },
+  {
+    "Index":78,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Import File",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Upload file if needed",
+    "Purpose \/ Front-end Impact":"\u532f\u5165 Bingo config",
+    "Notes":"PPT \u672a\u78ba\u8a8d file size restriction"
+  },
+  {
+    "Index":79,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Brand",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Select Brand",
+    "Purpose \/ Front-end Impact":"\u6307\u5b9a Bingo \u6240\u5c6c\u54c1\u724c",
+    "Notes":"\u9700\u9078\u6b63\u78ba brand"
+  },
+  {
+    "Index":80,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Name (English)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"English campaign name",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 \/ CMS \u986f\u793a Bingo campaign name",
+    "Notes":"PPT \u6307\u793a\u8f38\u5165\u82f1\u6587\u540d\u7a31"
+  },
+  {
+    "Index":81,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Name (Local Language)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Local campaign name",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 \/ \u672c\u5730\u8a9e\u8a00\u986f\u793a",
+    "Notes":"PPT \u6307\u793a\u8f38\u5165 local language name"
+  },
+  {
+    "Index":82,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Image",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"Bingo card image, recommended 1MB",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u986f\u793a Bingo card image",
+    "Notes":"PPT \u6a19\u793a file size recommendation: 1MB"
+  },
+  {
+    "Index":83,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Description (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"English description",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 Bingo description",
+    "Notes":"\u6d3b\u52d5\u8aaa\u660e"
+  },
+  {
+    "Index":84,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Description (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"Local description",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 Bingo description",
+    "Notes":"\u6d3b\u52d5\u8aaa\u660e"
+  },
+  {
+    "Index":85,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Terms & Conditions (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 T&C \u986f\u793a",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":86,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Terms & Conditions (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 T&C \u986f\u793a",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":87,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"How To Use (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 How to Use \u986f\u793a",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":88,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"How To Use (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587\u4f7f\u7528\u8aaa\u660e",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":89,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Day Period 1 \/ 2 \/ 3",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Tick weekdays",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a Bingo \u6709\u6548\u661f\u671f",
+    "Notes":"Tick box indicate validity of Bingo"
+  },
+  {
+    "Index":90,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Type",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Day Part \/ selected type",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a Bingo type",
+    "Notes":"\u914d\u5408 daypart\/time slot \u8a2d\u5b9a"
+  },
+  {
+    "Index":91,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Effective Period",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Start date - End date",
+    "Purpose \/ Front-end Impact":"Bingo \u6709\u6548\u65e5\u671f",
+    "Notes":"PPT \u6a19\u793a enter the date to indicate validity"
+  },
+  {
+    "Index":92,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Daypart Time Slot 1 \/ 2 \/ 3",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Start time - End time",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a\u6709\u6548\u6642\u6bb5",
+    "Notes":"\u4f8b\u5982 09:00 - 13:00"
+  },
+  {
+    "Index":93,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Daypart Slot Text EN\/Local",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Text form, e.g. 09:00-13:00",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u986f\u793a\u6642\u6bb5\u6587\u5b57",
+    "Notes":"PPT \u6307\u793a time slot in text form"
+  },
+  {
+    "Index":94,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Reward 1-8",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Select reward for each pattern",
+    "Purpose \/ Front-end Impact":"\u70ba\u5c0d\u61c9 Bingo pattern \u8a2d\u5b9a\u734e\u8cde",
+    "Notes":"PPT \u6307\u793a choose reward for corresponding pattern"
+  },
+  {
+    "Index":95,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"White Label Only",
+    "Status":"\u8996\u4e4e\u9700\u8981",
+    "Suggested \/ Default":"Tick \/ Untick",
+    "Purpose \/ Front-end Impact":"\u9650\u5236 White Label App \u4f7f\u7528",
+    "Notes":"\u6309 app availability \u6c7a\u5b9a"
+  },
+  {
+    "Index":96,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Not Transferable",
+    "Status":"\u8996\u4e4e\u9700\u8981",
+    "Suggested \/ Default":"Tick \/ Untick",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a Bingo \u662f\u5426\u53ef\u8f49\u8d08",
+    "Notes":"PPT \u6a19\u793a transferable to other member or not"
+  },
+  {
+    "Index":97,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Status",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Active",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 Bingo \u662f\u5426\u6709\u6548",
+    "Notes":"\u4e0a\u7dda\u7528 Active"
+  },
+  {
+    "Index":98,
+    "Section":"Assets",
+    "Sub-section":"Create new Bingo",
+    "Field \/ UI Item":"Create Date",
+    "Status":"\u7cfb\u7d71\u6b04\u4f4d",
+    "Suggested \/ Default":"Auto \/ CMS date",
+    "Purpose \/ Front-end Impact":"\u5efa\u7acb\u7d00\u9304",
+    "Notes":"\u4e00\u822c\u4e0d\u7528\u6539"
+  },
+  {
+    "Index":99,
+    "Section":"Assets",
+    "Sub-section":"List all Stamps",
+    "Field \/ UI Item":"Stamp ID",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a Stamp ID",
+    "Notes":"\u7528\u4f5c reference \/ export"
+  },
+  {
+    "Index":100,
+    "Section":"Assets",
+    "Sub-section":"List all Stamps",
+    "Field \/ UI Item":"Brand",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6240\u5c6c brand",
+    "Notes":"\u53ef\u7528 brand filter"
+  },
+  {
+    "Index":101,
+    "Section":"Assets",
+    "Sub-section":"List all Stamps",
+    "Field \/ UI Item":"Name",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a stamp name",
+    "Notes":"CMS list \u986f\u793a"
+  },
+  {
+    "Index":102,
+    "Section":"Assets",
+    "Sub-section":"List all Stamps",
+    "Field \/ UI Item":"Start Date",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u958b\u59cb\u65e5",
+    "Notes":"validity"
+  },
+  {
+    "Index":103,
+    "Section":"Assets",
+    "Sub-section":"List all Stamps",
+    "Field \/ UI Item":"End Date",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u5b8c\u7d50\u65e5",
+    "Notes":"validity"
+  },
+  {
+    "Index":104,
+    "Section":"Assets",
+    "Sub-section":"List all Stamps",
+    "Field \/ UI Item":"Status",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u72c0\u614b",
+    "Notes":"Active \/ Inactive"
+  },
+  {
+    "Index":105,
+    "Section":"Assets",
+    "Sub-section":"List all Stamps",
+    "Field \/ UI Item":"Edit",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u4fee\u6539 stamp detail"
+  },
+  {
+    "Index":106,
+    "Section":"Assets",
+    "Sub-section":"List all Stamps",
+    "Field \/ UI Item":"Export",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u532f\u51fa stamp details JSON file"
+  },
+  {
+    "Index":107,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Brand",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Select Brand",
+    "Purpose \/ Front-end Impact":"\u6307\u5b9a stamp \u6240\u5c6c brand",
+    "Notes":"\u9700\u9078\u6b63\u78ba brand"
+  },
+  {
+    "Index":108,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Required Discount Card Level",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"None \/ Select member level(s)",
+    "Purpose \/ Front-end Impact":"\u9650\u5236\u53ef\u6536\u53d6 stamp \u7684\u6703\u54e1\u7d1a\u5225",
+    "Notes":"None \u6216\u9078\u64c7\u6307\u5b9a discount card \/ member level"
+  },
+  {
+    "Index":109,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Name (English)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"English stamp name",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 \/ CMS stamp name",
+    "Notes":"\u4f8b\u5982 Stamp Card"
+  },
+  {
+    "Index":110,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Name (Local Language)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Local stamp name",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 stamp name",
+    "Notes":"\u53ef\u8207\u82f1\u6587\u540c\u540d"
+  },
+  {
+    "Index":111,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Description (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"English description",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 stamp descriptions",
+    "Notes":"\u6d3b\u52d5\u8aaa\u660e"
+  },
+  {
+    "Index":112,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Description (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"Local description",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 stamp descriptions",
+    "Notes":"\u6d3b\u52d5\u8aaa\u660e"
+  },
+  {
+    "Index":113,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Terms & Conditions (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 T&C \u986f\u793a",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":114,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Terms & Conditions (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 T&C \u986f\u793a",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":115,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Image (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"Stamp card image",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 stamp card \u5716\u7247",
+    "Notes":"PPT \u672a\u78ba\u8a8d stamp card file size restriction"
+  },
+  {
+    "Index":116,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Image (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"Stamp card image",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 stamp card \u5716\u7247",
+    "Notes":"\u5982\u540c\u5716\u53ef\u91cd\u7528"
+  },
+  {
+    "Index":117,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Campaign Period",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Start date - End date",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 stamp campaign validity",
+    "Notes":"PPT \u6587\u5b57\u8aa4\u5beb bingo\uff1b\u6b64\u8655\u70ba stamp validity"
+  },
+  {
+    "Index":118,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Normal Stamp Image",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Image file, recommended 1MB, 1:1",
+    "Purpose \/ Front-end Impact":"\u666e\u901a stamp \u5716\u7247",
+    "Notes":"\u524d\u53f0 stamp \u986f\u793a"
+  },
+  {
+    "Index":119,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Welcome Pack",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"0 \/ quantity",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 welcome pack stamp \u6578\u91cf",
+    "Notes":"\u6709\u8fce\u65b0\u5370\u82b1\u5148\u586b"
+  },
+  {
+    "Index":120,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Special Stamp",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Tick if applicable",
+    "Purpose \/ Front-end Impact":"\u662f\u5426\u555f\u7528 special stamp",
+    "Notes":"\u6709\u7279\u6b8a\u5370\u82b1\u6a5f\u7387\u6d3b\u52d5\u5148 tick"
+  },
+  {
+    "Index":121,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Special Stamp Image",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Image file, recommended 1MB, 1:1",
+    "Purpose \/ Front-end Impact":"special stamp \u5716\u7247",
+    "Notes":"Special Stamp \u555f\u7528\u6642\u9700\u8981"
+  },
+  {
+    "Index":122,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Special Stamp Probability",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Select probability",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 special stamp \u51fa\u73fe\u6a5f\u7387",
+    "Notes":"\u4f8b\u5982 5%"
+  },
+  {
+    "Index":123,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Special Stamp Daily Limit",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Upper limit per day",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a special stamp \u6bcf\u65e5\u4e0a\u9650",
+    "Notes":"\u9632\u6b62\u904e\u91cf\u6d3e\u767c"
+  },
+  {
+    "Index":124,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Type",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"By Transaction Amount \/ selected criteria",
+    "Purpose \/ Front-end Impact":"\u9078\u64c7\u6d3e\u767c stamp \u689d\u4ef6",
+    "Notes":"PPT \u6307\u793a choose stamp giving criteria"
+  },
+  {
+    "Index":125,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Transaction Amount",
+    "Status":"\u8996\u4e4e Type",
+    "Suggested \/ Default":"Default amount \/ custom amount",
+    "Purpose \/ Front-end Impact":"\u6309\u4ea4\u6613\u91d1\u984d\u6d3e stamp",
+    "Notes":"\u53ef Add Custom Transaction Amount"
+  },
+  {
+    "Index":126,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Total Space",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Max stamp quantity",
+    "Purpose \/ Front-end Impact":"\u6703\u54e1 wallet \u5167 stamp \u6700\u5927\u6578\u91cf",
+    "Notes":"\u63a7\u5236 stamp card \u7a7a\u9593"
+  },
+  {
+    "Index":127,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Gift",
+    "Status":"\u5fc5\u586b \/ \u8996\u4e4e redeem",
+    "Suggested \/ Default":"Select gift + stamp quantity",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a\u5370\u82b1\u63db\u9818\u734e\u8cde\u53ca\u6240\u9700 stamp \u6578",
+    "Notes":"\u6bcf\u500b gift \u8981\u8f38\u5165\u5c0d\u61c9 stamp qty"
+  },
+  {
+    "Index":128,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Has Week Day And Time Criteria",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Tick \/ Untick",
+    "Purpose \/ Front-end Impact":"\u9650\u5236\u53ea\u65bc\u6307\u5b9a\u65e5\u671f \/ \u6642\u6bb5\u4f7f\u7528",
+    "Notes":"Merchant \u6709\u6642\u6bb5\u9650\u5236\u5148 tick"
+  },
+  {
+    "Index":129,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Auto Redeem",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Tick \/ Untick",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236\u662f\u5426\u81ea\u52d5\u514c\u63db",
+    "Notes":"\u9700\u540c merchant redeem flow \u4e00\u81f4"
+  },
+  {
+    "Index":130,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Transferable",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Tick \/ Untick",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a stamp \u662f\u5426\u53ef\u8f49\u8d08",
+    "Notes":"PPT \u6587\u5b57\u8aa4\u5beb bingo\uff1b\u6b64\u8655\u6307 stamp"
+  },
+  {
+    "Index":131,
+    "Section":"Assets",
+    "Sub-section":"Create new Stamp",
+    "Field \/ UI Item":"Status",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Active",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 stamp campaign \u662f\u5426\u6709\u6548",
+    "Notes":"\u4e0a\u7dda\u7528 Active"
+  },
+  {
+    "Index":132,
+    "Section":"Assets",
+    "Sub-section":"Coupons List",
+    "Field \/ UI Item":"Coupon ID",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a Coupon ID",
+    "Notes":"\u7528\u4f5c reference \/ export"
+  },
+  {
+    "Index":133,
+    "Section":"Assets",
+    "Sub-section":"Coupons List",
+    "Field \/ UI Item":"Brand",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6240\u5c6c brand",
+    "Notes":"\u53ef\u7528 brand filter"
+  },
+  {
+    "Index":134,
+    "Section":"Assets",
+    "Sub-section":"Coupons List",
+    "Field \/ UI Item":"Name",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a coupon name",
+    "Notes":"CMS list \u986f\u793a"
+  },
+  {
+    "Index":135,
+    "Section":"Assets",
+    "Sub-section":"Coupons List",
+    "Field \/ UI Item":"Type",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a coupon type",
+    "Notes":"Freebie \/ Item Discount \/ Receipt Discount"
+  },
+  {
+    "Index":136,
+    "Section":"Assets",
+    "Sub-section":"Coupons List",
+    "Field \/ UI Item":"Delivery Type",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6d3e\u767c\u65b9\u5f0f",
+    "Notes":"Push \/ Purchase \/ Redeem \/ Welcome Pack \u7b49"
+  },
+  {
+    "Index":137,
+    "Section":"Assets",
+    "Sub-section":"Coupons List",
+    "Field \/ UI Item":"Start Date",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u958b\u59cb\u65e5",
+    "Notes":"validity"
+  },
+  {
+    "Index":138,
+    "Section":"Assets",
+    "Sub-section":"Coupons List",
+    "Field \/ UI Item":"End Date",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u5b8c\u7d50\u65e5",
+    "Notes":"validity"
+  },
+  {
+    "Index":139,
+    "Section":"Assets",
+    "Sub-section":"Coupons List",
+    "Field \/ UI Item":"White Label",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u662f\u5426 White Label only",
+    "Notes":"\u6309 app availability \u5224\u65b7"
+  },
+  {
+    "Index":140,
+    "Section":"Assets",
+    "Sub-section":"Coupons List",
+    "Field \/ UI Item":"Available to Storellet App Only",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a App availability",
+    "Notes":"\u9650\u5236 Storellet App \u4f7f\u7528"
+  },
+  {
+    "Index":141,
+    "Section":"Assets",
+    "Sub-section":"Coupons List",
+    "Field \/ UI Item":"Status",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u72c0\u614b",
+    "Notes":"Active \/ Inactive"
+  },
+  {
+    "Index":142,
+    "Section":"Assets",
+    "Sub-section":"Coupons List",
+    "Field \/ UI Item":"Edit",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u4fee\u6539 coupon detail"
+  },
+  {
+    "Index":143,
+    "Section":"Assets",
+    "Sub-section":"Coupons List",
+    "Field \/ UI Item":"Export",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u532f\u51fa coupon details JSON \/ Unix file"
+  },
+  {
+    "Index":144,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Import File",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Upload file if needed",
+    "Purpose \/ Front-end Impact":"\u532f\u5165 coupon config",
+    "Notes":"PPT \u672a\u78ba\u8a8d file size restriction"
+  },
+  {
+    "Index":145,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Coupon ID",
+    "Status":"\u7cfb\u7d71\u6b04\u4f4d",
+    "Suggested \/ Default":"Auto \/ existing ID",
+    "Purpose \/ Front-end Impact":"Coupon config reference",
+    "Notes":"\u4e00\u822c\u4e0d\u7528\u6539"
+  },
+  {
+    "Index":146,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Brand",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Select Brand",
+    "Purpose \/ Front-end Impact":"\u6307\u5b9a coupon \u6240\u5c6c brand",
+    "Notes":"\u9700\u9078\u6b63\u78ba brand"
+  },
+  {
+    "Index":147,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Required Discount Card Level",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"None \/ Select member level(s)",
+    "Purpose \/ Front-end Impact":"\u9650\u5236\u53ef\u9818\u53d6 coupon \u7684\u6703\u54e1\u7d1a\u5225",
+    "Notes":"None \u6216\u9078\u64c7 discount card \/ member level"
+  },
+  {
+    "Index":148,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Type",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Freebie \/ Item Discount \/ Receipt Discount",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a coupon \u985e\u578b",
+    "Notes":"\u9700\u53c3\u8003 POS preferences"
+  },
+  {
+    "Index":149,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Item Code",
+    "Status":"\u8996\u4e4e Type\/POS",
+    "Suggested \/ Default":"POS item code; can be multiple",
+    "Purpose \/ Front-end Impact":"\u540c\u6b65 POS items",
+    "Notes":"POS \u63d0\u4f9b\uff0cItem Discount \u5e38\u7528"
+  },
+  {
+    "Index":150,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Item Discount Value",
+    "Status":"\u8996\u4e4e POS",
+    "Suggested \/ Default":"Value + $ \/ %",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a item discount value",
+    "Notes":"\u9700\u53c3\u8003 POS preferences"
+  },
+  {
+    "Index":151,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Delivery Type",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Welcome Pack \/ Birthday Gift \/ Push \/ Redeem",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 coupon \u6d3e\u767c\u65b9\u5f0f",
+    "Notes":"\u672a\u78ba\u8a8d\u524d\u5efa\u8b70 set Push\uff0c\u907f\u514d\u524d\u53f0\u63d0\u524d\u986f\u793a"
+  },
+  {
+    "Index":152,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Name (English)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"English coupon name",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 coupon name",
+    "Notes":"\u4f8b\u5982 $10 Cash Coupon"
+  },
+  {
+    "Index":153,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Name (Local Language)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Local coupon name",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 coupon name",
+    "Notes":"\u4f8b\u5982 $10 \u73fe\u91d1\u5238"
+  },
+  {
+    "Index":154,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Is CouponLeaflet",
+    "Status":"\u8996\u4e4e\u9700\u8981",
+    "Suggested \/ Default":"Tick \/ Untick",
+    "Purpose \/ Front-end Impact":"\u6a19\u8a18 leaflet coupon",
+    "Notes":"\u6309\u6d3b\u52d5\u7528\u9014\u6c7a\u5b9a"
+  },
+  {
+    "Index":155,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Image (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"English coupon image",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u82f1\u6587 coupon image",
+    "Notes":"App \/ website \u986f\u793a"
+  },
+  {
+    "Index":156,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Image (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"Local coupon image",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 coupon image",
+    "Notes":"App \/ website \u986f\u793a"
+  },
+  {
+    "Index":157,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Image 2 \/ 3",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Leave blank unless special implementation",
+    "Purpose \/ Front-end Impact":"\u984d\u5916 coupon images",
+    "Notes":"\u4e00\u822c\u524d\u53f0\u6703 ignore\uff0c\u9664\u975e\u6709\u7279\u6b8a implementation"
+  },
+  {
+    "Index":158,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Description (English)",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"English description",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 coupon description",
+    "Notes":"\u53ef\u6309 coupon detail \u586b\u5beb"
+  },
+  {
+    "Index":159,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Description (Local Language)",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Local description",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 coupon description",
+    "Notes":"\u53ef\u6309 coupon detail \u586b\u5beb"
+  },
+  {
+    "Index":160,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Terms & Conditions (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 T&C \u986f\u793a",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":161,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Terms & Conditions (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 T&C \u986f\u793a",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":162,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"How To Use (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 How to Use \u986f\u793a",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":163,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"How To Use (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587\u4f7f\u7528\u8aaa\u660e",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":164,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"External URL Wordings",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Button \/ link title",
+    "Purpose \/ Front-end Impact":"coupon \u5167\u5916\u90e8\u9023\u7d50\u986f\u793a\u6587\u5b57",
+    "Notes":"\u6700\u591a\u53ef\u6309\u4e0d\u540c\u8a9e\u8a00\u586b\u5beb"
+  },
+  {
+    "Index":165,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"External URL",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"URL",
+    "Purpose \/ Front-end Impact":"\u9ede\u64ca coupon \u5f8c\u5c0e\u5411\u5916\u90e8\u7db2\u9801",
+    "Notes":"\u53d6\u6c7a\u65bc\u524d\u53f0\u662f\u5426\u652f\u63f4"
+  },
+  {
+    "Index":166,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Coupon Extendable",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"No by default",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 coupon \u662f\u5426\u53ef\u5ef6\u9577",
+    "Notes":"PPT \u6307\u793a leave default to No"
+  },
+  {
+    "Index":167,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Effective Period",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Start date - End date",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 coupon overall validity",
+    "Notes":"\u9700\u540c campaign period \u5c0d\u9f4a"
+  },
+  {
+    "Index":168,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Expiry Type",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"By exact date \/ By effective day",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236\u6703\u54e1\u6536\u5230 coupon \u5f8c\u7684\u5230\u671f\u8a08\u7b97\u65b9\u5f0f",
+    "Notes":"\u53ef\u7528 exact date \u6216 received date + effective days"
+  },
+  {
+    "Index":169,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Effective Day",
+    "Status":"\u8996\u4e4e Expiry Type",
+    "Suggested \/ Default":"No. of days",
+    "Purpose \/ Front-end Impact":"\u6536\u5230 coupon \u5f8c\u6709\u6548\u5929\u6578",
+    "Notes":"Expiry Type = By Effective Day \u6642\u586b"
+  },
+  {
+    "Index":170,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Redemption Point",
+    "Status":"\u8996\u4e4e redeem",
+    "Suggested \/ Default":"Points required",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a\u7528 points \u514c\u63db\u6240\u9700\u5206\u6578",
+    "Notes":"\u4f8b\u5982 10 points"
+  },
+  {
+    "Index":171,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Quantity",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"0 \/ quantity",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a\u7e3d\u6578 \/ \u6d3e\u767c\u6578\u91cf",
+    "Notes":"\u9700\u78ba\u8a8d quota logic"
+  },
+  {
+    "Index":172,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Entitlement",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Number",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a\u6bcf\u4f4d\u6703\u54e1 entitlement",
+    "Notes":"\u9700\u6309\u6d3b\u52d5\u898f\u5247"
+  },
+  {
+    "Index":173,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Coupon \/ Discount Card List",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Select coupons\/cards + quantity",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a coupon \u5167\u5305\u542b\u7684 coupon \/ discount card",
+    "Notes":"package \/ bundle \u985e coupon \u5148\u7528"
+  },
+  {
+    "Index":174,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Not Transferable",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Tick \/ Untick",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a coupon \u662f\u5426\u53ef\u8f49\u8d08",
+    "Notes":"PPT \u6a19\u793a transferable to other member or not"
+  },
+  {
+    "Index":175,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Checked as always field",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Checked as always",
+    "Purpose \/ Front-end Impact":"PPT \u6307\u793a\u5fc5\u9808 always checked",
+    "Notes":"\u5be6\u969b\u6b04\u4f4d\u540d\u9700\u4ee5 CMS \u756b\u9762\u70ba\u6e96"
+  },
+  {
+    "Index":176,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon",
+    "Field \/ UI Item":"Frontend dependent function",
+    "Status":"\u8996\u4e4e\u524d\u53f0",
+    "Suggested \/ Default":"Unchecked by default",
+    "Purpose \/ Front-end Impact":"\u529f\u80fd\u53ef\u7528\u6027\u53d6\u6c7a\u65bc front-end app",
+    "Notes":"PPT \u6307\u793a unchecked by default"
+  },
+  {
+    "Index":177,
+    "Section":"Assets",
+    "Sub-section":"Coupon Packages List",
+    "Field \/ UI Item":"Coupon Package ID",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a package ID",
+    "Notes":"\u7528\u4f5c reference \/ export"
+  },
+  {
+    "Index":178,
+    "Section":"Assets",
+    "Sub-section":"Coupon Packages List",
+    "Field \/ UI Item":"Coupon Package Name",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a package name",
+    "Notes":"CMS list \u986f\u793a"
+  },
+  {
+    "Index":179,
+    "Section":"Assets",
+    "Sub-section":"Coupon Packages List",
+    "Field \/ UI Item":"Start Date",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u958b\u59cb\u65e5",
+    "Notes":"validity"
+  },
+  {
+    "Index":180,
+    "Section":"Assets",
+    "Sub-section":"Coupon Packages List",
+    "Field \/ UI Item":"End Date",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u5b8c\u7d50\u65e5",
+    "Notes":"validity"
+  },
+  {
+    "Index":181,
+    "Section":"Assets",
+    "Sub-section":"Coupon Packages List",
+    "Field \/ UI Item":"Status",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u72c0\u614b",
+    "Notes":"Active \/ Inactive"
+  },
+  {
+    "Index":182,
+    "Section":"Assets",
+    "Sub-section":"Coupon Packages List",
+    "Field \/ UI Item":"Edit",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u4fee\u6539 package detail"
+  },
+  {
+    "Index":183,
+    "Section":"Assets",
+    "Sub-section":"Coupon Packages List",
+    "Field \/ UI Item":"Export",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u532f\u51fa package details JSON \/ Unix file"
+  },
+  {
+    "Index":184,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Package",
+    "Field \/ UI Item":"Import File",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Upload file if needed",
+    "Purpose \/ Front-end Impact":"\u532f\u5165 coupon package config",
+    "Notes":"PPT \u672a\u78ba\u8a8d file size restriction"
+  },
+  {
+    "Index":185,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Package",
+    "Field \/ UI Item":"Brand",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Select Brand",
+    "Purpose \/ Front-end Impact":"\u6307\u5b9a package \u6240\u5c6c brand",
+    "Notes":"\u9700\u9078\u6b63\u78ba brand"
+  },
+  {
+    "Index":186,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Package",
+    "Field \/ UI Item":"Coupon \/ Discount Card List",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Tick included coupons\/cards + quantity",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a package \u5305\u542b\u7684 coupons \/ discount cards",
+    "Notes":"\u9700\u8f38\u5165\u6bcf\u9805 quantity"
+  },
+  {
+    "Index":187,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Package",
+    "Field \/ UI Item":"Delivery Type",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Select delivery type",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 package \u6d3e\u767c\u65b9\u5f0f",
+    "Notes":"\u6309 campaign use case \u8a2d\u5b9a"
+  },
+  {
+    "Index":188,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Package",
+    "Field \/ UI Item":"Name (English)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"English package name",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 package name",
+    "Notes":"CMS \/ App \u986f\u793a"
+  },
+  {
+    "Index":189,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Package",
+    "Field \/ UI Item":"Name (Local Language)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Local package name",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 package name",
+    "Notes":"CMS \/ App \u986f\u793a"
+  },
+  {
+    "Index":190,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Package",
+    "Field \/ UI Item":"Image",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"Package image, recommended 1MB",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 package \u5716\u7247",
+    "Notes":"PPT \u6a19\u793a file size recommendation: 1MB"
+  },
+  {
+    "Index":191,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Package",
+    "Field \/ UI Item":"Description",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"Package descriptions",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 package description",
+    "Notes":"\u6d3b\u52d5\u8aaa\u660e"
+  },
+  {
+    "Index":192,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Package",
+    "Field \/ UI Item":"Terms & Conditions",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 T&C \u986f\u793a",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":193,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Package",
+    "Field \/ UI Item":"How To Use",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4f7f\u7528\u8aaa\u660e",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":194,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Package",
+    "Field \/ UI Item":"Effective Period",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Start date - End date",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 package \u6709\u6548\u671f",
+    "Notes":"PPT \u6307\u793a enter date to indicate validity"
+  },
+  {
+    "Index":195,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Package",
+    "Field \/ UI Item":"Not Transferable",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Tick \/ Untick",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a package \u662f\u5426\u53ef\u8f49\u8d08",
+    "Notes":"PPT \u6a19\u793a transferable to other member or not"
+  },
+  {
+    "Index":196,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Package",
+    "Field \/ UI Item":"Status",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Active",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 package \u662f\u5426\u6709\u6548",
+    "Notes":"\u4e0a\u7dda\u7528 Active"
+  },
+  {
+    "Index":197,
+    "Section":"Assets",
+    "Sub-section":"Coupon Trigger Rules List",
+    "Field \/ UI Item":"Type",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a trigger rule type",
+    "Notes":"CMS list \u986f\u793a"
+  },
+  {
+    "Index":198,
+    "Section":"Assets",
+    "Sub-section":"Coupon Trigger Rules List",
+    "Field \/ UI Item":"Start Date",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u958b\u59cb\u65e5",
+    "Notes":"validity"
+  },
+  {
+    "Index":199,
+    "Section":"Assets",
+    "Sub-section":"Coupon Trigger Rules List",
+    "Field \/ UI Item":"End Date",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u5b8c\u7d50\u65e5",
+    "Notes":"validity"
+  },
+  {
+    "Index":200,
+    "Section":"Assets",
+    "Sub-section":"Coupon Trigger Rules List",
+    "Field \/ UI Item":"Status",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u72c0\u614b",
+    "Notes":"Active \/ Inactive"
+  },
+  {
+    "Index":201,
+    "Section":"Assets",
+    "Sub-section":"Coupon Trigger Rules List",
+    "Field \/ UI Item":"Edit",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u4fee\u6539 trigger rule detail"
+  },
+  {
+    "Index":202,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Trigger Rule",
+    "Field \/ UI Item":"Brand",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Select Brand",
+    "Purpose \/ Front-end Impact":"\u6307\u5b9a trigger rule \u6240\u5c6c brand",
+    "Notes":"\u9700\u9078\u6b63\u78ba brand"
+  },
+  {
+    "Index":203,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Trigger Rule",
+    "Field \/ UI Item":"Required Discount Card Level",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"None \/ Select member level(s)",
+    "Purpose \/ Front-end Impact":"\u9650\u5236\u53ef\u6536\u5230 coupon \u7684\u6703\u54e1\u7d1a\u5225",
+    "Notes":"None \u6216\u9078\u64c7 discount card \/ member level"
+  },
+  {
+    "Index":204,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Trigger Rule",
+    "Field \/ UI Item":"Type",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Select trigger rule type",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a trigger rule \u985e\u578b",
+    "Notes":"PPT \u6307\u793a select trigger rule type"
+  },
+  {
+    "Index":205,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Trigger Rule",
+    "Field \/ UI Item":"Day of Month",
+    "Status":"\u8996\u4e4e Type",
+    "Suggested \/ Default":"1 \/ 15 \/ selected day",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a\u6bcf\u6708\u6d3e\u767c\u65e5\u671f",
+    "Notes":"\u4f8b\u5982 monthly coupon \u65bc\u6bcf\u6708 1 \u6216 15 \u865f\u6d3e\u767c"
+  },
+  {
+    "Index":206,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Trigger Rule",
+    "Field \/ UI Item":"Effective Period",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Start date - End date",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 trigger rule \u6709\u6548\u671f",
+    "Notes":"PPT \u6307\u793a enter date to indicate validity"
+  },
+  {
+    "Index":207,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Trigger Rule",
+    "Field \/ UI Item":"Coupon List",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Select coupon(s) + quantity",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a rule \u89f8\u767c\u5f8c\u6d3e\u767c\u7684 coupon(s)",
+    "Notes":"\u9700\u8f38\u5165 quantity"
+  },
+  {
+    "Index":208,
+    "Section":"Assets",
+    "Sub-section":"Create Coupon Trigger Rule",
+    "Field \/ UI Item":"Status",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Active",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 trigger rule \u662f\u5426\u6709\u6548",
+    "Notes":"\u4e0a\u7dda\u7528 Active"
+  },
+  {
+    "Index":209,
+    "Section":"Assets",
+    "Sub-section":"Surveys List",
+    "Field \/ UI Item":"Survey ID",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a survey ID",
+    "Notes":"\u7528\u4f5c reference \/ export"
+  },
+  {
+    "Index":210,
+    "Section":"Assets",
+    "Sub-section":"Surveys List",
+    "Field \/ UI Item":"Brand",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6240\u5c6c brand",
+    "Notes":"\u53ef\u7528 brand filter"
+  },
+  {
+    "Index":211,
+    "Section":"Assets",
+    "Sub-section":"Surveys List",
+    "Field \/ UI Item":"Name",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a survey name",
+    "Notes":"CMS list \u986f\u793a"
+  },
+  {
+    "Index":212,
+    "Section":"Assets",
+    "Sub-section":"Surveys List",
+    "Field \/ UI Item":"Start Date",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u958b\u59cb\u65e5",
+    "Notes":"validity"
+  },
+  {
+    "Index":213,
+    "Section":"Assets",
+    "Sub-section":"Surveys List",
+    "Field \/ UI Item":"End Date",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6709\u6548\u671f\u5b8c\u7d50\u65e5",
+    "Notes":"validity"
+  },
+  {
+    "Index":214,
+    "Section":"Assets",
+    "Sub-section":"Surveys List",
+    "Field \/ UI Item":"Status",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u72c0\u614b",
+    "Notes":"Active \/ Inactive"
+  },
+  {
+    "Index":215,
+    "Section":"Assets",
+    "Sub-section":"Surveys List",
+    "Field \/ UI Item":"Edit",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u4fee\u6539 survey detail"
+  },
+  {
+    "Index":216,
+    "Section":"Assets",
+    "Sub-section":"Surveys List",
+    "Field \/ UI Item":"Export",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display \/ Click action",
+    "Purpose \/ Front-end Impact":"\u64cd\u4f5c\u6309\u9215",
+    "Notes":"\u532f\u51fa survey details JSON file"
+  },
+  {
+    "Index":217,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"Import File",
+    "Status":"\u9078\u586b",
+    "Suggested \/ Default":"Upload file if needed",
+    "Purpose \/ Front-end Impact":"\u532f\u5165 survey config",
+    "Notes":"\u5982\u7121\u9700\u532f\u5165\u53ef\u7559\u7a7a"
+  },
+  {
+    "Index":218,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"Brand",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Select Brand",
+    "Purpose \/ Front-end Impact":"\u6307\u5b9a survey \u6240\u5c6c brand",
+    "Notes":"\u9700\u9078\u6b63\u78ba brand"
+  },
+  {
+    "Index":219,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"Name (English)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"English survey name",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 \/ CMS survey name",
+    "Notes":"\u6d3b\u52d5\u540d\u7a31"
+  },
+  {
+    "Index":220,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"Name (Local Language)",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Local survey name",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 survey name",
+    "Notes":"\u6d3b\u52d5\u540d\u7a31"
+  },
+  {
+    "Index":221,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"Description (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"English description",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 survey description",
+    "Notes":"\u6d3b\u52d5\u8aaa\u660e"
+  },
+  {
+    "Index":222,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"Description (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"Local description",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 survey description",
+    "Notes":"\u6d3b\u52d5\u8aaa\u660e"
+  },
+  {
+    "Index":223,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"Terms & Conditions (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 T&C \u986f\u793a",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":224,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"Terms & Conditions (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587 T&C \u986f\u793a",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":225,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"How To Use (English)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4f7f\u7528\u8aaa\u660e",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":226,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"How To Use (Local Language)",
+    "Status":"\u5efa\u8b70\u5fc5\u586b",
+    "Suggested \/ Default":"HTML format",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0\u4e2d\u6587\u4f7f\u7528\u8aaa\u660e",
+    "Notes":"\u9700\u7528 HTML format"
+  },
+  {
+    "Index":227,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"Questions \/ Answer Options",
+    "Status":"\u8996\u4e4e survey",
+    "Suggested \/ Default":"Add questions and options",
+    "Purpose \/ Front-end Impact":"\u8a2d\u5b9a survey \u554f\u984c\u53ca\u7b54\u6848",
+    "Notes":"\u9700\u6309 survey design \u586b\u5beb"
+  },
+  {
+    "Index":228,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"Effective Period",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Start date - End date",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 survey \u6709\u6548\u671f",
+    "Notes":"\u9700\u540c campaign period \u5c0d\u9f4a"
+  },
+  {
+    "Index":229,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"Reward \/ Coupon",
+    "Status":"\u8996\u4e4e\u6d3b\u52d5",
+    "Suggested \/ Default":"Select reward if applicable",
+    "Purpose \/ Front-end Impact":"\u5b8c\u6210 survey \u5f8c\u6d3e\u767c\u734e\u8cde",
+    "Notes":"\u9700\u78ba\u8a8d campaign reward logic"
+  },
+  {
+    "Index":230,
+    "Section":"Assets",
+    "Sub-section":"Create Survey",
+    "Field \/ UI Item":"Status",
+    "Status":"\u5fc5\u586b",
+    "Suggested \/ Default":"Active",
+    "Purpose \/ Front-end Impact":"\u63a7\u5236 survey \u662f\u5426\u6709\u6548",
+    "Notes":"\u4e0a\u7dda\u7528 Active"
+  }
+]

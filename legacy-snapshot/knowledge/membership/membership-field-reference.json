@@ -1,0 +1,956 @@
+[
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Member No.",
+    "Status":"\u67e5\u8a62\u689d\u4ef6",
+    "Suggested \/ Default":"Enter either one search parameter",
+    "Purpose \/ Front-end Impact":"\u7528\u6703\u54e1\u7de8\u865f\u641c\u5c0b\u6703\u54e1\u8cc7\u6599",
+    "Notes":"\u56db\u9078\u4e00\u8f38\u5165\u5373\u53ef\uff1aMember No. \/ Phone No. \/ Email \/ Facebook ID"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Phone No.",
+    "Status":"\u67e5\u8a62\u689d\u4ef6",
+    "Suggested \/ Default":"Enter either one search parameter",
+    "Purpose \/ Front-end Impact":"\u7528\u96fb\u8a71\u865f\u78bc\u641c\u5c0b\u6703\u54e1\u8cc7\u6599",
+    "Notes":"\u56db\u9078\u4e00\u8f38\u5165\u5373\u53ef"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Email",
+    "Status":"\u67e5\u8a62\u689d\u4ef6",
+    "Suggested \/ Default":"Enter either one search parameter",
+    "Purpose \/ Front-end Impact":"\u7528 Email \u641c\u5c0b\u6703\u54e1\u8cc7\u6599",
+    "Notes":"\u56db\u9078\u4e00\u8f38\u5165\u5373\u53ef"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Facebook ID",
+    "Status":"\u67e5\u8a62\u689d\u4ef6",
+    "Suggested \/ Default":"Enter either one search parameter",
+    "Purpose \/ Front-end Impact":"\u7528 Facebook ID \u641c\u5c0b\u6703\u54e1\u8cc7\u6599",
+    "Notes":"\u56db\u9078\u4e00\u8f38\u5165\u5373\u53ef"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Member No.",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a Storellet \u6703\u54e1\u7de8\u865f\u53ca security code",
+    "Notes":"\u4e00\u822c\u4e0d\u9700\u624b\u52d5\u4fee\u6539"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Status",
+    "Status":"\u53ef\u64cd\u4f5c \/ \u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"Active \/ Inactive",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1\u76ee\u524d\u72c0\u614b\uff1b\u53ef\u505c\u7528 membership",
+    "Notes":"\u6d89\u53ca\u6703\u54e1\u72c0\u614b\uff0c\u64cd\u4f5c\u524d\u9700\u78ba\u8a8d"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Alias no",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1 alias no.",
+    "Notes":"\u4e00\u822c\u4e0d\u9700\u624b\u52d5\u4fee\u6539"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Security Code",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u5b89\u5168\u78bc",
+    "Notes":"\u524d\u53f0 QR \/ \u6703\u54e1\u8b58\u5225\u6709\u6a5f\u6703\u4f7f\u7528"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aPhone No.",
+    "Status":"\u986f\u793a \/ \u53ef\u7de8\u8f2f",
+    "Suggested \/ Default":"Member phone number",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u53ca\u66f4\u65b0\u6703\u54e1\u96fb\u8a71",
+    "Notes":"\u53ef\u7de8\u8f2f"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aCountry Code",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u96fb\u8a71\u570b\u5bb6 \/ \u5730\u5340\u78bc",
+    "Notes":"\u4f8b\uff1aHK"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aEmail",
+    "Status":"\u986f\u793a \/ \u53ef\u7de8\u8f2f",
+    "Suggested \/ Default":"Member email",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u53ca\u66f4\u65b0\u6703\u54e1 Email",
+    "Notes":"\u652f\u63f4 Send verification email \/ Toggle User Email Verify Status"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aFacebook ID",
+    "Status":"\u986f\u793a \/ \u53ef\u7de8\u8f2f",
+    "Suggested \/ Default":"Member Facebook ID",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u53ca\u66f4\u65b0\u6703\u54e1 Facebook ID",
+    "Notes":"\u5982\u6703\u54e1\u7121\u7d81\u5b9a\u53ef\u7559\u7a7a"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aDisplay Name",
+    "Status":"\u986f\u793a \/ \u53ef\u7de8\u8f2f",
+    "Suggested \/ Default":"Member display name",
+    "Purpose \/ Front-end Impact":"\u524d\u53f0 \/ CMS \u986f\u793a\u6703\u54e1\u540d\u7a31",
+    "Notes":"User Profile popup \u53ef\u7de8\u8f2f"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aFirst Name",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System \/ member profile",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1 First Name",
+    "Notes":"\u8996\u4e4e\u6703\u54e1\u8cc7\u6599\u662f\u5426\u6709\u586b"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aLast Name",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System \/ member profile",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1 Last Name",
+    "Notes":"\u8996\u4e4e\u6703\u54e1\u8cc7\u6599\u662f\u5426\u6709\u586b"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aGender",
+    "Status":"\u986f\u793a \/ \u53ef\u7de8\u8f2f",
+    "Suggested \/ Default":"Male \/ Female \/ other available option",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1\u6027\u5225",
+    "Notes":"User Profile popup \u53ef\u7de8\u8f2f"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aBirthday",
+    "Status":"\u986f\u793a \/ \u53ef\u7de8\u8f2f",
+    "Suggested \/ Default":"YYYY\/MM\/DD or YYYYMMDD",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1\u751f\u65e5",
+    "Notes":"User Profile popup \u6a19\u793a Birthday (YYYYMMDD)"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aJoin Date",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1\u52a0\u5165\u65e5\u671f",
+    "Notes":"\u4e0d\u5efa\u8b70\u624b\u52d5\u4fee\u6539"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aReceive News in Storellet\n",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u63a8\u5ee3\u540c\u610f\u72c0\u614b",
+    "Notes":"\u5c6c\u6703\u54e1\u63a8\u5ee3\u540c\u610f\u7d00\u9304"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aReceive News - Global",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Checkbox",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1\u662f\u5426\u540c\u610f\u63a5\u6536\u8a72 group \u63a8\u5ee3\u8a0a\u606f",
+    "Notes":"\u7576\u6703\u54e1\u4e0d\u540c\u610f\u63a8\u5ee3\uff0c\u5c0d\u61c9 box \u6703\u88ab ticked \/ \u66f4\u65b0\u72c0\u614b\u9700\u5c0f\u5fc3"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aReceive News - by Email",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Checkbox",
+    "Purpose \/ Front-end Impact":"Email \u63a8\u5ee3\u540c\u610f\u72c0\u614b",
+    "Notes":"\u5c6c\u6703\u54e1\u63a8\u5ee3\u540c\u610f\u7d00\u9304"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aReceive News - by App Push",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Checkbox",
+    "Purpose \/ Front-end Impact":"App Push \u63a8\u5ee3\u540c\u610f\u72c0\u614b",
+    "Notes":"\u5c6c\u6703\u54e1\u63a8\u5ee3\u540c\u610f\u7d00\u9304"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aReceive News - by Sms",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Checkbox",
+    "Purpose \/ Front-end Impact":"SMS \u63a8\u5ee3\u540c\u610f\u72c0\u614b",
+    "Notes":"\u5c6c\u6703\u54e1\u63a8\u5ee3\u540c\u610f\u7d00\u9304"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aReceive News - by Communication Platform",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Checkbox",
+    "Purpose \/ Front-end Impact":"Communication Platform \u63a8\u5ee3\u540c\u610f\u72c0\u614b",
+    "Notes":"\u5c6c\u6703\u54e1\u63a8\u5ee3\u540c\u610f\u7d00\u9304"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Storellet Profile\uff1aReceive News - by Website",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Checkbox",
+    "Purpose \/ Front-end Impact":"Website \u63a8\u5ee3\u540c\u610f\u72c0\u614b",
+    "Notes":"\u5c6c\u6703\u54e1\u63a8\u5ee3\u540c\u610f\u7d00\u9304"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Membership Group",
+    "Status":"\u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Select company group",
+    "Purpose \/ Front-end Impact":"\u9078\u64c7\u6703\u54e1\u52a0\u5165\u7684 company group",
+    "Notes":"PPT \u6a19\u793a select the company group of the membership"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Brands",
+    "Status":"\u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Select brand",
+    "Purpose \/ Front-end Impact":"\u986f\u793a \/ \u7be9\u9078\u6703\u54e1 brand profile",
+    "Notes":"User Brand Profile will be shown if exists"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Group\uff1aStatus",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1\u65bcgroup\u7684\u72c0\u614b\uff1b\u53ef\u505c\u7528 group membership",
+    "Notes":"\u6d89\u53ca\u6703\u54e1\u72c0\u614b\uff0c\u64cd\u4f5c\u524d\u9700\u78ba\u8a8d"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Group\uff1aBound Member No",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u672a\u958b\u901a",
+    "Notes":"\u672a\u958b\u901a"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Group\uff1aPoint(s)",
+    "Status":"\u986f\u793a \/ \u53ef\u64cd\u4f5c",
+    "Suggested \/ Default":"System display \/ Point Adjustment",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1\u73fe\u6709\u7a4d\u5206\uff1b\u53ef\u9032\u5165 point adjustment",
+    "Notes":"\u52a0\u6e1b\u5206\u64cd\u4f5c\u9700\u5167\u90e8\u78ba\u8a8d"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Group\uff1aDelivey Coupon",
+    "Status":"\u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Select coupon",
+    "Purpose \/ Front-end Impact":"\u9078\u64c7\u8981\u6d3e\u767c\u7684 coupon",
+    "Notes":"\u9700\u8a2d\u5b9a coupon"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Group\uff1aExpiry Date",
+    "Status":"\u986f\u793a \/ \u53ef\u7de8\u8f2f",
+    "Suggested \/ Default":"Set expiry date if needed",
+    "Purpose \/ Front-end Impact":"\u986f\u793a membership expiry date",
+    "Notes":"\u53ef\u6309 Edit \u4fee\u6539\uff1b\u9700\u8ddf\u6703\u54e1\u689d\u6b3e\u4e00\u81f4"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Group\uff1aActual Accu. Sales Amount",
+    "Status":"\u67e5\u8a62 \/ \u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"Select date range + Check",
+    "Purpose \/ Front-end Impact":"\u6839\u64da Brand ID \/ \u65e5\u671f\u5340\u9593\u986f\u793a\u7d2f\u7a4d\u6d88\u8cbb\u91d1\u984d",
+    "Notes":"\u53ef\u52fe\u9078 Use Net Amount When Calculating Accumulated Sales"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Group\uff1aReceive News - Global",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Checkbox",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1\u662f\u5426\u540c\u610f\u63a5\u6536\u8a72 group \u63a8\u5ee3\u8a0a\u606f",
+    "Notes":"\u7576\u6703\u54e1\u4e0d\u540c\u610f\u63a8\u5ee3\uff0c\u5c0d\u61c9 box \u6703\u88ab ticked \/ \u66f4\u65b0\u72c0\u614b\u9700\u5c0f\u5fc3"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Group\uff1aReceive News - by Email",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Checkbox",
+    "Purpose \/ Front-end Impact":"Email \u63a8\u5ee3\u540c\u610f\u72c0\u614b",
+    "Notes":"\u5c6c\u6703\u54e1\u63a8\u5ee3\u540c\u610f\u7d00\u9304"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Group\uff1aReceive News - by App Push",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Checkbox",
+    "Purpose \/ Front-end Impact":"App Push \u63a8\u5ee3\u540c\u610f\u72c0\u614b",
+    "Notes":"\u5c6c\u6703\u54e1\u63a8\u5ee3\u540c\u610f\u7d00\u9304"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Group\uff1aReceive News - by Sms",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Checkbox",
+    "Purpose \/ Front-end Impact":"SMS \u63a8\u5ee3\u540c\u610f\u72c0\u614b",
+    "Notes":"\u5c6c\u6703\u54e1\u63a8\u5ee3\u540c\u610f\u7d00\u9304"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Group\uff1aReceive News - by Communication Platform",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Checkbox",
+    "Purpose \/ Front-end Impact":"Communication Platform \u63a8\u5ee3\u540c\u610f\u72c0\u614b",
+    "Notes":"\u5c6c\u6703\u54e1\u63a8\u5ee3\u540c\u610f\u7d00\u9304"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Group\uff1aReceive News - by Website",
+    "Status":"\u986f\u793a \/ \u64cd\u4f5c\u6b04\u4f4d",
+    "Suggested \/ Default":"Checkbox",
+    "Purpose \/ Front-end Impact":"Website \u63a8\u5ee3\u540c\u610f\u72c0\u614b",
+    "Notes":"\u5c6c\u6703\u54e1\u63a8\u5ee3\u540c\u610f\u7d00\u9304"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Discount card Table:Brand",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a discount card \u6240\u5c6c brand",
+    "Notes":"\u6703\u54e1\u6240\u6709 discount cards \u6703\u88ab\u5217\u51fa"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Discount card Table:Membership Level",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1 membership level\uff1b\u524d\u53f0\u4ea6\u6703\u986f\u793a",
+    "Notes":"\u4f8b\u5982 Paid TIER 3 MEMBER"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Discount card Table:Discount Rate",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u8a72 card \u63d0\u4f9b\u6298\u6263\u7387",
+    "Notes":"\u4f8b\u5982 10 \u4ee3\u8868 10% off"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Discount card Table:Expiry Date",
+    "Status":"\u986f\u793a \/ \u53ef\u7de8\u8f2f",
+    "Suggested \/ Default":"Edit expiry date if needed",
+    "Purpose \/ Front-end Impact":"\u986f\u793a discount card \u6709\u6548\u671f",
+    "Notes":"\u53ef\u6309 Edit \u4fee\u6539 expiry date"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Discount card Table:Start Date",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a discount card \u958b\u59cb\u65e5\u671f",
+    "Notes":"\u524d\u53f0\u6709\u6548\u671f\u4f9d\u6b64\u986f\u793a"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Discount card Table:Status",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"active \/ expired",
+    "Purpose \/ Front-end Impact":"\u986f\u793a discount card \u7576\u524d\u72c0\u614b",
+    "Notes":"\u72c0\u614b\u6703\u662f active \/ expired"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Discount card Table:Remark",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a discount card \u5099\u8a3b",
+    "Notes":"\u5982\u7121\u5099\u8a3b\u53ef\u70ba\u7a7a"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Discount card Table:Detail",
+    "Status":"\u64cd\u4f5c\u6309\u9215",
+    "Suggested \/ Default":"Click Detail",
+    "Purpose \/ Front-end Impact":"\u67e5\u770b \/ \u4fee\u6539 discount card \u8a73\u7d30\u8a2d\u5b9a",
+    "Notes":"\u6703\u5207\u63db\u5230 Assets > Discount Card section"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Discount card Table:Expire",
+    "Status":"\u64cd\u4f5c\u6309\u9215",
+    "Suggested \/ Default":"Click Expire",
+    "Purpose \/ Front-end Impact":"\u624b\u52d5\u4ee4 discount card \u904e\u671f",
+    "Notes":"\u64cd\u4f5c\u524d\u9700\u78ba\u8a8d"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Discount card Table:Edit",
+    "Status":"\u64cd\u4f5c\u6309\u9215",
+    "Suggested \/ Default":"Click Edit",
+    "Purpose \/ Front-end Impact":"\u4fee\u6539 discount card expiry date",
+    "Notes":"\u6703\u5f71\u97ff\u6703\u54e1\u524d\u53f0\u5361\u6709\u6548\u671f"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Summary Table:Brand",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a coupon \u6240\u5c6c brand",
+    "Notes":"\u6703\u54e1\u6240\u6709 coupon summary \u6703\u5217\u51fa"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Summary Table:Coupon ID",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a coupon ID",
+    "Notes":"\u7528\u4f5c coupon config reference"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Summary Table:Coupon",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a coupon name",
+    "Notes":"\u6703\u54e1 wallet coupon summary"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Summary Table:Active Count",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a active coupon \u6578\u91cf",
+    "Notes":"PPT \u6307\u51fa current status quantity \u6703\u986f\u793a"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Summary Table:Used Count",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u5df2\u4f7f\u7528 coupon \u6578\u91cf",
+    "Notes":"\u6703\u54e1 coupon \u72c0\u614b\u7d71\u8a08"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Summary Table:Expired Count",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u5df2\u904e\u671f coupon \u6578\u91cf",
+    "Notes":"\u6703\u54e1 coupon \u72c0\u614b\u7d71\u8a08"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Summary Table:Status",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"active \/ expired",
+    "Purpose \/ Front-end Impact":"\u986f\u793a coupon config \u72c0\u614b",
+    "Notes":"\u72c0\u614b\u6703\u662f active \/ expired"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Summary Table:Detail",
+    "Status":"\u64cd\u4f5c\u6309\u9215",
+    "Suggested \/ Default":"Click Detail",
+    "Purpose \/ Front-end Impact":"\u67e5\u770b coupon card details",
+    "Notes":"\u6703\u5207\u63db\u5230 Assets > Coupon section"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Card Table:Brand",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a coupon card \u6240\u5c6c brand",
+    "Notes":"\u6703\u54e1\u6240\u6709 coupon cards \u6703\u5217\u51fa"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Card Table:Coupon",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a coupon name \/ coupon ID",
+    "Notes":"\u6703\u986f\u793a\u65bc\u524d\u53f0 coupon card"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Card Table:Start Date",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a coupon card \u958b\u59cb\u6709\u6548\u65e5\u671f",
+    "Notes":"\u524d\u53f0\u986f\u793a\u512a\u60e0\u5238\u6709\u6548\u65e5\u671f"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Card Table:Expiry Date",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a coupon card \u5230\u671f\u65e5",
+    "Notes":"\u524d\u53f0\u986f\u793a\u512a\u60e0\u5238\u6709\u6548\u65e5\u671f"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Card Table:Extended Expiry Date",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u5ef6\u9577\u5f8c\u5230\u671f\u65e5",
+    "Notes":"\u5982\u672a\u5ef6\u9577\u6703\u986f\u793a \/"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Card Table:Serial No.",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a coupon \u8b58\u5225\u865f\u78bc",
+    "Notes":"PPT \u6307\u51fa\u70ba coupon identification number"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Card Table:Status",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"active \/ used \/ expired",
+    "Purpose \/ Front-end Impact":"\u986f\u793a coupon card \u7576\u524d\u72c0\u614b",
+    "Notes":"PPT \u6307\u51fa active \/ expired\uff1b\u756b\u9762\u4ea6\u6709 used"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Card Table:Remark",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a coupon card \u5099\u8a3b",
+    "Notes":"\u5982\u7121\u5099\u8a3b\u53ef\u70ba ---"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Card Table:Detail",
+    "Status":"\u64cd\u4f5c\u6309\u9215",
+    "Suggested \/ Default":"Click Detail",
+    "Purpose \/ Front-end Impact":"\u67e5\u770b \/ \u4fee\u6539 coupon card detail",
+    "Notes":"\u6703\u5207\u63db\u5230 Assets > Coupon section"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Card Table:Expire",
+    "Status":"\u64cd\u4f5c\u6309\u9215",
+    "Suggested \/ Default":"Click Expire",
+    "Purpose \/ Front-end Impact":"\u624b\u52d5\u4ee4 coupon card \u904e\u671f",
+    "Notes":"\u64cd\u4f5c\u524d\u9700\u78ba\u8a8d"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Coupon Card Table:Use",
+    "Status":"\u64cd\u4f5c\u6309\u9215",
+    "Suggested \/ Default":"Click Use",
+    "Purpose \/ Front-end Impact":"\u624b\u52d5\u6a19\u8a18 coupon \u4f7f\u7528",
+    "Notes":"\u64cd\u4f5c\u524d\u9700\u78ba\u8a8d\uff0c\u6703\u5f71\u97ff\u6703\u54e1 wallet"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Stamp Table:Brand",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a stamp \u6240\u5c6c brand",
+    "Notes":"\u6703\u54e1\u6240\u6709 stamps \u6703\u5217\u51fa"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Stamp Table:Brand",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a stamp record \u5efa\u7acb\u65e5\u671f",
+    "Notes":"\u7528\u65bc\u8ffd\u8e64\u5370\u82b1\u53d6\u5f97\u6642\u9593"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Stamp Table:Brand",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a stamp campaign \/ stamp name",
+    "Notes":"\u4f8b\u5982 Stamp Card"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Stamp Table:Brand",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"normal \/ special",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u5370\u82b1\u985e\u578b",
+    "Notes":"PPT \u6307\u51fa type will be either normal or special"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Stamp Table:Brand",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"Active \/ Expired",
+    "Purpose \/ Front-end Impact":"\u986f\u793a stamp record \u72c0\u614b",
+    "Notes":"PPT \u6307\u51fa active \/ expired"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Stamp Table:Brand",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u76f8\u95dc invoice details",
+    "Notes":"\u5305\u62ec invoice no., shop code, net amount, order type, payment method"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Stamp Table:Brand",
+    "Status":"\u64cd\u4f5c\u6309\u9215",
+    "Suggested \/ Default":"Click Show Summary",
+    "Purpose \/ Front-end Impact":"\u67e5\u770b stamp summary",
+    "Notes":"\u4e0d\u662f\u8cc7\u6599\u6b04\u4f4d"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Stamp Table:Brand",
+    "Status":"\u64cd\u4f5c\u6309\u9215",
+    "Suggested \/ Default":"Click Add Stamp",
+    "Purpose \/ Front-end Impact":"\u624b\u52d5\u65b0\u589e stamp",
+    "Notes":"\u64cd\u4f5c\u524d\u9700\u78ba\u8a8d\u6d3b\u52d5\u53ca\u6703\u54e1\u8cc7\u683c"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Stamp Table:Brand",
+    "Status":"\u64cd\u4f5c\u6309\u9215",
+    "Suggested \/ Default":"Click Void",
+    "Purpose \/ Front-end Impact":"\u53d6\u6d88 \/ \u4f5c\u5ee2 stamp record",
+    "Notes":"\u64cd\u4f5c\u524d\u9700\u78ba\u8a8d"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Stamp Card Table:Brand",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a stamp card \u6240\u5c6c brand",
+    "Notes":"\u6703\u54e1\u6240\u6709 stamp cards \u6703\u5217\u51fa"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Stamp Card Table:Create Date",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a stamp card record \u5efa\u7acb\u65e5\u671f",
+    "Notes":"\u7528\u4f5c\u8ffd\u8e64\u514c\u63db\u7d00\u9304"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Stamp Card Table:No. of Stamp used",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1\u514c\u63db coupon \u6240\u4f7f\u7528\u7684 stamp \u6578\u91cf",
+    "Notes":"PPT \u7b2c \u2460 \u9ede"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Stamp Card Table:Stamp Card Table:Redeemed Coupon",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1\u5df2\u514c\u63db coupon \u985e\u578b",
+    "Notes":"PPT \u7b2c \u2461 \u9ede"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Bingo Table:Brand",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a Bingo \u6240\u5c6c brand",
+    "Notes":"\u6703\u54e1\u6240\u6709 Bingo \u6703\u5217\u51fa"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Bingo Table:Name",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a Bingo name",
+    "Notes":"\u5982\u7121\u8cc7\u6599\u6703\u986f\u793a No data available"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Bingo Table:Start Date",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a Bingo start date",
+    "Notes":"Bingo validity reference"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Bingo Table:Expiry Date",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a Bingo expiry date",
+    "Notes":"Bingo validity reference"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Bingo Table:Serial No.",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a Bingo identification number",
+    "Notes":"PPT \u7b2c \u2461 \u9ede"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"Bingo Table:Status",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"active \/ expired",
+    "Purpose \/ Front-end Impact":"\u986f\u793a Bingo \u7576\u524d\u72c0\u614b",
+    "Notes":"PPT \u7b2c \u2462 \u9ede"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"History Table:Brand",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a record \u6240\u5c6c brand",
+    "Notes":"\u6703\u54e1\u8a73\u7d30\u7d00\u9304 summary table"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"History Table:Create Date",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a record \u5efa\u7acb\u65e5\u671f\u53ca\u6642\u9593",
+    "Notes":"PPT \u7b2c \u2460 \u9ede"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"History Table:Transaction Time",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display if transaction type",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u4ea4\u6613\u7d00\u9304\u6642\u9593",
+    "Notes":"\u53ea\u6709 transaction type record \u6703\u6709\u8cc7\u6599"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"History Table:Point Change",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u6703\u54e1\u7a4d\u5206\u8b8a\u52d5",
+    "Notes":"\u4f8b\u5982 +8 \/ +200 \/ -20"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"History Table:Type",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"coupon \/ coupon collect \/ coupon purchase \/ discount card \/ transaction \/ adjustment",
+    "Purpose \/ Front-end Impact":"\u986f\u793a record \u985e\u578b",
+    "Notes":"PPT \u5217\u660e\u53ef\u898b record types"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"History Table:Shop",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u76f8\u95dc shop no.",
+    "Notes":"\u5982\u7121\u76f8\u95dc shop \u6703\u986f\u793a ---"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Member",
+    "Field \/ UI Item":"History Table:Description",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a record details",
+    "Notes":"\u4f8b\u5982 coupon details\u3001payment reference\u3001membership details\u3001invoice details \u7b49"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Verification Code",
+    "Field \/ UI Item":"Phone No.",
+    "Status":"\u67e5\u8a62\u689d\u4ef6",
+    "Suggested \/ Default":"Enter phone no.",
+    "Purpose \/ Front-end Impact":"\u641c\u5c0b\u8a72\u96fb\u8a71\u865f\u78bc\u5c0d\u61c9 verification code",
+    "Notes":"\u6703\u54e1\u8a3b\u518a\u6642\u9a57\u8b49\u78bc\u6703\u767c\u9001\u5230 mobile device"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Verification Code",
+    "Field \/ UI Item":"Email",
+    "Status":"\u67e5\u8a62\u689d\u4ef6",
+    "Suggested \/ Default":"Enter email",
+    "Purpose \/ Front-end Impact":"\u7528 Email \u641c\u5c0b verification code",
+    "Notes":"\u8996\u4e4e\u7cfb\u7d71\u6709\u5426\u4ee5 Email \u67e5\u8a62"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Verification Code",
+    "Field \/ UI Item":"Verification Code",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u5c0d\u61c9\u96fb\u8a71 \/ Email \u7684 verification code",
+    "Notes":"Result table \u6b04\u4f4d"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Verification Code",
+    "Field \/ UI Item":"Expiry Date",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a verification code \u5230\u671f\u65e5",
+    "Notes":"Result table \u6b04\u4f4d"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Verification Code",
+    "Field \/ UI Item":"Status",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a verification code \u72c0\u614b",
+    "Notes":"Result table \u6b04\u4f4d"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Invoice",
+    "Field \/ UI Item":"Complete Invoice No.",
+    "Status":"\u67e5\u8a62\u689d\u4ef6 \/ \u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"Enter complete invoice no. if available",
+    "Purpose \/ Front-end Impact":"\u641c\u5c0b \/ \u986f\u793a\u5b8c\u6574 invoice no.",
+    "Notes":"Invoice section \u51fa\u73fe\u65bc Membership menu"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Invoice",
+    "Field \/ UI Item":"Brand",
+    "Status":"\u67e5\u8a62\u689d\u4ef6 \/ \u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"Select brand",
+    "Purpose \/ Front-end Impact":"\u6309 brand \u641c\u5c0b invoice \/ \u986f\u793a invoice brand",
+    "Notes":"\u4f8b\uff1aStorellet cafe"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Invoice",
+    "Field \/ UI Item":"Shop",
+    "Status":"\u67e5\u8a62\u689d\u4ef6 \/ \u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"Enter \/ select shop",
+    "Purpose \/ Front-end Impact":"\u6309 shop \u641c\u5c0b invoice \/ \u986f\u793a invoice shop",
+    "Notes":"\u4f8b\uff1a(STRIPE)"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Invoice",
+    "Field \/ UI Item":"Transaction Date",
+    "Status":"\u67e5\u8a62\u689d\u4ef6",
+    "Suggested \/ Default":"Select date range",
+    "Purpose \/ Front-end Impact":"\u6309\u4ea4\u6613\u65e5\u671f\u641c\u5c0b invoice",
+    "Notes":"\u9700\u8f38\u5165 start date \/ end date"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Invoice",
+    "Field \/ UI Item":"Purchase Time",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a\u8cfc\u8cb7\u6642\u9593",
+    "Notes":"Invoice result table \u6b04\u4f4d"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Invoice",
+    "Field \/ UI Item":"Info",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a invoice details",
+    "Notes":"\u5305\u542b Status\u3001Invoice Amount\u3001Net Amount\u3001Order Type\u3001Payment Method\u3001Items\u3001Discount\u3001Coupons\u3001Member No.\u3001Used Promo Code"
+  },
+  {
+    "Tab":"Membership",
+    "Config":"Invoice",
+    "Field \/ UI Item":"Redeem",
+    "Status":"\u986f\u793a\u6b04\u4f4d",
+    "Suggested \/ Default":"System display",
+    "Purpose \/ Front-end Impact":"\u986f\u793a redeem \u6642\u9593 \/ \u72c0\u614b",
+    "Notes":"Invoice result table \u6b04\u4f4d"
+  }
+]

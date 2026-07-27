@@ -1,0 +1,1266 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-24",
+  "files": [
+    {
+      "path": "knowledge/company/model-answers/about-us-url.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/about-us.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/address-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/address-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/app-display-method.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/background-colour-1.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/background-colour-2.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/background-colour-3.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/background-image-on-dashboard.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/background-image.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-branded-app.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-code.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-content-and-promotion.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-geo-tag.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-image-specifications.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-join-date.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-links-and-integrations.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-list-fields.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-logo.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-name-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-name-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-name.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-point-and-qr-limits.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-promo-web-url.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-required-fields.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-status-and-display.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand-ui-colours.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/brand.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/branded-app-app-id.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/branded-app-terms-and-conditions.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/by-passcode.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/campaign-name.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/carousel.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/categories.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/close-transaction-message-above--below-qr.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-group-branded-app.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-group-list-fields.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-group-optional-fields.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-group-point-settings.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-group-required-fields.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-group-status.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-group-unavailable-settings.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-hierarchy.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-join-date.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-list-fields.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-name.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company-status.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/company.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/coupon-code-display-type.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/create-company.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/create-date.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/cs-app-point-limit.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/cusinetag.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/customer-service-email.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/default-show.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/disabled-region-code.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/display-point-ratio.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/display-sequence.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/district-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/district-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/email-needed.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/email.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/enable-brand-profile.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/enable-master-brand.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/enable-qonbay-integration.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/enable-shopline-integration.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/enable-topup-wallet.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/end-date.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/eshop-banner.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/eshop-product-id.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/eshop-url.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/estore-url.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/expiry-date.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/external-links.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/facebook.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/fax.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/featured-items-availability.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/geo-location.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/geo-tag.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/grade.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/group-description-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/group-description-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/group-logo.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/group-name-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/group-name-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/group-name.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/group.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/higher-price.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/highlighted-image-description.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/highlighted-image.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/how-to-use-url.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/how-to-use.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/image-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/image-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/info-url-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/info-url-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/inline-company-id.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/instagram.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/is-show-bottom-bar.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/join-date.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/lower-price.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/max-point-earn-per-invoice.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/max-time-of-earn-point-per-day-for-pos.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/max-time-of-earn-point-per-day.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/max-time-of-earn-point-per-week-for-pos.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/max-time-of-earn-point-per-week.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/member-no-limit.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/message-1--2--3.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/opening-hours-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/opening-hours-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/override-share-group-string-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/passcode-remark-message.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/passcode.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/payment-methods.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/point-ratio.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/priority.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/privacy-policy.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/promoted.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/promotion-message.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/push-notification-method.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/push-notification-to-white-label-app-ids-refer-to-master-brand.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/qr-code-expired-in-same-day.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/qr-code-expiry-day.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/recommendation-dishes.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/reference-id.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/region-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/region-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/register-header-text-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/register-header-text-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/registration-image-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/registration-image-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/registration-text-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/registration-text-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/require-same-email-with-storellet-profile.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/reservation-methods.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/restaurant-category.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/route-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/route-simplified-chinese.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/route-traditional-chinese.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/section.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/shop-create-date-required-source.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/shop-create-date-system-source.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/shop-geo-location.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/shop-list-fields.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/shop-name-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/shop-name-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/shop-name.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/shop-optional-and-branded-app.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/shop-reference-id.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/shop-required-fields.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/shop-status.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/short-description-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/short-description-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/show-point-or-stamp-on-app.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/show-redemption-page-on-app.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/stamp-only.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/start-date.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/status.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/tag.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/telephone.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/terms--conditions-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/terms--conditions-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/text-colour-1.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/text-colour-2.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/text-colour-3.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/thumbnails.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/topup-wallet-align-method.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/topup-wallet-extend-year.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/topup-wallet-max-balance.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/unsubscribe-when-.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/url.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/user-point-expiry-type.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/website-english.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/website-local-language.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/onboarding-process.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/field-name-search.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/status-field-locations.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/name-field-locations.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/image-field-locations.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/date-field-locations.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/company/model-answers/geo-location-field.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/system/chatroom-scope.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/assets-creation-guide.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/assets-overview.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/bingo-list.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/coupon-packages-list.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/coupon-trigger-rules-list.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/coupons-list.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/create-bingo.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/create-coupon.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/create-discount-cards.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/create-new-points.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/create-stamp.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/discount-cards-list.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/points-list.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/stamps-list.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/coupon-trigger-type.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/surveys-list.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/coupon-tab-location.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/discount-card-tab-location.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/points-tab-location.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/bingo-tab-location.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/stamps-tab-location.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/surveys-tab-location.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/membership-overview.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/member-search.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/member-status.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/verification-code-list.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/invoice-list.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/invoice-brand-101.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/invoice-complete-invoice-no-100.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/invoice-info-105.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/invoice-purchase-time-104.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/invoice-redeem-106.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/invoice-shop-102.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/invoice-transaction-date-103.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-alias-no-007.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-bingo-tablebrand-082.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-bingo-tableexpiry-date-085.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-bingo-tablename-083.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-bingo-tableserial-no-086.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-bingo-tablestart-date-084.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-bingo-tablestatus-087.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-brands-027.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-card-tablebrand-058.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-card-tablecoupon-059.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-card-tabledetail-066.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-card-tableexpire-067.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-card-tableexpiry-date-061.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-card-tableextended-expiry-date-062.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-card-tableremark-065.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-card-tableserial-no-063.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-card-tablestart-date-060.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-card-tablestatus-064.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-card-tableuse-068.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-summary-tableactive-count-053.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-summary-tablebrand-050.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-summary-tablecoupon-052.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-summary-tablecoupon-id-051.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-summary-tabledetail-057.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-summary-tableexpired-count-055.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-summary-tablestatus-056.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-coupon-summary-tableused-count-054.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-discount-card-tablebrand-040.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-discount-card-tabledetail-047.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-discount-card-tablediscount-rate-042.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-discount-card-tableedit-049.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-discount-card-tableexpire-048.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-discount-card-tableexpiry-date-043.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-discount-card-tablemembership-level-041.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-discount-card-tableremark-046.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-discount-card-tablestart-date-044.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-discount-card-tablestatus-045.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-email-003.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-facebook-id-004.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-groupactual-accu-sales-amount-033.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-groupbound-member-no-029.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-groupdelivey-coupon-031.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-groupexpiry-date-032.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-grouppoints-030.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-groupreceive-news-by-app-push-036.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-groupreceive-news-by-communication-platform-038.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-groupreceive-news-by-email-035.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-groupreceive-news-by-sms-037.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-groupreceive-news-by-website-039.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-groupreceive-news-global-034.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-groupstatus-028.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-history-tablebrand-088.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-history-tablecreate-date-089.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-history-tabledescription-094.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-history-tablepoint-change-091.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-history-tableshop-093.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-history-tabletransaction-time-090.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-history-tabletype-092.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-member-no-001.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-member-no-005.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-membership-group-026.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-phone-no-002.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-security-code-008.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-stamp-card-tablebrand-078.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-stamp-card-tablecreate-date-079.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-stamp-card-tableno-of-stamp-used-080.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-stamp-card-tablestamp-card-tableredeemed-coupon-081.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-stamp-tablebrand-069.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-stamp-tablebrand-070.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-stamp-tablebrand-071.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-stamp-tablebrand-072.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-stamp-tablebrand-073.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-stamp-tablebrand-074.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-stamp-tablebrand-075.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-stamp-tablebrand-076.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-stamp-tablebrand-077.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-status-006.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilebirthday-017.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilecountry-code-010.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profiledisplay-name-013.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profileemail-011.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilefacebook-id-012.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilefirst-name-014.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilegender-016.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilejoin-date-018.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilelast-name-015.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilephone-no-009.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilereceive-news-by-app-push-022.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilereceive-news-by-communication-platform-024.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilereceive-news-by-email-021.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilereceive-news-by-sms-023.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilereceive-news-by-website-025.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilereceive-news-global-020.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/member-storellet-profilereceive-news-in-storellet\n-019.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/verification-code-email-096.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/verification-code-expiry-date-098.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/verification-code-phone-no-095.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/verification-code-status-099.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/membership/model-answers/fields/verification-code-verification-code-097.md",
+      "enabled": true
+    }
+  ]
+}
