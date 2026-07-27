@@ -3,6 +3,10 @@
   "updatedAt": "2026-07-27",
   "files": [
     {
+      "path": "knowledge/integration/pos-systems-status.md",
+      "enabled": true
+    },
+    {
       "path": "knowledge/important-notes/cms-operation-notes.md",
       "enabled": true
     },
