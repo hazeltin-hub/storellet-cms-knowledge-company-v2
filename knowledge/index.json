@@ -3,6 +3,18 @@
   "updatedAt": "2026-07-27",
   "files": [
     {
+      "path": "knowledge/workflows/workflow-birthday-coupon.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/workflows/workflow-new-brand-setup.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/workflows/workflow-stamp-campaign.md",
+      "enabled": true
+    },
+    {
       "path": "knowledge/application/application-tab-overview.md",
       "enabled": true
     },
