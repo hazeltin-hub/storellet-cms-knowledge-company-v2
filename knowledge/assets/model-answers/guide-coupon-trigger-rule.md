@@ -52,7 +52,13 @@ review_due: "2026-10-27"
 - **Point Bonus Ratio / Point Bonus Cap** — 加碼回贈積分的比例與上限。
 - **Push Notification / Push User Message（中英文）** — 自訂推播與收件匣訊息。
 - **Required Discount Card Level** — 限定哪些會員等級才適用。
-**注意：** 條件之間為 AND 邏輯；Lapse Period 適合做「久未光顧」召回。
+**注意：**
+- 條件之間為 AND 邏輯
+- Lapse Period 適合做「久未光顧」召回
+- **Monthly Trigger Rule：** 必須 untick "Submit To 3rd Party Event Tracking"
+- **Monthly Trigger Rule 排查功能：** 可以排查客人 account 裡面有無張 coupon，有就唔再派發
+- **新店注意：** Trigger Rules - 1個月 birthday point bonus，有新店要 check trigger rule 裡面加新店
+- **有分 Tier 系統：** Birthday Coupon/Monthly Coupon 唔可以 tick "Dispatch on Join"，否則所有新會員都會收到（除非所有 tier member 都係收到相同的 offer）
 
 ## Internal Notes
 

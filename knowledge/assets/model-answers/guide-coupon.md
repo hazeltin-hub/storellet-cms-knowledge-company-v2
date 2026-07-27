@@ -57,7 +57,20 @@ review_due: "2026-10-27"
 - **Shared With Brands** — 主品牌專屬，共享給集團其他品牌。
 - **Event Tracking Submit Option** — 事件追蹤回報對象（預設／非 Storellet／僅 Storellet）。
 - **Status** — Active / Inactive / Suspended。
-**注意：** 勾選 Is Coupon Leaflet 會展開大量進階欄位，包含自訂有效期標題、使用說明、隱藏會員 QR 碼、Leaflet 按鈕（可分 Android／iOS 連結）、External Code 綁定、兌換前後提示、兌換詳情頁標題與內文等；非 Leaflet 模式不需要動這些。
+**注意：**
+- 勾選 Is Coupon Leaflet 會展開大量進階欄位，包含自訂有效期標題、使用說明、隱藏會員 QR 碼、Leaflet 按鈕（可分 Android／iOS 連結）、External Code 綁定、兌換前後提示、兌換詳情頁標題與內文等；非 Leaflet 模式不需要動這些。
+
+**重要操作陷阱：**
+- **Coupon Type 編號：** 0 = freebie（免費物品），1 = item discount（單品折扣），2 = receipt discount（單據折扣）
+- **Coupon & Tier Card 設置：**
+  - **KFC/PHD：** 請選擇 "Non Storellet Only"
+  - **其他品牌：** 請選擇 "Storellet Only"
+  - 現有 coupon/discount 會顯示 "default"（發送到兩個 Braze account）
+- **Coupon PUSH 設置：**
+  - Coupon 派發給所有 Brand Member 且無 Set Braze 的時候，請 tick **"Bypass Internal Third Party Event Tracking"**
+  - **PHD/KFC 唔需要** tick Bypass
+- **Eshop Product Group：** 設置了 eshop product group 的話，個 eshop product type 要係 "product group item"，咁樣你 active 佢都唔會 show 出嚟
+- **Coupon Entitlement：** 限定 coupon 可以用幾多張
 
 ## Internal Notes
 

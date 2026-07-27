@@ -3,6 +3,10 @@
   "updatedAt": "2026-07-27",
   "files": [
     {
+      "path": "knowledge/important-notes/cms-operation-notes.md",
+      "enabled": true
+    },
+    {
       "path": "knowledge/workflows/workflow-birthday-coupon.md",
       "enabled": true
     },

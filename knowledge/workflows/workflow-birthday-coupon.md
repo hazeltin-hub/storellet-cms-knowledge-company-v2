@@ -108,6 +108,21 @@ review_due: "2026-10-27"
 
 **會員資料：**
 - 確保會員資料中有生日
+- 生日資料必須準確（MM-DD 格式）
+
+**Tier 系統陷阱：**
+- **有分 Tier 嘅 Birthday Coupon 唔可以 tick "Dispatch on Join"**
+- 如果 tick 了，所有新會員都會收到（不論 Tier）
+- 例外：除非所有 Tier Member 都係收到相同的生日 Offer
+
+**Trigger Rules 重要設置：**
+- **Monthly Trigger Rule：** 必須 untick "Submit To 3rd Party Event Tracking"
+- **排查功能：** 可以排查客人 account 裡面有無張 coupon，有就唔再派發
+- **新店注意：** Trigger Rules - 1個月 birthday point bonus，有新店要 check trigger rule 裡面加新店
+
+**Coupon PUSH 設置：**
+- Coupon 派發給所有 Brand Member 且無 Set Braze 的時候，請 tick **"Bypass Internal Third Party Event Tracking"**
+- **PHD/KFC 唔需要** tick Bypass
 
 #### 🔗 相關功能
 

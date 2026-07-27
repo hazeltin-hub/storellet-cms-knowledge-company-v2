@@ -176,6 +176,23 @@ review_due: "2026-10-27"
 - 會員規則要與積分規則匹配
 - 優惠券規則要與推播內容一致
 
+**Brand 設置必填項目：**
+- **Brand: Cuisine Tag** + **Shop: Region Tag** + **District Tag**
+- **Format 同大細楷要跟 Superbase：**
+  - `filter_cuisine`
+  - `filter_location`
+
+**Bra nded App 設置要求：**
+- **Set brand 要 tick "Enable Brand Profile"**，就有 branded profile
+- **人均消費上下限：** Brand > Lower Price & Higher Price
+- **年齡分組：** Application > Config > Age Range（12-17, 18-25, 26-30, 31-35, 36-40, 41-50, 51-64, 65-100）
+- **必填內容：**
+  - Application > Config：要寫 FAQ
+  - Company > Brands > Branded App > Thumbnail：放背景圖
+  - Company > Brands > Branded App > Terms and Conditions：寫三種語言
+  - Company > Brands > Short Description：簡介（Local Language）
+  - **Branded App App IDs：** 要係 brand page 加入對應的 **AOS** 和 **IOS** app ID
+
 #### 🔗 相關功能
 
 - **Company Tab** - 組織和品牌設定

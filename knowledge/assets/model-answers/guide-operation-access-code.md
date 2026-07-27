@@ -44,7 +44,17 @@ review_due: "2026-10-27"
 - **Quantity** — 產生數量。
 - **Life Time Limit / Week Limit / Day Limit** — 每碼的兌換次數上限。
 - **With Deep Link** — 是否產生深層連結直接打開 App 對應頁面。
-**注意：** Closed Type 才需指定成員清單；Public 則任何持有者皆可使用。
+**注意：**
+- Closed Type 才需指定成員清單；Public 則任何持有者皆可使用。
+
+**天書重要技巧：**
+- **生成步驟：** Gen code → 要 tick **"Create Deep Link"** → 再睇佢要幾多數量
+- **Code 類型說明：**
+  - **Public：** 淨係 gen 一條 link（適合大眾推廣）
+  - **Individual：** unique link（每人一條，適合個人化推廣）
+- **使用方法：** Set 左之後將條 link gen 成 QR code 就可以比佢
+- **重要建議：** **你自己試拎左一次先**，確保正常運作
+- **With Deep Link：** 建議勾選，可以產生深層連結直接打開 App 對應頁面
 
 ## Internal Notes
 
