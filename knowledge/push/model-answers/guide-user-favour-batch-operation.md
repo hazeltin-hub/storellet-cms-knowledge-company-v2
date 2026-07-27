@@ -54,7 +54,7 @@ review_due: "2026-10-27"
 **欄位／設定：**
 - **Name** — 這次批次操作的名稱，方便日後辨識。
 - **Brand** — 所屬品牌。先選品牌、上載名單後按 Initialize，系統才會載入下面的欄位。
-- **Upload CSV** — 要處理的會員名單。
+- **Upload CSV** — 要處理的會員名單（只含Member ID/電話號碼需加852），只Support 10萬內名單。
 - **Coupon** — 要操作的是哪一張優惠券。
 - **Type** — 操作類型：Dispatch（補派新的券）、Update（改現有券的日期）、Expire（強制把現有券設為到期）、Use（標記為已使用）。
 - **Active On / Create After / Create Before / Expire After / Expire Before** — 篩選條件，用來限定「只處理在某段時間內有效／建立／到期的券」。Update／Expire／Use 類型才會用到。
