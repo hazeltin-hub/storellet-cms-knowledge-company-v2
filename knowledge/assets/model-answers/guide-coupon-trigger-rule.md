@@ -38,7 +38,11 @@ review_due: "2026-10-27"
 **出現位置：** 僅後台自動化設定；觸發後券會落入顧客 App。
 **欄位／設定：**
 - **Brand / Name / Status** — 基本資訊。
-- **Coupon Trigger Rule Type** — 規則類型。
+- **Coupon Trigger Rule Type** — 規則類型：
+  - **Birthday** — 生日派發優惠券
+  - **Monthly** — 每月派發優惠券
+  - **Transaction** — 交易條件派發（消費金額、次數等）
+  - **Lapse** — 流失回流派發（久未消費喚醒）
 - **Trigger Coupon / Coupon Or Discount Card List** — 要派發的券與數量。
 - **Effective Period / Effective Week Day / Effective Time** — 生效期間、星期、時段。
 - **Available Shops** — 適用分店。
