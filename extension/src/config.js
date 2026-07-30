@@ -1,0 +1,52 @@
+window.CMS_CHAT_CONFIG = {
+  // Primary source selection: "github" or "r2"
+  source: {
+    type: "github" // Current testing mode - switch to "r2" for production
+  },
+
+  // GitHub configuration (primary for testing)
+  github: {
+    owner: "hazeltin-hub",
+    repository: "storellet-cms-knowledge-company-v2",
+    branch: "main",
+    indexPath: "knowledge/index.json"
+  },
+
+  // R2/ZIP backup configuration (for production)
+  knowledgeUrls: [
+    "https://storellet-knowledge.storellet.com/storellet-knowledge.zip",
+    "https://storellet-knowledge.storellet.com/knowledge.zip"
+  ],
+  cfAccess: {
+    clientId: "cfa73948cea99bf16e7badf55349ce1c.access",
+    clientSecret: "afae5fa6b751bc913b4a49dfd62bd01d649dabc3f39968d07c9a737c26b9c75d"
+  },
+  knowledge: {
+    minimumScore: 18
+  },
+  ai: {
+    enabled: false, // Default disabled, enabled via settings panel
+    provider: "claude",
+    apiKey: "", // Will be loaded from storage
+    apiEndpoint: "https://api.anthropic.com", // Custom endpoint support
+    model: "claude-3-5-sonnet-20241022",
+    customModel: "", // For custom model names
+    modelMode: "preset", // "preset" or "custom"
+    maxTokens: 1000,
+    temperature: 0.7
+  },
+  interface: {
+    botName: "Storellet CMS 助手",
+    welcomeMessage: "你好！你可以輸入 Storellet CMS 相關問題，我會搜尋已確認嘅 Model Answer。⚙️ 點擊右上角設定按鈕配置 AI 功能。",
+    noAnswerMessage: "暫時未有相關資料，Hazel 會稍後親自跟進。",
+    conflictMessage: "暫時未能確認正確設定，Hazel 會稍後親自跟進。",
+    aiSearchingMessage: "🤖 AI 正在搜索知識庫..."
+  },
+  tracking: {
+    enabled: true,
+    categorizeReasons: true,
+    autoPriority: true,
+    collectContext: true,
+    trackResolution: true
+  }
+};

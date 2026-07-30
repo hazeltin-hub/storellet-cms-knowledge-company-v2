@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>Storellet CMS Chatroom</title>
+    <link rel="stylesheet" href="sidepanel.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-header">
+        <div class="brand-mark" aria-hidden="true">S</div>
+        <div class="brand-copy">
+          <h1 id="bot-name">Storellet CMS 助手</h1>
+          <div class="status-row">
+            <span id="status-dot" class="status-dot status-dot--loading"></span>
+            <span id="knowledge-status">正在載入知識庫…</span>
+          </div>
+          <div class="tracking-info">
+            <span id="pending-count" class="tracking-count">0</span>
+            <span class="tracking-label">待跟進</span>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button id="settings-button" class="icon-button" type="button" aria-label="AI 設置" title="AI 設置">
+            ⚙️
+          </button>
+          <button id="reload-button" class="icon-button" type="button" aria-label="重新載入知識庫" title="重新載入知識庫">
+            ↻
+          </button>
+        </div>
+      </header>
+
+      <section id="messages" class="messages" aria-live="polite" aria-label="對話內容"></section>
+
+      <section class="question-area" aria-label="輸入問題">
+        <form id="question-form" class="question-form">
+          <label class="sr-only" for="question-input">輸入 CMS 問題</label>
+          <textarea
+            id="question-input"
+            rows="2"
+            maxlength="500"
+            placeholder="例如：呢個 Chatroom 可以做咩？"
+            required
+          ></textarea>
+          <button id="send-button" class="send-button" type="submit">搜尋</button>
+        </form>
+        <div class="question-actions">
+          <button id="clear-button" class="text-button" type="button">清除對話</button>
+          <button id="export-button" class="text-button" type="button">下載待跟進問題</button>
+        </div>
+      </section>
+
+      <!-- AI Settings Panel -->
+      <div id="settings-panel" class="settings-panel" style="display: none;">
+        <div class="settings-header">
+          <h2>⚙️ AI 設置</h2>
+          <button id="close-settings" class="icon-button" type="button">✕</button>
+        </div>
+
+        <div class="settings-content">
+          <div class="setting-group">
+            <label for="api-key-input" class="setting-label">
+              Claude API Key
+              <span class="setting-hint">必填 - 從 Anthropic Console 獲取</span>
+            </label>
+            <input
+              id="api-key-input"
+              type="password"
+              class="setting-input"
+              placeholder="sk-ant-xxxxx..."
+              maxlength="100"
+            >
+            <div class="setting-help">
+              <a href="https://console.anthropic.com/" target="_blank">前往 Anthropic Console 獲取 API Key →</a>
+            </div>
+          </div>
+
+          <div class="setting-group">
+            <label for="api-endpoint-input" class="setting-label">
+              API Endpoint
+              <span class="setting-hint">自定義 API 地址（可選）</span>
+            </label>
+            <input
+              id="api-endpoint-input"
+              type="text"
+              class="setting-input"
+              placeholder="https://api.anthropic.com"
+              value="https://api.anthropic.com"
+            >
+            <div class="setting-help">
+              <span>默認使用 Claude 官方 API，可配置代理或自建服務</span>
+            </div>
+          </div>
+
+          <div class="setting-group">
+            <label for="model-input-mode" class="setting-label">
+              模型配置方式
+              <span class="setting-hint">選擇預設或自定義模型</span>
+            </label>
+            <div class="radio-group">
+              <label class="radio-label">
+                <input type="radio" name="model-mode" value="preset" checked>
+                <span>預設模型</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="model-mode" value="custom">
+                <span>自定義模型</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="setting-group" id="preset-model-group">
+            <label for="model-select" class="setting-label">
+              選擇預設模型
+              <span class="setting-hint">選擇質量或成本優化</span>
+            </label>
+            <select id="model-select" class="setting-select">
+              <option value="claude-3-5-sonnet-20241022">Claude Sonnet (推薦) - 最佳質量</option>
+              <option value="claude-3-5-haiku-20241022">Claude Haiku - 經濟實惠</option>
+              <option value="claude-3-opus-20240229">Claude Opus - 最強性能</option>
+            </select>
+            <div class="setting-help">
+              <span id="model-cost-hint">Sonnet: ~$1.35/100次 | Haiku: ~$0.11/100次</span>
+            </div>
+          </div>
+
+          <div class="setting-group" id="custom-model-group" style="display: none;">
+            <label for="custom-model-input" class="setting-label">
+              自定義模型名稱
+              <span class="setting-hint">輸入任何兼容的模型名稱</span>
+            </label>
+            <input
+              id="custom-model-input"
+              type="text"
+              class="setting-input"
+              placeholder="例如: claude-3-5-sonnet-20241022"
+            >
+            <div class="setting-help">
+              <span>支持任何 Anthropic 格式的模型名稱或其他兼容模型</span>
+            </div>
+          </div>
+
+          <div class="setting-group">
+            <label for="max-tokens-input" class="setting-label">
+              最大答案長度
+              <span class="setting-hint">控制 AI 答案的最大長度</span>
+            </label>
+            <input
+              id="max-tokens-input"
+              type="number"
+              class="setting-input"
+              min="100"
+              max="4000"
+              value="1000"
+              step="100"
+            >
+          </div>
+
+          <div class="setting-group">
+            <label for="temperature-input" class="setting-label">
+              創造性程度
+              <span class="setting-hint">0.3(保守) - 1.0(有創造性)</span>
+            </label>
+            <input
+              id="temperature-input"
+              type="range"
+              class="setting-range"
+              min="0"
+              max="1"
+              step="0.1"
+              value="0.7"
+            >
+            <div class="setting-value-display">
+              <span id="temperature-value">0.7</span>
+            </div>
+          </div>
+
+          <div class="setting-group">
+            <label class="setting-label">
+              <input id="ai-enabled-toggle" type="checkbox" class="setting-checkbox">
+              <span>啟用 AI 功能</span>
+              <span class="setting-hint">找不到 model answer 時使用 AI</span>
+            </label>
+          </div>
+
+          <div class="setting-status" id="setting-status" style="display: none;">
+            <span class="status-message"></span>
+          </div>
+
+          <div class="settings-actions">
+            <button id="test-api-button" class="action-button action-button--secondary" type="button">
+              🔍 測試連接
+            </button>
+            <button id="save-settings-button" class="action-button action-button--primary" type="button">
+              💾 儲存設置
+            </button>
+          </div>
+
+          <div class="settings-info">
+            <h3>📊 使用統計</h3>
+            <div class="stats-grid">
+              <div class="stat-item">
+                <span class="stat-label">AI 搜索次數:</span>
+                <span class="stat-value" id="ai-search-count">0</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">成功找到答案:</span>
+                <span class="stat-value" id="ai-success-count">0</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">API 使用量:</span>
+                <span class="stat-value" id="api-usage-count">~0 tokens</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <template id="user-message-template">
+      <article class="message message--user">
+        <div class="message-label">你</div>
+        <div class="message-bubble"></div>
+      </article>
+    </template>
+
+    <template id="bot-message-template">
+      <article class="message message--bot">
+        <div class="message-label">CMS 助手</div>
+        <div class="message-bubble">
+          <div class="answer-meta"></div>
+          <div class="answer-content"></div>
+          <div class="answer-source"></div>
+        </div>
+      </article>
+    </template>
+
+    <script src="jszip.min.js"></script>
+    <script src="config.js"></script>
+    <script src="search-engine.js"></script>
+    <script src="sidepanel.js"></script>
+  </body>
+</html>
