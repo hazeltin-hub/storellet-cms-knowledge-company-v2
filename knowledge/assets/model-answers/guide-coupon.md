@@ -41,6 +41,10 @@ review_due: "2026-10-27"
 - **Item Code** — 適用品項代碼（可加多筆）。
 - **Item Discount Value** — 折扣數值，單位 $ 或 %。
 - **Delivery Type** — 派發方式：Welcome Pack、Birthday Gift、Anniversary Gift、Redeem、Push、Stamp、Replacement、Purchase。不同選擇會帶出不同欄位。
+- **Coupon Code Type**（如果使用 Coupon Code 功能）：
+  - **Individual**（個人碼）— 一人一碼制，適合會員專屬優惠、生日禮、VIP 獨享券
+  - **Shared**（共用碼）— 多人共用一碼，適合促銷活動、群體優惠、廣告推廣碼
+  - **System**（系統配發）— 系統自動分配，適合 Trigger Rule 自動化派發
 - **Name（中英文，必填）/ Description / Terms and Conditions / How To Use** — 文案（條款與使用說明支援 HTML）。
 - **Tags En / Tags Zh** — 標籤，方便分類搜尋。
 - **Is Coupon Leaflet** — 勾選後展開「電子優惠券版型」整套欄位（如下）。

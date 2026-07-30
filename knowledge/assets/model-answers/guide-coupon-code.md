@@ -41,7 +41,10 @@ review_due: "2026-10-27"
 - **Name** — 這批序號的名稱。
 - **Expiry Date** — 序號有效期限（必填，會自動帶入券的有效期上限）。
 - **Quantity** — 要產生幾組（建立後不可改）。
-- **Type** — Individual（每碼一人用）、Shared（共用碼）、System（系統配發）。
+- **Type** — Coupon Code 類型：
+  - **Individual**（個人碼）— 每個碼只能一人使用，適合會員專屬優惠
+  - **Shared**（共用碼）— 多人共享同一個碼，適合促銷活動推廣
+  - **System**（系統配發）— 由系統自動分配和管理，適合自動化派發
 - **Generate Option** — 字元組合：Both（數字＋字母）、A-Za-z（純字母）、0-9（純數字）。
 - **Prefix Option** — 序號前綴：None、By Brand Code、Custom（自訂，最多 5 碼）。
 - **Length** — 序號總長度（8–50）。
