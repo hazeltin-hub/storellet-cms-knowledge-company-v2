@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-27",
+  "updatedAt": "2026-07-30",
   "files": [
     {
       "path": "knowledge/integration/pos-systems-status.md",
@@ -104,6 +104,10 @@
     },
     {
       "path": "knowledge/assets/model-answers/guide-coupon-trigger-rule.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/guide-coupon-types.md",
       "enabled": true
     },
     {
