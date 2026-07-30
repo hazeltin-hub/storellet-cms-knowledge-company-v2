@@ -41,9 +41,6 @@ keywords:
   - "Allow to get welcome gift again"
   - "Require Same Email With Storellet Profile"
   - "Show Redemption Page on App"
-source_title: "Company Confirmed Fields workbook"
-source_path: "knowledge/references/company-confirmed-fields.xlsx"
-source_anchor: "Company Confirmed Fields sheet; rows 64-65, 94-99"
 last_reviewed: "2026-07-27"
 review_due: "2026-10-27"
 ---

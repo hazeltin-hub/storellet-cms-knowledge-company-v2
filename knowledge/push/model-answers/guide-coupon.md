@@ -38,9 +38,6 @@ keywords:
   - "會員錢包"
   - "優惠券錢包"
   - "派發優惠券"
-source_title: "Storellet CMS 操作指南（白話版）"
-source_path: "knowledge/references/cms-plain-language-guide.md"
-source_anchor: "Coupon"
 last_reviewed: "2026-07-27"
 review_due: "2026-10-27"
 ---

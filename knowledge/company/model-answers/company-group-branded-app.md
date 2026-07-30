@@ -53,9 +53,6 @@ keywords:
   - "How To Use Url"
   - "EStore Url"
   - "Branded App Terms and Conditions"
-source_title: "Company Confirmed Fields workbook"
-source_path: "knowledge/references/company-confirmed-fields.xlsx"
-source_anchor: "Company Confirmed Fields sheet; rows 30-41"
 last_reviewed: "2026-07-27"
 review_due: "2026-10-27"
 ---

@@ -52,9 +52,6 @@ keywords:
   - "Registration Text (English)"
   - "Registration Text (Local Language)"
   - "Thumbnails"
-source_title: "Company Confirmed Fields workbook"
-source_path: "knowledge/references/company-confirmed-fields.xlsx"
-source_anchor: "Company Confirmed Fields sheet; rows 9-15, 18-21, 43"
 last_reviewed: "2026-07-27"
 review_due: "2026-10-27"
 ---

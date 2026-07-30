@@ -32,9 +32,6 @@ keywords:
   - "Member No. Limit"
   - "CS App Point Limit"
   - "User Point Expiry Type"
-source_title: "Company Confirmed Fields workbook"
-source_path: "knowledge/references/company-confirmed-fields.xlsx"
-source_anchor: "Company Confirmed Fields sheet; rows 16-17, 24-25, 44"
 last_reviewed: "2026-07-27"
 review_due: "2026-10-27"
 ---

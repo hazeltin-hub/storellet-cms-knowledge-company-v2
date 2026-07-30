@@ -41,9 +41,6 @@ keywords:
   - "Start Date"
   - "End Date"
   - "Priority"
-source_title: "Company Confirmed Fields workbook"
-source_path: "knowledge/references/company-confirmed-fields.xlsx"
-source_anchor: "Company Confirmed Fields sheet; rows 129-136"
 last_reviewed: "2026-07-27"
 review_due: "2026-10-27"
 ---

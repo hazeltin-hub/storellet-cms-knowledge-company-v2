@@ -41,9 +41,6 @@ keywords:
   - "Info URL (English)"
   - "Info URL (Local Language)"
   - "Brand Promo Web URL"
-source_title: "Company Confirmed Fields workbook"
-source_path: "knowledge/references/company-confirmed-fields.xlsx"
-source_anchor: "Company Confirmed Fields sheet; rows 60-63, 66, 81-82, 103"
 last_reviewed: "2026-07-27"
 review_due: "2026-10-27"
 ---

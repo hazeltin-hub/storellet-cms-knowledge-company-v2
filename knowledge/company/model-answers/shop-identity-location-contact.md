@@ -62,9 +62,6 @@ keywords:
   - "Fax"
   - "Opening Hours (English)"
   - "Opening Hours (Local Language)"
-source_title: "Company Confirmed Fields workbook"
-source_path: "knowledge/references/company-confirmed-fields.xlsx"
-source_anchor: "Company Confirmed Fields sheet; rows 107-121"
 last_reviewed: "2026-07-27"
 review_due: "2026-10-27"
 ---

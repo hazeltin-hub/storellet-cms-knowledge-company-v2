@@ -50,9 +50,6 @@ keywords:
   - "Close Transaction Message Above / Below QR"
   - "Coupon Code Display Type"
   - "Stamp Only"
-source_title: "Company Confirmed Fields workbook"
-source_path: "knowledge/references/company-confirmed-fields.xlsx"
-source_anchor: "Company Confirmed Fields sheet; rows 67-73, 80, 87-89"
 last_reviewed: "2026-07-27"
 review_due: "2026-10-27"
 ---
