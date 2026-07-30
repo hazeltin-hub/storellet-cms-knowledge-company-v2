@@ -7,10 +7,6 @@
       "enabled": true
     },
     {
-      "path": "knowledge/important-notes/cms-operation-notes.md",
-      "enabled": true
-    },
-    {
       "path": "knowledge/workflows/workflow-birthday-coupon.md",
       "enabled": true
     },

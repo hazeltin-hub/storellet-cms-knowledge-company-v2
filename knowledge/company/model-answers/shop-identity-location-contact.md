@@ -99,6 +99,10 @@ review_due: "2026-10-27"
 - Reference ID 要同商戶／POS 確認，來源建議由 001 開始。
 - Geo Location 使用 Longitude - Latitude；上線前要檢查 Map Pin。
 - 中英文 Region、District、Address 同 Opening Hours 要成對核對。
+- **Tag 設置注意：**
+  - **新 Brand 設置必填項目：** Brand: Cuisine Tag + Shop: Region Tag + District Tag
+  - **Format 和大小楷要跟 Superbase：** `filter_cuisine`、`filter_location`
+  - 適當的 Tag 設置對前台搜尋和分類功能很重要
 - 如果實際 CMS 畫面同呢份已確認資料不一致，停止推斷並交由內容負責人覆核。
 
 ## Internal Notes

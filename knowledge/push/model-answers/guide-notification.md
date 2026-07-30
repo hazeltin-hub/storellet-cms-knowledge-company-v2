@@ -64,6 +64,10 @@ review_due: "2026-10-27"
 - **Highlighted Message End Date** — 高亮訊息的顯示截止日。
 - **Deep Link** — 系統自動產生的深層連結（僅在已存在時顯示，可預覽），供行銷用途複製使用。
 **注意：** Push Needed 與 Inbox Needed 是兩個獨立開關——可以「只發推播不進收件匣」「只進收件匣不推播」或「兩者都做」，看你的活動設計。發送完成的訊息無法在列表上刪除，只有尚未發送的可以刪。
+**Group Brand 通知設置：**
+- 同一個 Group Brand 的品牌
+- Push msg 設置在任一品牌內，整個 Group Brand 的成員都會收到
+- 適用於需要通知整個品牌群組的情況
 
 ## Internal Notes
 

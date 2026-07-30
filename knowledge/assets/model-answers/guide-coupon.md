@@ -70,6 +70,13 @@ review_due: "2026-10-27"
 - **Coupon PUSH 設置：**
   - Coupon 派發給所有 Brand Member 且無 Set Braze 的時候，請 tick **"Bypass Internal Third Party Event Tracking"**
   - **PHD/KFC 唔需要** tick Bypass
+- **Dispatch on Join 陷阱：**
+  - 有分 tier 的 birthday coupon/monthly coupon **唔可以 tick** "Dispatch on Join"
+  - 如果 tick 了，所有新會員都會收到（不論 tier）
+  - 例外：除非所有 tier member 都係收到相同的生日 offer
+- **Tier Card 折扣 % 影響：**
+  - Tier card 如果設置了折扣 %，係 Tier 卡就自動有折扣
+  - 客人要用其他 Coupon 時，前線需要 Cancel 個 Discount 先用得
 - **Eshop Product Group：** 設置了 eshop product group 的話，個 eshop product type 要係 "product group item"，咁樣你 active 佢都唔會 show 出嚟
 - **Coupon Entitlement：** 限定 coupon 可以用幾多張
 

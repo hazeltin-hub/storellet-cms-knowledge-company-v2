@@ -47,6 +47,10 @@ review_due: "2026-10-27"
 - **Fast Onboarding - Image Message / Image Message Zh** — 歡迎圖旁顯示的短文字（英／繁中）。
 - **FAQ** — 顧客 App 設定頁的常見問答，可新增多組，每組含中英文問題與答案，可拖曳排序。
 - **Age Range** — 顧客註冊時可選擇的年齡層標籤。
+  - **天書建議分組：** 12-17、18-25、26-30、31-35、36-40、41-50、51-64、65-100
+- **Branded App Config - Enable Brand Profile** — 設置品牌要勾選此項才有 branded profile 功能
+- **Branded App Config - FAQ** — 必填內容，需要在 Application > Config 中撰寫 FAQ
+- **Branded App Config - App IDs** — Branded App 需要在品牌頁面加入對應的 AOS 和 IOS app ID
 - **Available Region Codes** — 顧客可用於註冊的地區電話區號白名單。
 - **Token Thresholds** — 各類代幣門檻（鍵／值），供 App 內兌換或升等判斷使用。
 - **Partnership Link (Name / Icon Url / Register Url / Login Url / Renew Url / Merchandise Url / History Url)** — 與第三方會籍計劃串接的入口，會在顧客 App 的「合作會籍」區塊顯示圖示與按鈕。
