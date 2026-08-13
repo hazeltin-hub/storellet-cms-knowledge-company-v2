@@ -1,0 +1,5 @@
+# Raw/private LUBUDS source material must stay outside Git.
+source-material/
+raw/
+_chat.txt
+WhatsApp Chat*
