@@ -347,6 +347,10 @@
       "enabled": true
     },
     {
+      "path": "knowledge/lubuds/model-answers/inline-booking-overview.md",
+      "enabled": true
+    },
+    {
       "path": "knowledge/lubuds/model-answers/inline-booking-status.md",
       "enabled": true
     },

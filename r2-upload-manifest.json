@@ -928,10 +928,23 @@
       }
     },
     {
+      "key": "knowledge/lubuds/model-answers/inline-booking-overview.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "15807544634bb3df4585598968bf216e830da4d2bb48301ecb24014f8a974608",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "lubuds",
+        "locale": "zh-HK",
+        "risk": "medium",
+        "source": "lubuds-private-conversations"
+      }
+    },
+    {
       "key": "knowledge/lubuds/model-answers/inline-booking-status.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "a86ffc235e571f871b5965db6c04dc154f55f352eb4544025a8ace3f8adfe2f7",
+      "sha256": "431ae90925cfd015a06c07ae68d84dc124b3bac9f9e8d3ad14cb18c488cf1733",
       "customMetadata": {
         "status": "confirmed",
         "module": "lubuds",
@@ -944,7 +957,7 @@
       "key": "knowledge/lubuds/model-answers/inline-deposit-payment.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "f079230e9a4fcd0cc6506834b007f9599f2c67888fe7d635ea04513ca8358f06",
+      "sha256": "cbd3756942b3b32245a778a5ea1dead5bdc3fe777c23d5a5e5b7c68f8d00d68c",
       "customMetadata": {
         "status": "confirmed",
         "module": "lubuds",

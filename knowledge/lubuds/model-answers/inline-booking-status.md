@@ -10,6 +10,7 @@ risk_level: "medium"
 locale: "zh-HK"
 question: "LUBUDS App 點樣取得 Inline 訂座狀態，No-show 又點判斷？"
 alternatives:
+  - "LUBUDS Inline booking No-show 點判斷？"
   - "Inline reservation status API"
   - "No-show 點樣 mapping？"
   - "訂座狀態用 API 定 webhook？"

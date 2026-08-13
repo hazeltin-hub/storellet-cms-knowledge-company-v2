@@ -10,6 +10,8 @@ risk_level: "high"
 locale: "zh-HK"
 question: "Inline 網上訂座可唔可以先完成 booking，之後再畀按金？"
 alternatives:
+  - "Inline booking 可唔可以之後先畀按金？"
+  - "Inline 網上訂座可唔可以之後先畀按金？"
   - "訂座按金 outstanding status 點做？"
   - "Inline deposit payment link"
   - "reservation-payment-created 點用？"
