@@ -15,16 +15,16 @@ alternatives:
   - "Configure 有咩用途同注意事項？"
   - "App Config 權限點樣控制？"
   - "點解睇唔到 App Config？"
-  - "appIdAuthority 係咩？"
+  - "App Config 可以睇邊啲 App？"
   - "What is Configure used for?"
 keywords:
   - "Configure"
   - "Application"
   - "CMS"
   - "App Config"
-  - "appIdAuthority"
-  - "appConfigs/appIds"
-  - "All-authority"
+  - "App Config 權限"
+  - "App ID 權限"
+  - "全部 App 權限"
 last_reviewed: "2026-08-13"
 review_due: "2026-11-13"
 ---
@@ -79,10 +79,9 @@ review_due: "2026-11-13"
 
 ### 0.14.0 App Config 權限改善
 
-- App Config 嘅 **list、view、edit（POST）** 都會強制檢查 `appIdAuthority`。
-- `appConfigs/appIds` 端點只會向有管理員 `appIdAuthority` 嘅帳戶提供獲授權 App ID。
-- All-authority 管理員可以存取 `appIds` 為空嘅設定；一般管理員唔應假設空清單代表公開存取。
-- 如果 Configure 清單缺少某個 App、開頁被拒絕或儲存失敗，先由管理員核對帳戶 `appIdAuthority`，更新後重新登入再試；唔好用其他 App ID 或帳戶繞過權限。
+- App Config 嘅清單、查看及編輯都會按帳戶獲授權嘅 App ID 控制。
+- 一般管理員只會見到自己有權管理嘅 App；有全部 App 權限嘅管理員亦可以查看未指定 App ID 嘅設定。
+- 如果 Configure 清單缺少某個 App、開頁被拒絕或儲存失敗，先由管理員核對帳戶嘅 App Config／App ID 權限，更新後重新登入再試；唔好用其他 App ID 或帳戶繞過權限。
 - 權限檢查適用於讀取同寫入；之前可以睇到嘅設定，升級後亦可能因權限收緊而消失。
 
 ## Internal Notes

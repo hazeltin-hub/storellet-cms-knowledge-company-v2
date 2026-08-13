@@ -24,7 +24,6 @@ keywords:
   - "券"
   - "CMS"
   - "end of current month"
-  - "byEndOfMonth"
   - "POS inactive coupon"
   - "停用優惠券"
 last_reviewed: "2026-08-13"
@@ -69,14 +68,14 @@ review_due: "2026-11-13"
 ### 0.14.0 到期類型更新
 
 - **End of Current Month（本月月底）**：優惠券會以發放所屬月份嘅月底作到期點。
-- 系統會以最終 `startDate` 對齊 `byEndOfMonth` 到期計算，並統一派發時間戳；唔應以建立模板嘅時間自行推算到期日。
+- 系統會按優惠券最終生效日期計算所屬月份嘅月底；唔應以建立優惠券模板嘅時間自行推算到期日。
 - 測試時要覆蓋月初、月底、跨月及不同派發時間，確認 App、CMS 同 POS 顯示一致。
 
 ### POS 隱藏停用優惠券
 
-- 0.14.0 起，POS v1／v2 優惠券查詢唔再返回 **Inactive** 優惠券。
+- 0.14.0 起，POS 優惠券查詢唔再返回 **Inactive** 優惠券。
 - CMS 將券設為 Inactive 後，會員 App 或歷史資料仍可能保留相關記錄，但 POS 可用券清單應該隱藏。
-- 如果 POS 仲顯示停用券，先確認 POS API 版本、環境、快取及優惠券最新狀態；唔好直接補發另一張券。
+- 如果 POS 仲顯示停用券，先確認 POS 整合版本、環境、快取及優惠券最新狀態；唔好直接補發另一張券。
 **注意：**
 - 勾選 Is Coupon Leaflet 會展開大量進階欄位，包含自訂有效期標題、使用說明、隱藏會員 QR 碼、Leaflet 按鈕（可分 Android／iOS 連結）、External Code 綁定、兌換前後提示、兌換詳情頁標題與內文等；非 Leaflet 模式不需要動這些。
 

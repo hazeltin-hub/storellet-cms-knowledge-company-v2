@@ -21,7 +21,7 @@
       "key": "knowledge/application/model-answers/guide-configure.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "cd0074343f6431c9a46ac4cb6dc5a7b04b0f0ba96774533c3b3e847bb12eeb3f",
+      "sha256": "f3db202b7fa7cd930f0ca98729b1cb84647e286c48dfd5009d1ab96d89ba0263",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -255,7 +255,7 @@
       "key": "knowledge/assets/model-answers/guide-coupon.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "547433f74925f7f2ac0045dd19fb1e6c85c668e2c36c6660ff40c7c99bada561",
+      "sha256": "46e09ef4ce582b2e0ba59a3d9ad705202e21e70856dde5f67411dddc9ec32aa2",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -749,7 +749,7 @@
       "key": "knowledge/membership/model-answers/guide-member.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "886ed5d3f4da8ee3cc3817a4a3b334e62789eaf4f5e8b9e26c779ac56b19e399",
+      "sha256": "18e76df75fb22a622b4c02d0b0b7fbb00c1022eae48d39d7f7a276809dbcd97c",
       "customMetadata": {
         "status": "confirmed",
         "module": "membership",
@@ -1074,7 +1074,7 @@
       "key": "knowledge/assets/model-answers/active-favour-cap-condition.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "d45bc5a81857b250bea5f2be7089369926ad81e720cfeff9bdb2014516f90de8",
+      "sha256": "22fec87f42e3ede994edb5caed59ef5b26aeced16ce0726b863a03bc70d61082",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -1087,7 +1087,7 @@
       "key": "knowledge/assets/model-answers/eshop-shopping-cart.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "bef2d476542c7895abbab2391cfa15876b5dad3138fbb890bc4aefea5e8faa1d",
+      "sha256": "42d5d51ee163025498095525b523c90be14d58dba9620174b4bd753d2400666a",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -1113,7 +1113,7 @@
       "key": "knowledge/system/model-answers/cms-mcp-server.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "b7ac90ccf7b6cdd43394fe31c658b30c68a8f66cc4aa327d27af97e4afaa6946",
+      "sha256": "313c28a85ef5ee822f0563699be2d1a869048a121c2dfd533a241159ad6a6c44",
       "customMetadata": {
         "status": "confirmed",
         "module": "system",
