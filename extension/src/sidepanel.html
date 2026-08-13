@@ -49,8 +49,24 @@
         <div class="question-actions">
           <button id="clear-button" class="text-button" type="button">清除對話</button>
           <button id="export-button" class="text-button" type="button">下載待跟進問題</button>
+          <button id="github-sync-button" class="text-button text-button--primary" type="button">提交到 GitHub</button>
         </div>
       </section>
+
+      <dialog id="github-sync-dialog" class="github-sync-dialog" aria-labelledby="github-sync-title">
+        <div class="github-sync-dialog__content">
+          <h2 id="github-sync-title">提交待跟進問題到 GitHub</h2>
+          <p class="github-sync-warning">
+            呢個 GitHub repo 係公開。以下只會顯示已遮蓋敏感資料的內容，請提交前再檢查一次。
+          </p>
+          <ol id="github-sync-preview" class="github-sync-preview"></ol>
+          <p id="github-sync-remaining" class="github-sync-remaining"></p>
+          <div class="github-sync-actions">
+            <button id="github-sync-cancel" class="dialog-button dialog-button--secondary" type="button">取消</button>
+            <button id="github-sync-confirm" class="dialog-button dialog-button--primary" type="button">開啟 GitHub Issue 草稿</button>
+          </div>
+        </div>
+      </dialog>
 
       <!-- AI Settings Panel -->
       <div id="settings-panel" class="settings-panel" style="display: none;">
@@ -153,7 +169,7 @@
               class="setting-input"
               min="100"
               max="4000"
-              value="1000"
+              value="600"
               step="100"
             >
           </div>
@@ -240,6 +256,7 @@
     <script src="jszip.min.js"></script>
     <script src="config.js"></script>
     <script src="search-engine.js"></script>
+    <script src="chatroom-utils.js"></script>
     <script src="sidepanel.js"></script>
   </body>
 </html>

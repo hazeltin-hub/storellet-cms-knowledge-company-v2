@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Storellet CMS Chatroom",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Search confirmed Storellet CMS Model Answers with AI fallback support.",
   "minimum_chrome_version": "114",
   "permissions": [
