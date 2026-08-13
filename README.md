@@ -17,16 +17,16 @@ Storellet CMS 的正式知識庫，為 Cloudflare R2 及 AI Search/RAG 系統整
 
 ### 內容概覽
 
-- **95 個正式索引檔案**：涵蓋 CMS 主要模組、工作流程及 LUBUDS 專案支援
+- **96 個正式索引檔案**：涵蓋 CMS 主要模組、工作流程及 LUBUDS 專案支援
   - Company：16 條主題式答案
   - Assets、Membership、Push、Report、Application、CMS users：54 條操作指南
-  - LUBUDS：12 條匿名化專案支援答案
+  - LUBUDS：13 條匿名化專案支援答案
 - **多語言支援**：主要為繁體中文 (zh-HK)，針對香港用戶
 - **嚴格格式**：所有內容遵循統一的 front matter schema
 
 ### 主要文件
 
-- `knowledge/index.json`：正式知識庫索引 (95 個檔案)
+- `knowledge/index.json`：正式知識庫索引 (96 個檔案)
 - `knowledge/index.legacy.json`：舊版索引 (315 條，僅供離線覆核)
 - `r2-upload-manifest.json`：R2 上載清單及 SHA-256 checksums
 
