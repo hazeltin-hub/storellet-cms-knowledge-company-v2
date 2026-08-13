@@ -13,6 +13,9 @@ alternatives:
   - "Member 點用？"
   - "點樣設定 Member？"
   - "Member 有咩用途同注意事項？"
+  - "CMS 會員紀錄顯示有咩改善？"
+  - "pointDeduct 點解 History 睇唔到？"
+  - "會員扣分紀錄 Created by 喺邊度睇？"
   - "What is Member used for?"
 keywords:
   - "Member"
@@ -20,8 +23,12 @@ keywords:
   - "會員"
   - "會員資料"
   - "CMS"
-last_reviewed: "2026-07-27"
-review_due: "2026-10-27"
+  - "HistoryRecordFactory"
+  - "pointDeduct"
+  - "Created by"
+  - "會員紀錄"
+last_reviewed: "2026-08-13"
+review_due: "2026-11-13"
 ---
 
 ## Model Answer
@@ -70,11 +77,18 @@ Brand Profile 區（單一品牌層級的會員資料，切換 Membership Group 
 - **Coupon Card** — 個別優惠券明細，含 Serial No、延長有效期、作廢等動作。
 - **Stamp / Stamp Card** — 印花收集與印花卡兌換紀錄，含 Add Stamp 手動加印。
 - **Bingo** — Bingo 活動紀錄，含 Adjust 調整。
-- **History** — 點數異動歷史（交易時間、點數增減、商店、描述）。
+- **History** — 點數異動歷史（交易時間、點數增減、品牌／商店、描述）。0.14.0 起，管理員執行嘅 `pointDeduct` 紀錄會正確帶 `brandId`，並顯示 **Created by** 操作人員。
 - **Cs Remark** — 客服備註，可新增內部留言（會員看不到）。
 - **User Wallet / User Wallet History** — 電子錢包餘額與交易明細（存入、扣款、結餘）。
 
 **注意：** Status 切換為 Pending Delete 或 Deleted 後，會員在 App 將無法正常使用；操作前請先確認。Forget Password 與 Send Sms 會真的發送簡訊／電郵給會員，請避免誤觸。在 Inactive / Pending Delete 狀態下出現的 **Delete** 連結為永久刪除，請格外小心。
+
+### 0.14.0 會員紀錄顯示改善
+
+- 系統以 `HistoryRecordFactory` 統一兩個 MembershipAction 嘅歷史紀錄映射。
+- 修正 `pointDeduct` 未寫入 `brandId`，令扣分活動記錄無法喺 CMS 顯示嘅問題。
+- 管理員扣分紀錄會顯示 **Created by**，方便追查邊位管理員執行操作。
+- 如果新版仍然睇唔到紀錄，先核對環境版本、會員品牌、操作時間及動作是否真正完成，再交技術團隊查記錄；唔好為咗補畫面而重複扣分。
 
 ## Internal Notes
 

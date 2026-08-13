@@ -79,6 +79,10 @@
       "enabled": true
     },
     {
+      "path": "knowledge/assets/model-answers/active-favour-cap-condition.md",
+      "enabled": true
+    },
+    {
       "path": "knowledge/assets/model-answers/guide-bingo.md",
       "enabled": true
     },
@@ -116,6 +120,10 @@
     },
     {
       "path": "knowledge/assets/model-answers/guide-discount-card.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/assets/model-answers/eshop-shopping-cart.md",
       "enabled": true
     },
     {
@@ -275,6 +283,10 @@
       "enabled": true
     },
     {
+      "path": "knowledge/membership/model-answers/member-migration-tool.md",
+      "enabled": true
+    },
+    {
       "path": "knowledge/membership/model-answers/guide-qr-code-inspector.md",
       "enabled": true
     },
@@ -380,6 +392,10 @@
     },
     {
       "path": "knowledge/system/system-tab-overview.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/system/model-answers/cms-mcp-server.md",
       "enabled": true
     },
     {

@@ -13,6 +13,9 @@ alternatives:
   - "Coupon 點用？"
   - "點樣設定 Coupon？"
   - "Coupon 有咩用途同注意事項？"
+  - "優惠券新到期類型係咩？"
+  - "優惠券本月月底到期點設定？"
+  - "POS 會唔會顯示停用優惠券？"
   - "What is Coupon used for?"
 keywords:
   - "Coupon"
@@ -20,8 +23,12 @@ keywords:
   - "優惠券"
   - "券"
   - "CMS"
-last_reviewed: "2026-07-27"
-review_due: "2026-10-27"
+  - "end of current month"
+  - "byEndOfMonth"
+  - "POS inactive coupon"
+  - "停用優惠券"
+last_reviewed: "2026-08-13"
+review_due: "2026-11-13"
 ---
 
 ## Model Answer
@@ -48,7 +55,7 @@ review_due: "2026-10-27"
 - **Is Eshop Coupon** — 是否為網店專用券。
 - **Image / Image 2 / Image 3（中英文）** — 多張圖，可裁切；Image 各可設 Click Redirection 點擊跳轉網址。
 - **Effective Period** — 券的有效期（精確到分鐘）。
-- **Expiry Type** — By Effective Day（領取後 N 天有效）或 By Expiry Date（固定到期日）。
+- **Expiry Type** — 支援 By Effective Day（領取後 N 天有效）、By Expiry Date（固定到期日），以及 0.14.0 新增嘅 **End of Current Month／本月月底**。
 - **Purchase Amount / Purchase Add Point Amount** — Delivery Type 為 Purchase 時顯示：售價與加購積分。
 - **Redemption Point / Quantity / Entitlement** — 依 Delivery Type 顯示：兌換所需積分、數量、每人限領次數。
 - **Coupon Extendable** — 到期後是否可延期。
@@ -58,6 +65,18 @@ review_due: "2026-10-27"
 - **Shared With Brands** — 主品牌專屬，共享給集團其他品牌。
 - **Event Tracking Submit Option** — 事件追蹤回報對象（預設／非 Storellet／僅 Storellet）。
 - **Status** — Active / Inactive / Suspended。
+
+### 0.14.0 到期類型更新
+
+- **End of Current Month（本月月底）**：優惠券會以發放所屬月份嘅月底作到期點。
+- 系統會以最終 `startDate` 對齊 `byEndOfMonth` 到期計算，並統一派發時間戳；唔應以建立模板嘅時間自行推算到期日。
+- 測試時要覆蓋月初、月底、跨月及不同派發時間，確認 App、CMS 同 POS 顯示一致。
+
+### POS 隱藏停用優惠券
+
+- 0.14.0 起，POS v1／v2 優惠券查詢唔再返回 **Inactive** 優惠券。
+- CMS 將券設為 Inactive 後，會員 App 或歷史資料仍可能保留相關記錄，但 POS 可用券清單應該隱藏。
+- 如果 POS 仲顯示停用券，先確認 POS API 版本、環境、快取及優惠券最新狀態；唔好直接補發另一張券。
 **注意：**
 - 勾選 Is Coupon Leaflet 會展開大量進階欄位，包含自訂有效期標題、使用說明、隱藏會員 QR 碼、Leaflet 按鈕（可分 Android／iOS 連結）、External Code 綁定、兌換前後提示、兌換詳情頁標題與內文等；非 Leaflet 模式不需要動這些。
 

@@ -20,6 +20,8 @@ alternatives:
   - "點樣批量處理會員喜好？"
   - "會員喜好批量處理 喺 Push 嘅功能"
   - "喜好批量操作 Push 入面"
+  - "用戶優惠批次操作點解冇 CSV 上載？"
+  - "User Favour Batch Operation 手動輸入點用？"
 keywords:
   - "User Favour Batch Operation"
   - "Push"
@@ -38,8 +40,11 @@ keywords:
   - "會員操作"
   - "喜好處理"
   - "用戶偏好"
-last_reviewed: "2026-07-27"
-review_due: "2026-10-27"
+  - "手動輸入"
+  - "manual input"
+  - "取消 CSV 上載"
+last_reviewed: "2026-08-13"
+review_due: "2026-11-13"
 ---
 
 ## Model Answer
@@ -50,8 +55,8 @@ review_due: "2026-10-27"
 **出現位置：** 顧客 App 的優惠券（顧客只會看到結果——券的數量／效期改變）。純後台批次作業。
 **欄位／設定：**
 - **Name** — 這次批次操作的名稱，方便日後辨識。
-- **Brand** — 所屬品牌。先選品牌、上載名單後按 Initialize，系統才會載入下面的欄位。
-- **Upload CSV** — 要處理的會員名單（只含Member ID/電話號碼需加852），只Support 10萬內名單。
+- **Brand** — 所屬品牌。先選品牌、輸入目標會員資料後按 Initialize，系統先會載入下面嘅欄位。
+- **Manual Input** — 0.14.0 起，目標會員由 **CSV 上載改為手動輸入**；按目前畫面要求輸入或貼上會員識別資料，唔再使用舊 CSV upload 流程。
 - **Coupon** — 要操作的是哪一張優惠券。
 - **Type** — 操作類型：Dispatch（補派新的券）、Update（改現有券的日期）、Expire（強制把現有券設為到期）、Use（標記為已使用）。
 - **Active On / Create After / Create Before / Expire After / Expire Before** — 篩選條件，用來限定「只處理在某段時間內有效／建立／到期的券」。Update／Expire／Use 類型才會用到。
@@ -62,7 +67,7 @@ review_due: "2026-10-27"
 - **Status** — Awaiting Processing（排隊處理中）、Finished（完成）、Error（發生錯誤）。
 - **Results** — 執行後顯示每位會員的處理結果（影響幾張、實際處理幾張、訊息）。
 - **Created By / Created At** — 操作人員與時間紀錄。
-**注意：** Dispatch／Update 需要按 Execute 直接執行；Update／Expire／Use 類型建議先按 Pre-execute 預覽「會影響多少張券」再正式執行，避免誤改大量資料。建立後無法編輯，只能檢視結果。
+**注意：** Dispatch／Update 需要按 Execute 直接執行；Update／Expire／Use 類型建議先按 Pre-execute 預覽「會影響多少張券」再正式執行，避免誤改大量資料。建立後無法編輯，只能檢視結果。由於輸入方式已由 CSV 改為手動輸入，正式執行前要重新核對輸入人數、會員識別資料及 Pre-execute 結果；唔好沿用舊版 CSV 操作指引。
 
 ## Internal Notes
 

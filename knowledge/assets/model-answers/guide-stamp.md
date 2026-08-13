@@ -13,6 +13,8 @@ alternatives:
   - "Stamp 點用？"
   - "點樣設定 Stamp？"
   - "Stamp 有咩用途同注意事項？"
+  - "印花點樣批量匯出匯入？"
+  - "Stamp Trigger Rule 可唔可以 bulk export import？"
   - "What is Stamp used for?"
 keywords:
   - "Stamp"
@@ -20,8 +22,12 @@ keywords:
   - "印花"
   - "印花卡"
   - "CMS"
-last_reviewed: "2026-07-27"
-review_due: "2026-10-27"
+  - "批量匯出"
+  - "批量匯入"
+  - "bulk export import"
+  - "Stamp Trigger Rule"
+last_reviewed: "2026-08-13"
+review_due: "2026-11-13"
 ---
 
 ## Model Answer
@@ -51,6 +57,14 @@ review_due: "2026-10-27"
 - **Auto Redeem / Multiple Gift Auto Redeem** — 集滿自動兌換。兩者互斥，只能擇一。
 - **Transferable / Status（Active / Inactive）** — 可轉贈與否、上下架。
 **注意：** Auto Redeem 與 Multiple Gift Auto Redeem 互斥；勾選其一會自動取消另一個。
+
+### 0.14.0 批量匯出／匯入
+
+- CMS 已支援 **印花活動（Stamp Campaign）** 批量匯出／匯入。
+- CMS 同時支援 **印花觸發規則（Stamp Trigger Rule）** 批量匯出／匯入。
+- 建議先從目標環境匯出現有設定作模板及備份，再修改匯入內容。
+- 匯入前要核對品牌、活動期間、印花圖、Gift Coupon、店舖、條件及通知設定；跨環境時尤其要確認所有 ID 都存在並屬於正確品牌。
+- 批量匯入會一次影響多個活動／規則，正式執行前應先喺測試環境驗證，並保留匯出檔及操作紀錄。
 
 ## Internal Notes
 
