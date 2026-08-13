@@ -4,9 +4,10 @@
 
 ## 正式內容
 
-- `index.json`：96 個正式索引檔案，包括 83 條 curated model answers 及模組總覽／工作流程／系統參考。
+- `index.json`：100 個正式索引檔案，包括 87 條 curated model answers 及模組總覽／工作流程／系統參考。
   - Company：16 條由 135 個 confirmed workbook rows 重寫嘅主題式答案。
-  - Assets、Membership、Push、Report、Application、CMS users：54 條由白話指南拆分嘅答案。
+  - Assets、Membership、Push、Report、Application、CMS users：57 條操作及更新答案。
+  - System：1 條 CMS MCP Server 答案。
   - LUBUDS：13 條由私人專案對話匿名整理嘅支援答案；原始聊天及附件不會提交。
 - `index.legacy.json`：整理前 315 條 index，只供離線覆核。
 - `legacy-snapshot/`：舊知識庫完整副本，唔好上載到正式 AI Search data source。
@@ -23,6 +24,7 @@ knowledge/push/model-answers/*.md
 knowledge/report/model-answers/*.md
 knowledge/application/model-answers/*.md
 knowledge/cms-users/model-answers/*.md
+knowledge/system/model-answers/*.md
 knowledge/lubuds/model-answers/*.md
 ```
 

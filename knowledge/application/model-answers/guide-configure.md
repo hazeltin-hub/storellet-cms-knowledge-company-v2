@@ -13,13 +13,20 @@ alternatives:
   - "Configure 點用？"
   - "點樣設定 Configure？"
   - "Configure 有咩用途同注意事項？"
+  - "App Config 權限點樣控制？"
+  - "點解睇唔到 App Config？"
+  - "App Config 可以睇邊啲 App？"
   - "What is Configure used for?"
 keywords:
   - "Configure"
   - "Application"
   - "CMS"
-last_reviewed: "2026-07-27"
-review_due: "2026-10-27"
+  - "App Config"
+  - "App Config 權限"
+  - "App ID 權限"
+  - "全部 App 權限"
+last_reviewed: "2026-08-13"
+review_due: "2026-11-13"
 ---
 
 ## Model Answer
@@ -69,6 +76,13 @@ review_due: "2026-10-27"
 - **Branded App Config - Scanner Order** — 顧客 App 掃碼功能內，掃碼類型的排列先後。
 - **Last Update Date / Last Update By** — 系統紀錄，最近一次修改的日期與操作者。
 **注意：** 這是影響層面最廣的頁面，改動前應與技術團隊確認；尤其 Force Update Version 一旦填錯，可能會把所有舊版顧客擋在 App 外。
+
+### 0.14.0 App Config 權限改善
+
+- App Config 嘅清單、查看及編輯都會按帳戶獲授權嘅 App ID 控制。
+- 一般管理員只會見到自己有權管理嘅 App；有全部 App 權限嘅管理員亦可以查看未指定 App ID 嘅設定。
+- 如果 Configure 清單缺少某個 App、開頁被拒絕或儲存失敗，先由管理員核對帳戶嘅 App Config／App ID 權限，更新後重新登入再試；唔好用其他 App ID 或帳戶繞過權限。
+- 權限檢查適用於讀取同寫入；之前可以睇到嘅設定，升級後亦可能因權限收緊而消失。
 
 ## Internal Notes
 

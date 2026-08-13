@@ -21,13 +21,13 @@
       "key": "knowledge/application/model-answers/guide-configure.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "122cd6b5fec50f6a0f7c2d34ed1f91e718398db4edf211b5460fc0ebcee28fbe",
+      "sha256": "f3db202b7fa7cd930f0ca98729b1cb84647e286c48dfd5009d1ab96d89ba0263",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
         "locale": "zh-HK",
         "risk": "high",
-        "source": "cms-plain-language-guide"
+        "source": "cms-guide-and-release-0.14.0"
       }
     },
     {
@@ -255,13 +255,13 @@
       "key": "knowledge/assets/model-answers/guide-coupon.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "4ef07a7537a955e897e8f454285b9be97a10603bdec2e3304af23501135f0008",
+      "sha256": "46e09ef4ce582b2e0ba59a3d9ad705202e21e70856dde5f67411dddc9ec32aa2",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
         "locale": "zh-HK",
         "risk": "medium",
-        "source": "cms-plain-language-guide"
+        "source": "cms-guide-and-release-0.14.0"
       }
     },
     {
@@ -372,13 +372,13 @@
       "key": "knowledge/assets/model-answers/guide-stamp.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "38a768a677173d3e44ff7756ab29be46cb2ead14869cd56132b85c3e4a505e6c",
+      "sha256": "f9f4d799c5807120a3ee7e8a42e73ad22817aa94e25cb5f2741e4231d4206e35",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
         "locale": "zh-HK",
         "risk": "medium",
-        "source": "cms-plain-language-guide"
+        "source": "cms-guide-and-release-0.14.0"
       }
     },
     {
@@ -749,13 +749,13 @@
       "key": "knowledge/membership/model-answers/guide-member.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "7594723a0db2de383ed1c3544d166b4df97715eb263a7baaaa0dedc12417a112",
+      "sha256": "18e76df75fb22a622b4c02d0b0b7fbb00c1022eae48d39d7f7a276809dbcd97c",
       "customMetadata": {
         "status": "confirmed",
         "module": "membership",
         "locale": "zh-HK",
         "risk": "high",
-        "source": "cms-plain-language-guide"
+        "source": "cms-guide-and-release-0.14.0"
       }
     },
     {
@@ -840,13 +840,13 @@
       "key": "knowledge/push/model-answers/guide-user-favour-batch-operation.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "d27e88f85fdd0a021a4c5016433b78ad917c29615c75676dd3270be287e92666",
+      "sha256": "0faf2661ed63b48ab25e77a13e4be7a767b9451bbab84350e00688174d79e929",
       "customMetadata": {
         "status": "confirmed",
         "module": "push",
         "locale": "zh-HK",
         "risk": "high",
-        "source": "cms-plain-language-guide"
+        "source": "cms-guide-and-release-0.14.0"
       }
     },
     {
@@ -1068,6 +1068,58 @@
         "locale": "zh-HK",
         "risk": "low",
         "source": "cms-plain-language-guide"
+      }
+    },
+    {
+      "key": "knowledge/assets/model-answers/active-favour-cap-condition.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "22fec87f42e3ede994edb5caed59ef5b26aeced16ce0726b863a03bc70d61082",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "assets",
+        "locale": "zh-HK",
+        "risk": "medium",
+        "source": "cms-release-0.14.0"
+      }
+    },
+    {
+      "key": "knowledge/assets/model-answers/eshop-shopping-cart.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "42d5d51ee163025498095525b523c90be14d58dba9620174b4bd753d2400666a",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "assets",
+        "locale": "zh-HK",
+        "risk": "medium",
+        "source": "cms-release-0.14.0"
+      }
+    },
+    {
+      "key": "knowledge/membership/model-answers/member-migration-tool.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "7cf230b2639a34907fef425f0aa45876ac897f35e093a2ad66226b2002fb760e",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "membership",
+        "locale": "zh-HK",
+        "risk": "high",
+        "source": "member-migration-manual-v1"
+      }
+    },
+    {
+      "key": "knowledge/system/model-answers/cms-mcp-server.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "313c28a85ef5ee822f0563699be2d1a869048a121c2dfd533a241159ad6a6c44",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "system",
+        "locale": "zh-HK",
+        "risk": "high",
+        "source": "cms-release-0.14.0"
       }
     }
   ]
