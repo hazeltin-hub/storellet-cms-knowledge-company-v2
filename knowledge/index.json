@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30",
+  "updatedAt": "2026-08-13",
   "files": [
     {
       "path": "knowledge/integration/pos-systems-status.md",
@@ -324,6 +324,54 @@
     },
     {
       "path": "knowledge/report/model-answers/guide-storellet-report.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/lubuds/model-answers/data-migration-validation.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/lubuds/model-answers/dynamic-member-qr-expiry.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/lubuds/model-answers/gopos-brand-shop-access.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/lubuds/model-answers/gopos-coupon-visibility.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/lubuds/model-answers/gopos-transaction-sync.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/lubuds/model-answers/inline-booking-status.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/lubuds/model-answers/inline-deposit-payment.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/lubuds/model-answers/member-benefit-incident-triage.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/lubuds/model-answers/member-registration-and-exceptions.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/lubuds/model-answers/member-tier-priority.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/lubuds/model-answers/qonbay-paid-membership-sync.md",
+      "enabled": true
+    },
+    {
+      "path": "knowledge/lubuds/model-answers/shopline-sso-account-matching.md",
       "enabled": true
     },
     {

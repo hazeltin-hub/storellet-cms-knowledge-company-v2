@@ -17,15 +17,16 @@ Storellet CMS 的正式知識庫，為 Cloudflare R2 及 AI Search/RAG 系統整
 
 ### 內容概覽
 
-- **69 條精選答案**：涵蓋 CMS 各主要模組
+- **95 個正式索引檔案**：涵蓋 CMS 主要模組、工作流程及 LUBUDS 專案支援
   - Company：16 條主題式答案
-  - Assets、Membership、Push、Report、Application、CMS users：53 條操作指南
+  - Assets、Membership、Push、Report、Application、CMS users：54 條操作指南
+  - LUBUDS：12 條匿名化專案支援答案
 - **多語言支援**：主要為繁體中文 (zh-HK)，針對香港用戶
 - **嚴格格式**：所有內容遵循統一的 front matter schema
 
 ### 主要文件
 
-- `knowledge/index.json`：正式知識庫索引 (69 條 curated answers)
+- `knowledge/index.json`：正式知識庫索引 (95 個檔案)
 - `knowledge/index.legacy.json`：舊版索引 (315 條，僅供離線覆核)
 - `r2-upload-manifest.json`：R2 上載清單及 SHA-256 checksums
 
@@ -60,13 +61,14 @@ Storellet CMS Chatroom - Chrome 瀏覽器擴展功能，提供即時 CMS 知識�
 ## 安全及隱私
 
 - ✅ 知識庫不包含任何密碼、API key 或敏感資料
+- ✅ LUBUDS WhatsApp 原始對話及附件不會提交，只保留去識別化處理流程
 - ✅ Extension 不儲存用戶憑證或 CMS 登入資訊
 - ✅ 所有 AI 功能均為可選，須用戶主動啟用
 - ✅ R2 bucket 保持私有，不公開訪問
 
 ## 版本資訊
 
-- **Knowledge Base**：v2.0 (2026-07-30)
+- **Knowledge Base**：v2.1 (2026-08-13)
 - **Chrome Extension**：v1.3.0
 
 ## 貢獻及維護

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-27",
+  "generatedAt": "2026-08-13",
   "bucketVisibility": "private",
   "indexObjectKey": "knowledge/index.json",
   "objects": [
@@ -8,7 +8,7 @@
       "key": "knowledge/application/model-answers/guide-app-banner.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "730cf1229919a9cbbc65ded32e87be1e5b7b84b5e06a935c1ebf43fa32cbaba2",
+      "sha256": "6b572213a9f44e4262d20dc301382259a188c1266b1f4089c6ba02c344c8eb36",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -21,7 +21,7 @@
       "key": "knowledge/application/model-answers/guide-configure.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "491e8c43a9eb4f5bb0dd93e6fa036a29373c48c41a50c9502703ee226547e777",
+      "sha256": "122cd6b5fec50f6a0f7c2d34ed1f91e718398db4edf211b5460fc0ebcee28fbe",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -34,7 +34,7 @@
       "key": "knowledge/application/model-answers/guide-front-page-setting.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "5b934722a204e091dc5fe51201f34c4e327d996fc3595df881ef953736faf4a6",
+      "sha256": "94a2350e6cf188a1016da7207d5fadee94ff8975361448db6df46d5f09af3ba0",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -47,7 +47,7 @@
       "key": "knowledge/application/model-answers/guide-image.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "5a8025cf6fad6407e17a3324279ae21d19ef6ac6ffd99bed7410bfb9f595c228",
+      "sha256": "4ed13bb5d2edfaa512531c847a32f88a195a3ccdfdaa364463417ed005afe2e2",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -60,7 +60,7 @@
       "key": "knowledge/application/model-answers/guide-locale.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "16ab7872421630f390062b252f7aef288071ee1ef6626c0b899e495b5284824a",
+      "sha256": "fec8d70f7907d0fec01cb87337f04793c02a2e5839c1db875f65792748a5a3c9",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -73,7 +73,7 @@
       "key": "knowledge/application/model-answers/guide-merchant-web-config.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "3ab1ae15d4c9dd2cd5027fdd0f527a01044d6b74842f9db9360dc21cb649d85d",
+      "sha256": "e8101f3787e17b8d31c61a9b7058348ea3b6e88cf09369b6a8bbb08ac7ab671a",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -86,7 +86,7 @@
       "key": "knowledge/application/model-answers/guide-pms-records.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "3a675a9d764028fa490792e8aac6d985466692d55e78b734327ad66715c5ac2a",
+      "sha256": "5f7129d702c6d303d5be4eb924c6cb58df1be43ba76aa90b86c1f225d5667024",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -99,7 +99,7 @@
       "key": "knowledge/application/model-answers/guide-queuing-system.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "64d46d728a8273c37a32ea4248587d40a690e25059844d0374f8957231f9b325",
+      "sha256": "b246d65095c63f8f092575d00c5e9b2b14279d1943a9c08f6b3a208c0109283a",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -112,7 +112,7 @@
       "key": "knowledge/application/model-answers/guide-region-code-config.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "b30c3f603ba2ca9d304bfb478b67350782b001cd7938891123cc6a7346074fc5",
+      "sha256": "43ce8427828ceae4387c5ca4ed4f6258f1176d7933feacab7e4c94e839f3ec7d",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -125,7 +125,7 @@
       "key": "knowledge/application/model-answers/guide-region.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "e61e46d7468a94eaa6a116d988bf7678ce498c3c4cfd037feefc9c416b0d9435",
+      "sha256": "4fe34b91d00c106531128e5217e11195270d852dab8ef61ad5d343271750815c",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -138,7 +138,7 @@
       "key": "knowledge/application/model-answers/guide-sms-service-config.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "b0c8db0f1af75a28d23a538d188549e8846186578b23f7f6dc5ec392b0b426c6",
+      "sha256": "df6a3fe0bcc0f105f986e203228862e052db9aa6bfa7e5c0cb5231527079665e",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -151,7 +151,7 @@
       "key": "knowledge/application/model-answers/guide-tag-group.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "104f00ce8bf536be7df014385b12fa381bf317d54ec5320ea0feb85707d3496d",
+      "sha256": "3cb18d7f3955fe0a67b7b6d37ae0dabd35e91cff6d609686583856098dad8212",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -164,7 +164,7 @@
       "key": "knowledge/application/model-answers/guide-view-pos-keys.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "c07d720c778d02c2f03928fa5b2dabfb7cc2e4dfa0e1d644ccd249846ec4f51c",
+      "sha256": "29249a9be0c3616717ddc9439de1584825e26ff7d8dfa03750503ca7c6196813",
       "customMetadata": {
         "status": "confirmed",
         "module": "application",
@@ -177,7 +177,7 @@
       "key": "knowledge/assets/model-answers/guide-bingo.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "ffc315f6b923e77b3acca964ed25bd5af8bf770224fad04d0fc98db0e7a32717",
+      "sha256": "6f992a1581ffa65e84b1f99b40ec61b8685237ac11f4bd29c6e5ebaeb786cfcf",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -190,7 +190,7 @@
       "key": "knowledge/assets/model-answers/guide-co-brand-purchase.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "b2fb2ca9022e2ad150f0e8a5c08c4e6c2be52cca33d92557e9e5c37453697563",
+      "sha256": "a85951b332e26444deb21c5a972c92c2939df9189528f6cc05893f7f58a5e395",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -203,7 +203,7 @@
       "key": "knowledge/assets/model-answers/guide-coupon-code.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "807baac6e09454a4835f14b384eb100a145c23bcfd17642bc4e9e3f39424dedf",
+      "sha256": "751aa0ff77f26ea0906ecb692b1b7cc8f6f7dcb6f146167a0b719758573b62c4",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -216,7 +216,7 @@
       "key": "knowledge/assets/model-answers/guide-coupon-external-code-group.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "a3cfd64838e6af01da4ab33343f6e710102bd9af58ce324833c1793fa6541113",
+      "sha256": "b2d5fbe968498c6cb3f5caba2d897b1d3c2490d32a67615d27540b4f9dc2e42c",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -229,7 +229,7 @@
       "key": "knowledge/assets/model-answers/guide-coupon-package.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "3299ddecaf03fca40ca9117ecbcf4f767c353d298ec475338143087a611665a0",
+      "sha256": "9e5d3bad2188459de5e2f298af847f2e3c126f934aa586976c91516cb8593479",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -242,7 +242,7 @@
       "key": "knowledge/assets/model-answers/guide-coupon-trigger-rule.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "c59396510ac48191d7e4da27f2c12c19406fe856566d85cdce1d2c2dc633bba3",
+      "sha256": "f3f274dae0227645aa1cfe158f68a338cfc40956707638fb56da7f0bf053ee72",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -255,7 +255,7 @@
       "key": "knowledge/assets/model-answers/guide-coupon.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "aa274b3fb8f63a5c8d95669d27f69e2467736ccbf45bb41e9e1bf984bc0d85a9",
+      "sha256": "4ef07a7537a955e897e8f454285b9be97a10603bdec2e3304af23501135f0008",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -268,7 +268,7 @@
       "key": "knowledge/assets/model-answers/guide-cross-brand-automation.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "8d5bebbef5ed8b260fb723faf6b75cfade3cf431573fdb3f9a489ebc9fa341be",
+      "sha256": "a519be7870f89da74a6a298fe66d36c556b5b1b60e70d6a3a07834ce3d738086",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -281,7 +281,7 @@
       "key": "knowledge/assets/model-answers/guide-discount-card.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "6818be57d7313a99c393df675e508a39fd8f7c09a38a5146b294867c81b63eb5",
+      "sha256": "d23c2c5d8901e183a0e629f08ec6084f4c5016ad3f75619673b56139038509e6",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -294,7 +294,7 @@
       "key": "knowledge/assets/model-answers/guide-eshop-products.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "0678fc4947039120a126e9a9ed9baa002e677e02d2a98ad5a08f096c30fcfa77",
+      "sha256": "ddf70dc535d482cb96093308872b26fba076b276f2afe7cdff44f35e1c882ab5",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -307,7 +307,7 @@
       "key": "knowledge/assets/model-answers/guide-food-menu.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "b8e4b1da9a3b19ebd9e72fec54f3836818b3f5f634bb2c9aed94dd9431265221",
+      "sha256": "1e3dec150d5568f147148fb0b83d9c39e79a3ad8b7c9f34db5f9a9ba6474ba20",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -320,7 +320,7 @@
       "key": "knowledge/assets/model-answers/guide-operation-access-code.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "4d48c6cd0540c99eee94e3912b6392524e38d6104426d06a2bbdac91c0991798",
+      "sha256": "b048b9d93637fe02f71d7606defbf8a54f225e3059e5ea134158f801c1174d2f",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -333,7 +333,7 @@
       "key": "knowledge/assets/model-answers/guide-points.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "b8462518aa8663ef0535ce194197be0625db08638daf8aeaaff8a7b3c74e288c",
+      "sha256": "b5c306a23bccd46bd03c561fdd52a0cc2e8c1a70ae722be79515f3121797bf2a",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -346,7 +346,7 @@
       "key": "knowledge/assets/model-answers/guide-speedy-scanner-config.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "b122edd0a6a282dde93b55f70bba47caca7a0557e36e54b03a90843d2d6e51cc",
+      "sha256": "62ac833193fa512dc7da266a3b8361b507a6d2a1900b5c179d7246c99a22cdec",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -359,7 +359,7 @@
       "key": "knowledge/assets/model-answers/guide-stamp-trigger-rule.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "7dca43cdfdc0c291ded8ec43e2de7a5a327011523d47612d5122c6c40cf1ef77",
+      "sha256": "4d22ffb2608bfbec00a890faf9d939e7f5adeb94e444cc31d03fc1ee6c39cbfa",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -372,7 +372,7 @@
       "key": "knowledge/assets/model-answers/guide-stamp.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "0a0d8548d71e76e415afa721145ed61362bf6e1461d496986f89f89beedc960e",
+      "sha256": "38a768a677173d3e44ff7756ab29be46cb2ead14869cd56132b85c3e4a505e6c",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -385,7 +385,7 @@
       "key": "knowledge/assets/model-answers/guide-survey.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "c8891bf9c13537cf09c4d60eb09434351327d91517c82f14e8174ab126d7cbac",
+      "sha256": "20abe7f6016e1253ae8fd6a7cb0a5d1c4fdd9545d5bafad917a66fb4365a34bd",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -398,7 +398,7 @@
       "key": "knowledge/assets/model-answers/guide-trigger-flow.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "4106d301851f859f650ad037360a7eb45a6a6d58f1f159469278846c6297b0dc",
+      "sha256": "9b3a70b256b4e78f87cdd25692fc79e5a573dbd22e1c0224c4642832b159f092",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -411,7 +411,7 @@
       "key": "knowledge/assets/model-answers/guide-user-activation-key.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "4dee0633bd0a8d2967b98bb8b686147eea32ebf924c186dc8128ba170f1df0f5",
+      "sha256": "c9661056e04509adf731432f86bd028c819777fdb9c179682daa09717964d2ff",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -424,7 +424,7 @@
       "key": "knowledge/assets/model-answers/guide-user-top-up-consumer-plan.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "56e6f196e527ab664bfd1cc9f114542d2818718f516fdb2f09fea455c7d1042a",
+      "sha256": "4fdb676ee0f41ea8dd3509b7df459ad79b8546338d66ebb5caf81a04cc43dc01",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -437,7 +437,7 @@
       "key": "knowledge/assets/model-answers/guide-user-top-up-deposit-plan.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "17a1f6d0bf6e151ee8cf2465aebd26653d86ca732f5b25f85396ef33ba3337e7",
+      "sha256": "4b60c7fe27f5b1b373d3169f0b2e9063f57380500b00881e5397840693bb5e3f",
       "customMetadata": {
         "status": "confirmed",
         "module": "assets",
@@ -450,7 +450,7 @@
       "key": "knowledge/cms-users/model-answers/guide-boss-app-account.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "8da8053ba3dae53b3f43ce38973c14132a2149c08136c00d377b68bf06987486",
+      "sha256": "b04f2f0c7f7a0f54b1c43958291d50d3cd92c152248841bd3e06811bc02c3c44",
       "customMetadata": {
         "status": "confirmed",
         "module": "cms-users",
@@ -463,7 +463,7 @@
       "key": "knowledge/cms-users/model-answers/guide-cms-users.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "ce51c4499cc8cf7ceaec7a2ffe594e3e937e4dd5d7ce5db79919bedfa16bad03",
+      "sha256": "b1c59dfe97f760c3e6169e23839082f36495381319735629c171fb7a78f409c0",
       "customMetadata": {
         "status": "confirmed",
         "module": "cms-users",
@@ -476,7 +476,7 @@
       "key": "knowledge/cms-users/model-answers/guide-staff.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "484da428aa2373092ffd89744defd3ec095f486b31572dbf3066bc10d32fbf7e",
+      "sha256": "064274ff6f6ab2d424f67071c9e31596ea5aa23873959c9f3a0bcfc13f89cdc0",
       "customMetadata": {
         "status": "confirmed",
         "module": "cms-users",
@@ -489,7 +489,7 @@
       "key": "knowledge/company/model-answers/brand-app-eshop-presentation.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "fa0a0cadc00bffd560d0af9ba793ba0727563bd0ed183e58c7a3c4b60b76db56",
+      "sha256": "e1bdf593e735ddb86cc7f99c5c358a88f11a3de3d7d72f8d3373bd1cd7cd020a",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -502,7 +502,7 @@
       "key": "knowledge/company/model-answers/brand-content-promotion.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "b1d86399d0c15b3d9b68e010e92e65c999af6c6b1a42307639197937fec731da",
+      "sha256": "b2b6a9e9eb0a5e1ea18c8fafaedac42bfd8978320d06ed51e9ee1c3d17526bd3",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -515,7 +515,7 @@
       "key": "knowledge/company/model-answers/brand-identity-discovery.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "81dc6d780b0e2622621ac327e1a6d783cbace99aae458c6aa4283d72b3c234eb",
+      "sha256": "6d406f840de5cfe49b0bbbd6ef28633c869af60ce6f3337da11dd589b0d2de22",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -528,7 +528,7 @@
       "key": "knowledge/company/model-answers/brand-lifecycle-member-profile.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "879fc22dc3e092a6d0d30a7ee215741afbca0b6e75df336499a7570af17bf7e7",
+      "sha256": "24b41c1101e480626f2cb3e01d2de658eb782519318a5341f100f2f423c5a756",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -541,7 +541,7 @@
       "key": "knowledge/company/model-answers/brand-links-reservations.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "f6ae307a6cf7a1ec5e3df6f30bbd20cb7446b0fb848c9bb672960a76c61ac2b8",
+      "sha256": "132329ad327f119747c3f33e7c9f65a88997efd604c16575c4132f2afceda142",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -554,7 +554,7 @@
       "key": "knowledge/company/model-answers/brand-points-qr-pos.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "fd9fdef2b5892a8a3c51432b50c3e4548aca4e36e8ecebf7654356227737725b",
+      "sha256": "97e58ff9341993dbe0bc226647e53e9929ce597006bc2adc5df105fa04355337",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -567,7 +567,7 @@
       "key": "knowledge/company/model-answers/brand-visual-design.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "4d7082a3a29ceb0c6692f25be05d171f10ad0b2c9e340183358cc21b544b92af",
+      "sha256": "5043fbdd56a423fc7df3e137fe9fd085c4afa1108e62f72042f6a7628ca8c12a",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -580,7 +580,7 @@
       "key": "knowledge/company/model-answers/company-group-branded-app.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "3bb64a18b1994a012acf65ae0a9dce3d6768e0efaa7f75de1aec2969060383de",
+      "sha256": "8156e01367c0c13b40c9a0afacf58244972a9a17029b369dd173d3c18ea05c92",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -593,7 +593,7 @@
       "key": "knowledge/company/model-answers/company-group-controls-compliance.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "a7428aac9ce47c03c64f9e9d56dc52a8d21f37927f96534efeca2fc029fda541",
+      "sha256": "0d328639209667f213095a4f5593eed56ce5248b4761ac9cef385e6d61c06cd1",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -606,7 +606,7 @@
       "key": "knowledge/company/model-answers/company-group-identity-registration.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "e28bef952f7da8f524e20a88b7497e3490bb27a6ae87b6b264a15586cc66dbd2",
+      "sha256": "5995d883fe37eb48050ba19356c8bec433be53e4c53dba355e9adf935cfc511e",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -619,7 +619,7 @@
       "key": "knowledge/company/model-answers/company-group-membership-points.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "9f7b00a241e097c67e5a122984df811c08d4bbec98cd319cf2e71d7254dda3de",
+      "sha256": "9a5267e1b5bae1095336106a082ad43a2cf786781578f6a9514ed9a8a11a08c3",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -632,7 +632,7 @@
       "key": "knowledge/company/model-answers/company-structure-overview.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "5fe11a628ee123a4525cb429b721c312cd06d15355dd6506d2413fe92f14caf4",
+      "sha256": "6756f29a0832974975dd1509a389d0da450824f87d134b36355f0157497ecb93",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -645,7 +645,7 @@
       "key": "knowledge/company/model-answers/create-company.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "309a51bffbea90146e0cd4bc99043815040f9525875063e74d09fc2c58e0a4af",
+      "sha256": "be924bf8d37d715764db8493e9f2cfe880b2ce9361e627f375c9c82689d30dc9",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -658,7 +658,7 @@
       "key": "knowledge/company/model-answers/featured-item-setup.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "e37eb307ba050aa53e50e56752203ce5b72fb63c13777006a24a18575e72aa95",
+      "sha256": "ad0558e3f608d393a335a3545c8f87bc960a0f599a5cd99d8ddb7006122da135",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -671,7 +671,7 @@
       "key": "knowledge/company/model-answers/shop-access-visibility-audit.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "03c59184d5beb3ffe4546893280518d0736b6bb7f0d8b7b8a05dbb1d4312741d",
+      "sha256": "b1546ccee5285778966b7b782e1e39405324c752358426b2293c2370e528fd94",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -684,7 +684,7 @@
       "key": "knowledge/company/model-answers/shop-identity-location-contact.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "a19ad185f2bd2c19704585cc4f198abda8c1941868eeab44a4c03be63735d1ca",
+      "sha256": "2df9e991f855f8b962eed272d8638d0a7eb9db3793cb5c9bcda889ea00aa9f90",
       "customMetadata": {
         "status": "confirmed",
         "module": "company",
@@ -697,7 +697,7 @@
       "key": "knowledge/membership/model-answers/guide-blocked-number.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "1f573838e139e2d70667aad0a54376489c46834ac3d6a27e35159b808851c8b8",
+      "sha256": "c3b1f7f7cd0ace8c8dd95900052ddd4f7d6dfb88a5386132dfaa33cb05b4d191",
       "customMetadata": {
         "status": "confirmed",
         "module": "membership",
@@ -710,7 +710,7 @@
       "key": "knowledge/membership/model-answers/guide-coupon-payment.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "4514cdae5935f0fc93409760d5ffe0d66377f70661a4950d5fd889948d805708",
+      "sha256": "85420e8eb84590c03b61ff5f68c7f20fd7b655af5ced18367ae2b0d604571624",
       "customMetadata": {
         "status": "confirmed",
         "module": "membership",
@@ -723,7 +723,7 @@
       "key": "knowledge/membership/model-answers/guide-invoice.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "1d996552ca8efc7faf230e85059c655340f737b9d79cbc08e0336506e721294e",
+      "sha256": "a68430d34944027c0a277d8cf2e367a4be8d65a730d8b40b01f2a77770d880e8",
       "customMetadata": {
         "status": "confirmed",
         "module": "membership",
@@ -736,7 +736,7 @@
       "key": "knowledge/membership/model-answers/guide-member-taiwan.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "eedee2d611ab9f24cf2ed51ddd6f246c232b74629798cc59986b2c6492efbb0d",
+      "sha256": "4569fb8ca36c7ece25987008bbc831731e04ea0cc9c40b898cdac42d2c440838",
       "customMetadata": {
         "status": "confirmed",
         "module": "membership",
@@ -749,7 +749,7 @@
       "key": "knowledge/membership/model-answers/guide-member.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "429ea43b06280e645f7c22b236cd2f9367340e80f86fbd263e9589785bb752a7",
+      "sha256": "7594723a0db2de383ed1c3544d166b4df97715eb263a7baaaa0dedc12417a112",
       "customMetadata": {
         "status": "confirmed",
         "module": "membership",
@@ -762,7 +762,7 @@
       "key": "knowledge/membership/model-answers/guide-qr-code-inspector.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "e82fcbcd69789da194976d34f7a28f07d65f706f6cd3d2899f0a6c292edc728d",
+      "sha256": "81d6273f1e87ff34bb7117e5bb2782ce4667b3dcf187c74523e237ad51f54ed0",
       "customMetadata": {
         "status": "confirmed",
         "module": "membership",
@@ -775,7 +775,7 @@
       "key": "knowledge/membership/model-answers/guide-verification-code.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "8f6dfcc5bcfd579eecef4fcf8cfee5487bab073525a0735a9ea5fab26fa87968",
+      "sha256": "c8a192ccef9a6d7468673825808502e4369245582a90d396550d8993c5d4df70",
       "customMetadata": {
         "status": "confirmed",
         "module": "membership",
@@ -788,7 +788,7 @@
       "key": "knowledge/push/model-answers/guide-batch-point-adjustment.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "fcad5ea56e928dc854c8bb7d069bdcea2eda8f734c7c0cfe963fa4f8a3c9b132",
+      "sha256": "b6403a73fc6393e03e324ad6ce097e4aaa105657b9fa959d176878560700a4f4",
       "customMetadata": {
         "status": "confirmed",
         "module": "push",
@@ -801,7 +801,7 @@
       "key": "knowledge/push/model-answers/guide-coupon.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "86524fe102e830473e543d483e1e99f49d5041955e7994598e9d26e9bfe00a0f",
+      "sha256": "4c346e823cad572a8ab0484dd5fe03797f10d0be9b4d5a53a4b86f8c559d5c38",
       "customMetadata": {
         "status": "confirmed",
         "module": "push",
@@ -814,7 +814,7 @@
       "key": "knowledge/push/model-answers/guide-news.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "ef3a9f94b8647605d723c44d5ea60b01a51c6cabd6b5c3a5b1112894a67a079c",
+      "sha256": "b0b8005db5dce6dfb07199224cd295deaf640fd92a0df6598103eec27e877d49",
       "customMetadata": {
         "status": "confirmed",
         "module": "push",
@@ -827,7 +827,7 @@
       "key": "knowledge/push/model-answers/guide-notification.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "198d76652ec5494a145d426e40310d07dcff14f2e6f5b114e46345834b134780",
+      "sha256": "252cb2347bd1a6ff61c0b0cceb96fb5de364b75fa488001043153a7f16fc003f",
       "customMetadata": {
         "status": "confirmed",
         "module": "push",
@@ -840,7 +840,7 @@
       "key": "knowledge/push/model-answers/guide-user-favour-batch-operation.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "4b78be3d57cabc1770798f1234f7be8808a7e57217092d793d559d0f0a472c45",
+      "sha256": "d27e88f85fdd0a021a4c5016433b78ad917c29615c75676dd3270be287e92666",
       "customMetadata": {
         "status": "confirmed",
         "module": "push",
@@ -853,7 +853,7 @@
       "key": "knowledge/push/model-answers/guide-user-point-batch-operation.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "3f5a720a19a143e9c16cfa3044f0416abb8b7d397cd2e3b2bd22a514c7a8f398",
+      "sha256": "1d456f82b9794908b24497d97f7a2c1bbc684c45d9e6dd1406c400ec355126a6",
       "customMetadata": {
         "status": "confirmed",
         "module": "push",
@@ -863,10 +863,166 @@
       }
     },
     {
+      "key": "knowledge/lubuds/model-answers/data-migration-validation.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "0d42004c44d9695f71471dba646397bd05e4890c3a784fc592df4507f38b6790",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "lubuds",
+        "locale": "zh-HK",
+        "risk": "high",
+        "source": "lubuds-private-conversations"
+      }
+    },
+    {
+      "key": "knowledge/lubuds/model-answers/dynamic-member-qr-expiry.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "c203836cf4ce609f4fa62e628733169343e216844f12a8737d15ea4faae73808",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "lubuds",
+        "locale": "zh-HK",
+        "risk": "high",
+        "source": "lubuds-private-conversations"
+      }
+    },
+    {
+      "key": "knowledge/lubuds/model-answers/gopos-brand-shop-access.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "ddd82eec346d3edb6da80fe663e779a454949050b6cd47d0fdedb9899fd78704",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "lubuds",
+        "locale": "zh-HK",
+        "risk": "high",
+        "source": "lubuds-private-conversations"
+      }
+    },
+    {
+      "key": "knowledge/lubuds/model-answers/gopos-coupon-visibility.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "1457a05b1526c2a88ea76e8ce66e265cdf2bb9209048215bf4a5117b94d12a98",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "lubuds",
+        "locale": "zh-HK",
+        "risk": "high",
+        "source": "lubuds-private-conversations"
+      }
+    },
+    {
+      "key": "knowledge/lubuds/model-answers/gopos-transaction-sync.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "63ebbc19267d017daac09a50bcfb69c6a40efb083379351a47d2d881caa5babe",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "lubuds",
+        "locale": "zh-HK",
+        "risk": "high",
+        "source": "lubuds-private-conversations"
+      }
+    },
+    {
+      "key": "knowledge/lubuds/model-answers/inline-booking-status.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "a86ffc235e571f871b5965db6c04dc154f55f352eb4544025a8ace3f8adfe2f7",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "lubuds",
+        "locale": "zh-HK",
+        "risk": "medium",
+        "source": "lubuds-private-conversations"
+      }
+    },
+    {
+      "key": "knowledge/lubuds/model-answers/inline-deposit-payment.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "f079230e9a4fcd0cc6506834b007f9599f2c67888fe7d635ea04513ca8358f06",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "lubuds",
+        "locale": "zh-HK",
+        "risk": "high",
+        "source": "lubuds-private-conversations"
+      }
+    },
+    {
+      "key": "knowledge/lubuds/model-answers/member-benefit-incident-triage.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "a509f06d01f313826294292397e6140418c720ec5676298149221db55c03bcf5",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "lubuds",
+        "locale": "zh-HK",
+        "risk": "high",
+        "source": "lubuds-private-conversations"
+      }
+    },
+    {
+      "key": "knowledge/lubuds/model-answers/member-registration-and-exceptions.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "6b61c8efac558647063f93e13dde35f42aad795fa028fda5199a46255b87ee7c",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "lubuds",
+        "locale": "zh-HK",
+        "risk": "high",
+        "source": "lubuds-private-conversations"
+      }
+    },
+    {
+      "key": "knowledge/lubuds/model-answers/member-tier-priority.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "90434c407cb315b1c1651ba46077cb219fe03efcb56ba145f5df4ea8bc0fec03",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "lubuds",
+        "locale": "zh-HK",
+        "risk": "high",
+        "source": "lubuds-private-conversations"
+      }
+    },
+    {
+      "key": "knowledge/lubuds/model-answers/qonbay-paid-membership-sync.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "801edcdc4f733658f35bcc598289c5e710ca97e0fa7715baa317eaa11649a0a7",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "lubuds",
+        "locale": "zh-HK",
+        "risk": "high",
+        "source": "lubuds-private-conversations"
+      }
+    },
+    {
+      "key": "knowledge/lubuds/model-answers/shopline-sso-account-matching.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "no-store",
+      "sha256": "051e9efaa5688a843ce56f5b2f26b3fd753487bd1dc76469394fefcaee5301dc",
+      "customMetadata": {
+        "status": "confirmed",
+        "module": "lubuds",
+        "locale": "zh-HK",
+        "risk": "high",
+        "source": "lubuds-private-conversations"
+      }
+    },
+    {
       "key": "knowledge/report/model-answers/guide-auto-regular-alarm.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "80d1b7365434680d19754b43918d36ffb50763057c1b918cedbbe343da398a9e",
+      "sha256": "172388386d9abec6168fc79c37152f2074effa35ab27533e894d5eed64e4b190",
       "customMetadata": {
         "status": "confirmed",
         "module": "report",
@@ -879,7 +1035,7 @@
       "key": "knowledge/report/model-answers/guide-count-coupon.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "abf80aea06b78afbdf655a26e9033e7297cc6920dc053a11358336eb50e78eb5",
+      "sha256": "d9bae7411098122df8a81aee7d5929dd3cb80bebaa3eddf31a931bb05001fb29",
       "customMetadata": {
         "status": "confirmed",
         "module": "report",
@@ -892,7 +1048,7 @@
       "key": "knowledge/report/model-answers/guide-storellet-report.md",
       "contentType": "text/markdown; charset=utf-8",
       "cacheControl": "no-store",
-      "sha256": "3483345d8861f3aacd2d34be7d2e2cf6cea5a5bfe1f9aae245b4e7d2052a71c2",
+      "sha256": "3a0d77453e077aa73c92e0cc87b7126f70b13bc185759d4d9419f9bbdc25712e",
       "customMetadata": {
         "status": "confirmed",
         "module": "report",
