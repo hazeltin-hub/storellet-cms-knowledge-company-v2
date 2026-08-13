@@ -26,7 +26,10 @@ window.CMS_CHAT_CONFIG = {
   },
   followUp: {
     maxQuestionsPerIssue: 5,
-    issueTitlePrefix: "Chatroom 待跟進"
+    issueTitlePrefix: "Chatroom 待跟進",
+    // Keep "public" until the GitHub repository has actually been changed to private.
+    // Private mode submits one original question per issue for Account Team follow-up.
+    repositoryVisibility: "public"
   },
   ai: {
     enabled: false, // Default disabled, enabled via settings panel

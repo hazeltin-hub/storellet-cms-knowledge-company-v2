@@ -18,6 +18,7 @@
     exportButton: document.querySelector("#export-button"),
     githubSyncButton: document.querySelector("#github-sync-button"),
     githubSyncDialog: document.querySelector("#github-sync-dialog"),
+    githubSyncWarning: document.querySelector("#github-sync-warning"),
     githubSyncPreview: document.querySelector("#github-sync-preview"),
     githubSyncRemaining: document.querySelector("#github-sync-remaining"),
     githubSyncCancel: document.querySelector("#github-sync-cancel"),
@@ -1654,6 +1655,7 @@ ${knowledgeContext}
       return;
     }
 
+    const isPrivateRepository = config.followUp.repositoryVisibility === "private";
     const notYetDrafted = pendingQuestions.filter(
       (question) => question.githubSync?.status !== "draft_opened"
     );
@@ -1663,10 +1665,15 @@ ${knowledgeContext}
 
     state.githubIssueDraft = chatroomUtils.buildFollowUpIssueDraft(
       [...notYetDrafted, ...previouslyDrafted], {
-        maxQuestions: config.followUp.maxQuestionsPerIssue,
-        titlePrefix: config.followUp.issueTitlePrefix
+        maxQuestions: isPrivateRepository ? 1 : config.followUp.maxQuestionsPerIssue,
+        titlePrefix: config.followUp.issueTitlePrefix,
+        redactSensitiveData: !isPrivateRepository
       }
     );
+
+    elements.githubSyncWarning.textContent = state.githubIssueDraft.redactionApplied
+      ? "GitHub repo 目前仍然係公開，因此今次會先遮蓋常見敏感資料。轉為 Private 並更新設定後，問題會以原文提交。"
+      : "Private repo 模式：以下會提交問題原文，只供 Account Team 內部跟進。請確認 repository 仍然係 Private。";
 
     elements.githubSyncPreview.replaceChildren();
     state.githubIssueDraft.previewQuestions.forEach((question) => {

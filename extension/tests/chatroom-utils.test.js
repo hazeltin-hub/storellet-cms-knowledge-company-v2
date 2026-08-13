@@ -42,6 +42,29 @@ test("builds a bounded public issue draft from pending questions only", () => {
   assert.doesNotMatch(draft.body, /91234567/);
   assert.doesNotMatch(draft.body, /已處理問題/);
   assert.match(draft.body, /提交前檢查/);
+  assert.equal(draft.redactionApplied, true);
+});
+
+test("keeps the original question in private repository mode", () => {
+  const originalQuestion = "會員 test@example.com 電話 91234567 未收到優惠券";
+  const draft = buildFollowUpIssueDraft([
+    {
+      id: "Q-PRIVATE-1",
+      question: originalQuestion,
+      reason: "無匹配",
+      priority: "high",
+      resolution: { status: "pending" }
+    }
+  ], {
+    maxQuestions: 1,
+    issueDate: "2026-08-13",
+    redactSensitiveData: false
+  });
+
+  assert.equal(draft.redactionApplied, false);
+  assert.match(draft.body, /test@example\.com/);
+  assert.match(draft.body, /91234567/);
+  assert.match(draft.body, /repository 仍為 Private/);
 });
 
 test("creates a GitHub new issue URL with a prefilled title and body", () => {

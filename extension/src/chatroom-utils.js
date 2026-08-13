@@ -94,8 +94,27 @@
     }[priority] || "中";
   }
 
+  function originalText(value, maxLength = 500) {
+    const text = String(value || "")
+      .replace(/\r\n/g, "\n")
+      .replace(/\r/g, "\n")
+      .replace(/\u0000/g, "")
+      .trim();
+
+    if (text.length <= maxLength) return text;
+    return `${text.slice(0, Math.max(1, maxLength - 1)).trimEnd()}…`;
+  }
+
+  function markdownBlockquote(value) {
+    return String(value || "")
+      .split("\n")
+      .map((line) => `> ${line}`)
+      .join("\n");
+  }
+
   function buildFollowUpIssueDraft(questions, options = {}) {
     const maxQuestions = Math.max(1, Number(options.maxQuestions) || 10);
+    const redactSensitiveData = options.redactSensitiveData !== false;
     const pendingQuestions = (Array.isArray(questions) ? questions : []).filter(
       (question) => !question.resolution || question.resolution.status === "pending"
     );
@@ -105,17 +124,26 @@
     const lines = [
       "## Chatroom 待跟進問題",
       "",
-      "> 由 Storellet CMS Chatroom 產生。內容已自動遮蓋常見敏感資料；提交前仍須由 Account Team 再次檢查。",
+      redactSensitiveData
+        ? "> 由 Storellet CMS Chatroom 產生。內容已自動遮蓋常見敏感資料；提交前仍須由 Account Team 再次檢查。"
+        : "> 由 Storellet CMS Chatroom 產生。Private repo 模式會保留問題原文，只供 Account Team 內部跟進。",
       ""
     ];
 
     selectedQuestions.forEach((question, index) => {
-      const safeQuestion = redactSensitiveText(question.question, 180);
-      const safeReason = redactSensitiveText(question.reason, 160);
+      const safeQuestion = redactSensitiveData
+        ? redactSensitiveText(question.question, 180)
+        : originalText(question.question);
+      const safeReason = redactSensitiveData
+        ? redactSensitiveText(question.reason, 160)
+        : originalText(question.reason, 160);
       const frequency = question.context?.frequency || question.frequency || 1;
 
-      lines.push(`### ${index + 1}. ${safeQuestion || "[未有問題內容]"}`);
-      lines.push(`- 本機編號：${redactSensitiveText(question.id || `Q-${index + 1}`, 80)}`);
+      lines.push(`### ${index + 1}. 待跟進問題`);
+      lines.push("");
+      lines.push(markdownBlockquote(safeQuestion || "[未有問題內容]"));
+      lines.push("");
+      lines.push(`- 本機編號：${originalText(question.id || `Q-${index + 1}`, 80)}`);
       lines.push(`- 分類：${safeReason || "未分類"}`);
       lines.push(`- 優先級：${priorityLabel(question.priority)}`);
       lines.push(`- 出現次數：${frequency}`);
@@ -130,7 +158,12 @@
 
     lines.push("## 提交前檢查");
     lines.push("");
-    lines.push("- [ ] 已確認內容不含客戶姓名、電話、電郵、會員編號、付款或其他敏感資料");
+    if (redactSensitiveData) {
+      lines.push("- [ ] 已確認內容不含客戶姓名、電話、電郵、會員編號、付款或其他敏感資料");
+    } else {
+      lines.push("- [ ] 已確認 repository 仍為 Private，只限 Account Team 存取");
+      lines.push("- [ ] 已確認問題原文適合在內部 repository 分享");
+    }
     lines.push("- [ ] 已補充負責人及需要的 Model Answer 範圍");
 
     return {
@@ -139,7 +172,12 @@
       includedCount: selectedQuestions.length,
       remainingCount,
       questionIds: selectedQuestions.map((question) => question.id),
-      previewQuestions: selectedQuestions.map((question) => redactSensitiveText(question.question, 180))
+      redactionApplied: redactSensitiveData,
+      previewQuestions: selectedQuestions.map((question) => (
+        redactSensitiveData
+          ? redactSensitiveText(question.question, 180)
+          : originalText(question.question)
+      ))
     };
   }
 
