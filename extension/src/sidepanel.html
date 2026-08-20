@@ -9,6 +9,25 @@
   </head>
   <body>
     <main class="app-shell">
+      <section id="auth-gate" class="auth-gate" aria-live="polite">
+        <div class="auth-card">
+          <div class="auth-logo" aria-hidden="true">S</div>
+          <p class="auth-eyebrow">STORELLET INTERNAL</p>
+          <h1>CMS Chatroom</h1>
+          <p class="auth-description">只限 Account Team 使用。請先經 Cloudflare Access 驗證公司帳戶。</p>
+          <div id="auth-status" class="auth-status auth-status--checking">正在檢查登入狀態…</div>
+          <div class="auth-actions">
+            <button id="cloudflare-login-button" class="auth-button auth-button--primary" type="button">
+              使用 Cloudflare 登入
+            </button>
+            <button id="cloudflare-retry-button" class="auth-button auth-button--secondary" type="button">
+              我已登入，重新檢查
+            </button>
+          </div>
+          <p class="auth-hint">登入頁會在新分頁開啟；完成後返回 Chatroom。</p>
+        </div>
+      </section>
+
       <header class="app-header">
         <div class="brand-mark" aria-hidden="true">S</div>
         <div class="brand-copy">
@@ -21,8 +40,13 @@
             <span id="pending-count" class="tracking-count">0</span>
             <span class="tracking-label">待跟進</span>
           </div>
+          <div id="auth-session-row" class="auth-session-row" hidden>
+            <span class="auth-session-dot" aria-hidden="true"></span>
+            <span id="auth-user">Cloudflare 已登入</span>
+          </div>
         </div>
         <div class="header-actions">
+          <button id="cloudflare-logout-button" class="header-text-button" type="button" hidden>登出</button>
           <button id="settings-button" class="icon-button" type="button" aria-label="AI 設置" title="AI 設置">
             ⚙️
           </button>
@@ -255,6 +279,7 @@
     <script src="config.js"></script>
     <script src="search-engine.js"></script>
     <script src="chatroom-utils.js"></script>
+    <script src="cloudflare-auth.js"></script>
     <script src="sidepanel.js"></script>
   </body>
 </html>

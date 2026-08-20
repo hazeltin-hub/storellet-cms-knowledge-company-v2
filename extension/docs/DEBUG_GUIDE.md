@@ -39,7 +39,7 @@
    應該會看到類似這樣的日誌：
    ```
    📦 Loading knowledge from: https://...
-   🔐 Using CF Access: Yes
+   🔐 Using Cloudflare Access user session: Yes
    ⬇️  Starting download...
    ✅ Downloaded XXXX bytes
    📦 Starting unzip...
@@ -56,15 +56,17 @@
 ```
 
 **解決方法：**
-1. 檢查 `config.js` 中的 CF Access credentials：
+1. 確認登入閘門顯示「Cloudflare 已登入」
+2. 檢查 `config.js` 中的 Cloudflare Access URLs：
    ```javascript
-   cfAccess: {
-     clientId: "cfa73948cea99bf16e7badf55349ce1c.access",
-     clientSecret: "afae5fa6b751bc913b4a49dfd62bd01d649dabc3f39968d07c9a737c26b9c75d"
+   cloudflareAccess: {
+     enabled: true,
+     identityUrl: "https://storellet-knowledge.storellet.com/cdn-cgi/access/get-identity",
+     logoutUrl: "https://storellet-knowledge.storellet.com/cdn-cgi/access/logout"
    }
    ```
-2. 確認 credentials 是否正確
-3. 檢查 Cloudflare Access 設定是否允許這些 credentials
+3. 直接開啟知識庫網址，確認公司帳戶符合 Cloudflare Access Allow policy
+4. 不要在 Extension、文件或 repo 內儲存 Service Token secret
 
 #### 問題 2：ZIP URL 不可訪問
 
@@ -168,13 +170,10 @@
    - 確認結構正確
    - 檢查 index.json 存在且格式正確
 
-3. **測試 CF Access**
-   - 使用 Postman 或 curl 測試：
-   ```bash
-   curl -H "CF-Access-Client-Id: cfa73948cea99bf16e7badf55349ce1c.access" \
-        -H "CF-Access-Client-Secret: afae5fa6b751bc913b4a49dfd62bd01d649dabc3f39968d07c9a737c26b9c75d" \
-        -I https://storellet-knowledge.storellet.com/storellet-knowledge.zip
-   ```
+3. **測試 Cloudflare Access**
+   - 在普通 Chrome 分頁開啟知識庫網址
+   - 使用 Account Team 公司帳戶完成 Cloudflare 登入
+   - 返回 Chatroom，按「我已登入，重新檢查」
 
 ### 📞 獲取幫助
 
@@ -186,7 +185,8 @@
 
 ## 🔍 調試檢查清單
 
-- [ ] CF Access credentials 正確配置
+- [ ] Account Team 公司帳戶可以通過 Cloudflare Access policy
+- [ ] Extension 及 repo 內沒有 Service Token secret
 - [ ] ZIP URLs 可以直接訪問
 - [ ] ZIP 文件包含 index.json
 - [ ] index.json 格式正確
@@ -201,7 +201,7 @@
 如果一切正常，Console 應該顯示：
 ```
 📦 Loading knowledge from: https://storellet-knowledge.storellet.com/storellet-knowledge.zip
-🔐 Using CF Access: Yes
+🔐 Using Cloudflare Access user session: Yes
 ⬇️  Starting download...
 ✅ Downloaded 123456 bytes
 📦 Starting unzip...
