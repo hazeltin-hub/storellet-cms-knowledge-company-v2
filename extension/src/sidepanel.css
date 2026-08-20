@@ -271,6 +271,38 @@ button {
   border-radius: 4px;
 }
 
+.model-answer-preview {
+  padding: 10px 11px;
+  background: #f8fafb;
+  border-left: 3px solid var(--storellet-orange);
+  border-radius: 8px;
+}
+
+.model-answer-details {
+  margin-top: 10px;
+}
+
+.model-answer-details > summary {
+  width: fit-content;
+  color: #24678f;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  list-style-position: inside;
+}
+
+.model-answer-details > summary:hover,
+.model-answer-details > summary:focus-visible {
+  color: var(--storellet-orange);
+  outline: none;
+}
+
+.model-answer-full {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+
 .answer-source {
   margin-top: 12px;
   padding-top: 9px;
@@ -348,8 +380,14 @@ button {
 
 .question-actions {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+  justify-content: flex-end;
   margin-top: 8px;
+}
+
+.question-actions #clear-button {
+  margin-right: auto;
 }
 
 .text-button {
@@ -366,6 +404,100 @@ button {
   color: var(--storellet-blue);
   text-decoration: underline;
   outline: none;
+}
+
+.text-button--primary {
+  color: #24678f;
+  font-weight: 700;
+}
+
+.text-button:disabled {
+  color: #a7afb5;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+.github-sync-dialog {
+  width: min(420px, calc(100% - 28px));
+  max-height: min(640px, calc(100% - 28px));
+  padding: 0;
+  overflow: hidden;
+  color: var(--storellet-blue);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: 0 18px 48px rgba(16, 44, 66, 0.24);
+}
+
+.github-sync-dialog::backdrop {
+  background: rgba(16, 44, 66, 0.46);
+}
+
+.github-sync-dialog__content {
+  max-height: inherit;
+  padding: 18px;
+  overflow-y: auto;
+}
+
+.github-sync-dialog h2 {
+  margin: 0 0 10px;
+  font-size: 17px;
+}
+
+.github-sync-warning {
+  padding: 10px 11px;
+  margin: 0 0 12px;
+  color: #7a4d04;
+  font-size: 12px;
+  line-height: 1.55;
+  background: #fff7e6;
+  border: 1px solid #f4d9a4;
+  border-radius: 9px;
+}
+
+.github-sync-preview {
+  max-height: 240px;
+  padding-left: 23px;
+  margin: 0;
+  overflow-y: auto;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.github-sync-preview li + li {
+  margin-top: 7px;
+}
+
+.github-sync-remaining {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.github-sync-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.dialog-button {
+  padding: 9px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+.dialog-button--secondary {
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.dialog-button--primary {
+  color: var(--surface);
+  background: var(--storellet-blue);
+  border: 1px solid var(--storellet-blue);
 }
 
 .sr-only {

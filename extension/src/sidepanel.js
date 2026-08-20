@@ -3,6 +3,7 @@
 
   const config = window.CMS_CHAT_CONFIG;
   const searchEngine = window.KnowledgeSearch;
+  const chatroomUtils = window.ChatroomUtils;
   const elements = {
     botName: document.querySelector("#bot-name"),
     statusDot: document.querySelector("#status-dot"),
@@ -15,6 +16,13 @@
     reloadButton: document.querySelector("#reload-button"),
     clearButton: document.querySelector("#clear-button"),
     exportButton: document.querySelector("#export-button"),
+    githubSyncButton: document.querySelector("#github-sync-button"),
+    githubSyncDialog: document.querySelector("#github-sync-dialog"),
+    githubSyncWarning: document.querySelector("#github-sync-warning"),
+    githubSyncPreview: document.querySelector("#github-sync-preview"),
+    githubSyncRemaining: document.querySelector("#github-sync-remaining"),
+    githubSyncCancel: document.querySelector("#github-sync-cancel"),
+    githubSyncConfirm: document.querySelector("#github-sync-confirm"),
     userTemplate: document.querySelector("#user-message-template"),
     botTemplate: document.querySelector("#bot-message-template"),
     // Settings elements
@@ -44,6 +52,7 @@
     entries: [],
     sourceMode: "loading",
     unansweredQuestions: [],
+    githubIssueDraft: null,
     knowledgeFiles: new Map(), // Store loaded knowledge files
     conversationHistory: {
       messages: [],
@@ -56,7 +65,7 @@
       model: "claude-3-5-sonnet-20241022",
       customModel: "",
       modelMode: "preset", // "preset" or "custom"
-      maxTokens: 1000,
+      maxTokens: 600,
       temperature: 0.7,
       enabled: false
     },
@@ -780,6 +789,38 @@ ${conversationSummary}
     return button;
   }
 
+  function renderKnowledgeAnswer(container, markdown) {
+    const previewResult = chatroomUtils.buildModelAnswerPreview(markdown, {
+      maxCharacters: config.interface.modelAnswerPreviewCharacters
+    });
+
+    if (!previewResult.isTruncated) {
+      container.innerHTML = renderMarkdown(markdown);
+      return;
+    }
+
+    const preview = document.createElement("div");
+    preview.className = "model-answer-preview";
+    preview.innerHTML = renderMarkdown(previewResult.preview);
+
+    const details = document.createElement("details");
+    details.className = "model-answer-details";
+
+    const toggle = document.createElement("summary");
+    toggle.textContent = "查看完整答案";
+
+    const fullAnswer = document.createElement("div");
+    fullAnswer.className = "model-answer-full";
+    fullAnswer.innerHTML = renderMarkdown(markdown);
+
+    details.addEventListener("toggle", () => {
+      toggle.textContent = details.open ? "收起完整答案" : "查看完整答案";
+    });
+
+    details.append(toggle, fullAnswer);
+    container.replaceChildren(preview, details);
+  }
+
   function addBotMessage({ entry, content, isSystem = false, context = "" }) {
     const node = elements.botTemplate.content.cloneNode(true);
     const meta = node.querySelector(".answer-meta");
@@ -797,7 +838,7 @@ ${conversationSummary}
           : `<span class="meta-pill">${escapeHtml(entry.status)}</span>`
       ].join("");
 
-      answer.innerHTML = renderMarkdown(entry.answer);
+      renderKnowledgeAnswer(answer, entry.answer);
 
       const sourceLabel = entry.sourceUrl
         ? safeSourceLink(entry.sourceUrl, entry.sourceTitle)
@@ -928,8 +969,15 @@ ${conversationSummary}
 
     if (existingIndex !== -1) {
       // Update existing question with new timestamp and frequency
-      state.unansweredQuestions[existingIndex].lastSeen = new Date().toISOString();
-      state.unansweredQuestions[existingIndex].frequency = (state.unansweredQuestions[existingIndex].frequency || 0) + 1;
+      const existingQuestion = state.unansweredQuestions[existingIndex];
+      const now = new Date().toISOString();
+      existingQuestion.context = {
+        ...(existingQuestion.context || {}),
+        firstSeen: existingQuestion.context?.firstSeen || existingQuestion.firstSeen || now,
+        lastSeen: now,
+        frequency: (existingQuestion.context?.frequency || existingQuestion.frequency || 1) + 1
+      };
+      existingQuestion.resolution = { status: "pending" };
       await chrome.storage.local.set({
         unansweredQuestions: state.unansweredQuestions
       });
@@ -966,6 +1014,8 @@ ${conversationSummary}
     const categories = {
       "conflicting_answers": "知識庫衝突 - 多個答案符合但內容不同",
       "no_match": "無匹配 - 知識庫中沒有相關資料",
+      "ai_no_match": "AI 無匹配 - 知識庫中沒有足夠資料",
+      "ai_error": "AI 搜尋失敗 - 需要人工跟進",
       "too_general": "問題太模糊 - 需要更具體的問題",
       "missing_field": "欄位缺失 - 該具體欄位的資料不存在",
       "technical_issue": "技術問題 - CMS 或系統相關問題"
@@ -1052,7 +1102,7 @@ ${conversationSummary}
       elements.modelSelect.value = state.aiSettings.model || "claude-3-5-sonnet-20241022";
     }
 
-    elements.maxTokensInput.value = state.aiSettings.maxTokens || 1000;
+    elements.maxTokensInput.value = state.aiSettings.maxTokens || 600;
     elements.temperatureInput.value = state.aiSettings.temperature || 0.7;
     elements.temperatureValue.textContent = state.aiSettings.temperature || 0.7;
     elements.aiEnabledToggle.checked = state.aiSettings.enabled || false;
@@ -1589,6 +1639,98 @@ ${knowledgeContext}
     console.log("📊 Export summary:", exportData.summary);
   }
 
+  function getPendingQuestions() {
+    return state.unansweredQuestions.filter(
+      (question) => !question.resolution || question.resolution.status === "pending"
+    );
+  }
+
+  function prepareGitHubIssueDraft() {
+    const pendingQuestions = getPendingQuestions();
+    if (pendingQuestions.length === 0) {
+      addBotMessage({
+        content: "暫時未有待跟進問題需要提交。",
+        isSystem: true
+      });
+      return;
+    }
+
+    const isPrivateRepository = config.followUp.repositoryVisibility === "private";
+    const notYetDrafted = pendingQuestions.filter(
+      (question) => question.githubSync?.status !== "draft_opened"
+    );
+    const previouslyDrafted = pendingQuestions.filter(
+      (question) => question.githubSync?.status === "draft_opened"
+    );
+
+    state.githubIssueDraft = chatroomUtils.buildFollowUpIssueDraft(
+      [...notYetDrafted, ...previouslyDrafted], {
+        maxQuestions: isPrivateRepository ? 1 : config.followUp.maxQuestionsPerIssue,
+        titlePrefix: config.followUp.issueTitlePrefix,
+        redactSensitiveData: !isPrivateRepository
+      }
+    );
+
+    elements.githubSyncWarning.textContent = state.githubIssueDraft.redactionApplied
+      ? "GitHub repo 目前仍然係公開，因此今次會先遮蓋常見敏感資料。轉為 Private 並更新設定後，問題會以原文提交。"
+      : "Private repo 模式：以下會提交問題原文，只供 Account Team 內部跟進。請確認 repository 仍然係 Private。";
+
+    elements.githubSyncPreview.replaceChildren();
+    state.githubIssueDraft.previewQuestions.forEach((question) => {
+      const item = document.createElement("li");
+      item.textContent = question || "[未有問題內容]";
+      elements.githubSyncPreview.appendChild(item);
+    });
+
+    elements.githubSyncRemaining.textContent = state.githubIssueDraft.remainingCount > 0
+      ? `今次會加入 ${state.githubIssueDraft.includedCount} 條；尚有 ${state.githubIssueDraft.remainingCount} 條可下一次提交。`
+      : `今次會加入全部 ${state.githubIssueDraft.includedCount} 條待跟進問題。`;
+
+    elements.githubSyncDialog.showModal();
+  }
+
+  async function openGitHubIssueDraft() {
+    if (!state.githubIssueDraft) return;
+
+    const issueUrl = chatroomUtils.buildGitHubIssueUrl({
+      owner: config.github.owner,
+      repository: config.github.repository,
+      title: state.githubIssueDraft.title,
+      body: state.githubIssueDraft.body
+    });
+
+    try {
+      await chrome.tabs.create({ url: issueUrl });
+
+      const openedAt = new Date().toISOString();
+      const draftedQuestionIds = new Set(state.githubIssueDraft.questionIds);
+      getPendingQuestions()
+        .filter((question) => draftedQuestionIds.has(question.id))
+        .forEach((question) => {
+          question.githubSync = {
+            status: "draft_opened",
+            draftOpenedAt: openedAt
+          };
+        });
+      await chrome.storage.local.set({
+        unansweredQuestions: state.unansweredQuestions
+      });
+
+      elements.githubSyncDialog.close();
+      state.githubIssueDraft = null;
+      addBotMessage({
+        content: "GitHub Issue 草稿已開啟。請在 GitHub 再檢查內容並按「Create new issue」；提交完成前，問題會繼續保留在本機待跟進清單。",
+        isSystem: true
+      });
+    } catch (error) {
+      console.error("❌ Failed to open GitHub issue draft:", error);
+      addBotMessage({
+        content: "未能開啟 GitHub Issue 草稿，請確認 Extension 有權開啟新分頁後再試。",
+        isSystem: true
+      });
+    }
+  }
+
   elements.questionForm.addEventListener("submit", async (event) => {
     event.preventDefault();
     const question = elements.questionInput.value.trim();
@@ -1626,6 +1768,12 @@ ${knowledgeContext}
   });
 
   elements.exportButton.addEventListener("click", downloadUnansweredQuestions);
+  elements.githubSyncButton.addEventListener("click", prepareGitHubIssueDraft);
+  elements.githubSyncCancel.addEventListener("click", () => {
+    elements.githubSyncDialog.close();
+    state.githubIssueDraft = null;
+  });
+  elements.githubSyncConfirm.addEventListener("click", openGitHubIssueDraft);
 
   // Settings panel event listeners
   elements.settingsButton.addEventListener("click", () => {
@@ -1662,6 +1810,7 @@ ${knowledgeContext}
   function updatePendingCount() {
     const pendingCount = state.unansweredQuestions.filter(q => !q.resolution || q.resolution.status === "pending").length;
     elements.pendingCount.textContent = pendingCount;
+    elements.githubSyncButton.disabled = pendingCount === 0;
 
     // Update tracking count visibility
     const trackingInfo = document.querySelector('.tracking-info');
