@@ -17,9 +17,14 @@ window.CMS_CHAT_CONFIG = {
     "https://storellet-knowledge.storellet.com/storellet-knowledge.zip",
     "https://storellet-knowledge.storellet.com/knowledge.zip"
   ],
-  cfAccess: {
-    clientId: "cfa73948cea99bf16e7badf55349ce1c.access",
-    clientSecret: "afae5fa6b751bc913b4a49dfd62bd01d649dabc3f39968d07c9a737c26b9c75d"
+  cloudflareAccess: {
+    enabled: true,
+    loginUrl: "https://storellet-knowledge.storellet.com/cdn-cgi/access/get-identity",
+    identityUrl: "https://storellet-knowledge.storellet.com/cdn-cgi/access/get-identity",
+    logoutUrl: "https://storellet-knowledge.storellet.com/cdn-cgi/access/logout",
+    pollIntervalMs: 1500,
+    pollTimeoutMs: 120000,
+    sessionCheckMaxAgeMs: 300000
   },
   knowledge: {
     minimumScore: 18

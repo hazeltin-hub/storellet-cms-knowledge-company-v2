@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Storellet CMS Chatroom",
-  "version": "1.4.0",
-  "description": "Search confirmed Storellet CMS Model Answers with AI fallback support.",
+  "version": "1.5.0",
+  "description": "Cloudflare Access protected Storellet CMS Model Answer search for Account Team.",
   "minimum_chrome_version": "114",
   "permissions": [
     "sidePanel",

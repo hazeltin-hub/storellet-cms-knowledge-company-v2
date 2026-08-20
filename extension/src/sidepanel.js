@@ -4,7 +4,18 @@
   const config = window.CMS_CHAT_CONFIG;
   const searchEngine = window.KnowledgeSearch;
   const chatroomUtils = window.ChatroomUtils;
+  const cloudflareAuth = window.CloudflareAuth;
+  const authClient = config.cloudflareAccess?.enabled
+    ? cloudflareAuth.createClient(config.cloudflareAccess)
+    : null;
   const elements = {
+    authGate: document.querySelector("#auth-gate"),
+    authStatus: document.querySelector("#auth-status"),
+    authLoginButton: document.querySelector("#cloudflare-login-button"),
+    authRetryButton: document.querySelector("#cloudflare-retry-button"),
+    authLogoutButton: document.querySelector("#cloudflare-logout-button"),
+    authSessionRow: document.querySelector("#auth-session-row"),
+    authUser: document.querySelector("#auth-user"),
     botName: document.querySelector("#bot-name"),
     statusDot: document.querySelector("#status-dot"),
     knowledgeStatus: document.querySelector("#knowledge-status"),
@@ -51,6 +62,16 @@
   const state = {
     entries: [],
     sourceMode: "loading",
+    appInitialized: false,
+    auth: {
+      status: "checking",
+      identity: null,
+      lastCheckedAt: 0,
+      loginStartedAt: 0,
+      pollTimer: null,
+      heartbeatTimer: null,
+      needsKnowledgeReload: false
+    },
     unansweredQuestions: [],
     githubIssueDraft: null,
     knowledgeFiles: new Map(), // Store loaded knowledge files
@@ -107,34 +128,28 @@
     return response;
   }
 
-  // Fetch with Cloudflare Access headers
-  async function fetchWithCFAccess(url) {
-    const headers = {
-      "CF-Access-Client-Id": config.cfAccess.clientId,
-      "CF-Access-Client-Secret": config.cfAccess.clientSecret
-    };
-    const response = await fetch(url, {
-      cache: "no-store",
-      headers
-    });
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}: ${url}`);
+  async function fetchResource(url, protectedResource = false) {
+    if (protectedResource) {
+      return authClient.fetchProtected(url);
     }
+
+    const response = await fetch(url, { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}: ${url}`);
     return response;
   }
 
-  async function fetchJson(url) {
-    const response = await fetchWithCFAccess(url);
+  async function fetchJson(url, protectedResource = false) {
+    const response = await fetchResource(url, protectedResource);
     return response.json();
   }
 
-  async function fetchText(url) {
-    const response = await fetchWithCFAccess(url);
+  async function fetchText(url, protectedResource = false) {
+    const response = await fetchResource(url, protectedResource);
     return response.text();
   }
 
   async function fetchArrayBuffer(url) {
-    const response = await fetchWithCFAccess(url);
+    const response = await authClient.fetchProtected(url);
     return response.arrayBuffer();
   }
 
@@ -225,7 +240,7 @@
     for (const url of config.knowledgeUrls) {
       try {
         console.log(`📦 Loading knowledge from: ${url}`);
-        console.log(`🔐 Using CF Access: ${config.cfAccess.clientId ? 'Yes' : 'No'}`);
+        console.log(`🔐 Using Cloudflare Access user session: ${state.auth.status === 'authenticated' ? 'Yes' : 'No'}`);
 
         // Download ZIP
         console.log(`⬇️  Starting download...`);
@@ -310,6 +325,7 @@
         return entries;
 
       } catch (error) {
+        if (error.code === cloudflareAuth.AUTH_REQUIRED) throw error;
         console.error(`❌ Failed to load from ${url}:`, error);
         console.error(`   Error details:`, error.stack);
         errors.push({ url, error: error.message, details: error.stack });
@@ -320,7 +336,7 @@
     if (errors.length === config.knowledgeUrls.length) {
       const errorMsg = `所有知識庫來源均失敗:\n${errors.map((e, i) =>
         `${i + 1}. ${e.url}\n   錯誤: ${e.error}`
-      ).join('\n\n')}\n\n💡 請檢查:\n   1. CF Access credentials 是否正確\n   2. ZIP URLs 是否可訪問\n   3. 網絡連接是否正常\n   4. 瀏覽器 Console 是否有 CORS 錯誤`;
+      ).join('\n\n')}\n\n💡 請檢查:\n   1. Cloudflare Access 登入是否有效\n   2. ZIP URLs 是否可訪問\n   3. 網絡連接是否正常`;
 
       console.error(`🚨 ${errorMsg}`);
       throw new Error(errorMsg);
@@ -399,6 +415,158 @@
     if (isLoading) updateStatus("loading", "正在載入知識庫…");
   }
 
+  function clearAuthTimers() {
+    if (state.auth.pollTimer) clearTimeout(state.auth.pollTimer);
+    if (state.auth.heartbeatTimer) clearTimeout(state.auth.heartbeatTimer);
+    state.auth.pollTimer = null;
+    state.auth.heartbeatTimer = null;
+  }
+
+  function setAuthGate(message, status = "login_required") {
+    clearAuthTimers();
+    state.auth.status = status;
+    elements.authGate.hidden = false;
+    elements.authStatus.textContent = message;
+    elements.authStatus.className = `auth-status auth-status--${status}`;
+    elements.authLoginButton.disabled = status === "checking" || status === "waiting";
+    elements.authRetryButton.disabled = status === "checking";
+    elements.authSessionRow.hidden = true;
+    elements.authLogoutButton.hidden = true;
+    elements.settingsPanel.style.display = "none";
+    elements.questionInput.disabled = true;
+    elements.sendButton.disabled = true;
+  }
+
+  function scheduleSessionHeartbeat() {
+    if (!authClient) return;
+    if (state.auth.heartbeatTimer) clearTimeout(state.auth.heartbeatTimer);
+    const delay = config.cloudflareAccess.sessionCheckMaxAgeMs || 300000;
+    state.auth.heartbeatTimer = setTimeout(async () => {
+      const isAuthenticated = await ensureCloudflareSession({ force: true });
+      if (isAuthenticated) scheduleSessionHeartbeat();
+    }, delay);
+  }
+
+  async function unlockChatroom(session) {
+    clearAuthTimers();
+    state.auth.status = "authenticated";
+    state.auth.identity = session.identity || null;
+    state.auth.lastCheckedAt = Date.now();
+    elements.authGate.hidden = true;
+    elements.authSessionRow.hidden = false;
+    elements.authLogoutButton.hidden = false;
+    elements.authUser.textContent = session.identity?.email || "Cloudflare 已登入";
+    elements.questionInput.disabled = false;
+    elements.sendButton.disabled = false;
+    elements.reloadButton.disabled = false;
+    scheduleSessionHeartbeat();
+
+    if (!state.appInitialized) {
+      await initializeAuthenticatedApp();
+    } else if (state.auth.needsKnowledgeReload) {
+      state.auth.needsKnowledgeReload = false;
+      await loadKnowledge();
+    }
+  }
+
+  async function checkCloudflareSession({ showChecking = false } = {}) {
+    if (!authClient) return { authenticated: true, identity: null };
+    if (showChecking) setAuthGate("正在檢查 Cloudflare 登入狀態…", "checking");
+    const session = await authClient.checkSession();
+    if (session.authenticated) state.auth.lastCheckedAt = Date.now();
+    return session;
+  }
+
+  async function ensureCloudflareSession({ force = false } = {}) {
+    if (!authClient) return true;
+    const maxAge = config.cloudflareAccess.sessionCheckMaxAgeMs || 300000;
+    if (
+      !force &&
+      state.auth.status === "authenticated" &&
+      Date.now() - state.auth.lastCheckedAt < maxAge
+    ) {
+      return true;
+    }
+
+    const session = await checkCloudflareSession();
+    if (session.authenticated) {
+      state.auth.status = "authenticated";
+      state.auth.identity = session.identity || null;
+      return true;
+    }
+
+    const message = session.reason === "network_error"
+      ? "未能連接 Cloudflare Access，請檢查網絡後再試。"
+      : "Cloudflare 登入已過期，請重新登入。";
+    setAuthGate(message, session.reason === "network_error" ? "error" : "login_required");
+    return false;
+  }
+
+  async function pollForCloudflareLogin() {
+    const session = await checkCloudflareSession();
+    if (session.authenticated) {
+      await unlockChatroom(session);
+      return;
+    }
+
+    const timeout = config.cloudflareAccess.pollTimeoutMs || 120000;
+    if (Date.now() - state.auth.loginStartedAt >= timeout) {
+      setAuthGate("未偵測到登入。完成 Cloudflare 登入後，請按「重新檢查」。", "login_required");
+      return;
+    }
+
+    state.auth.pollTimer = setTimeout(
+      pollForCloudflareLogin,
+      config.cloudflareAccess.pollIntervalMs || 1500
+    );
+  }
+
+  async function beginCloudflareLogin() {
+    try {
+      await chrome.tabs.create({ url: authClient.getLoginUrl() });
+      setAuthGate("Cloudflare 登入頁已開啟，正在等候驗證…", "waiting");
+      state.auth.loginStartedAt = Date.now();
+      state.auth.pollTimer = setTimeout(
+        pollForCloudflareLogin,
+        config.cloudflareAccess.pollIntervalMs || 1500
+      );
+    } catch (error) {
+      console.error("❌ Failed to open Cloudflare Access login:", error);
+      setAuthGate("未能開啟 Cloudflare 登入頁，請再試一次。", "error");
+    }
+  }
+
+  async function retryCloudflareLogin() {
+    const session = await checkCloudflareSession({ showChecking: true });
+    if (session.authenticated) {
+      await unlockChatroom(session);
+      return;
+    }
+
+    const message = session.reason === "network_error"
+      ? "未能連接 Cloudflare Access，請檢查網絡後再試。"
+      : "仍未完成登入，請先在 Cloudflare 頁面登入。";
+    setAuthGate(message, session.reason === "network_error" ? "error" : "login_required");
+  }
+
+  async function logoutCloudflare() {
+    clearAuthTimers();
+    state.entries = [];
+    state.appInitialized = false;
+    state.auth.identity = null;
+    state.auth.lastCheckedAt = 0;
+    state.auth.needsKnowledgeReload = false;
+    elements.messages.replaceChildren();
+    setAuthGate("登出頁已開啟。完成後可再次使用公司帳戶登入。", "login_required");
+
+    try {
+      await chrome.tabs.create({ url: authClient.getLogoutUrl() });
+    } catch (error) {
+      console.error("❌ Failed to open Cloudflare Access logout:", error);
+      setAuthGate("未能開啟 Cloudflare 登出頁，請再試一次。", "error");
+    }
+  }
+
   async function loadKnowledge() {
     setLoading(true);
 
@@ -425,6 +593,7 @@
               console.log(`✅ R2 fallback loaded successfully: ${state.entries.length} entries`);
               return;
             } catch (r2Error) {
+              if (r2Error.code === cloudflareAuth.AUTH_REQUIRED) throw r2Error;
               console.error(`❌ Both GitHub and R2 failed:`, r2Error);
               throw new Error(`GitHub 和 R2 都無法載入: ${githubError.message} | ${r2Error.message}`);
             }
@@ -446,6 +615,13 @@
       throw new Error(`無效的來源類型: ${sourceType}`);
 
     } catch (error) {
+      if (error.code === cloudflareAuth.AUTH_REQUIRED) {
+        state.entries = [];
+        state.auth.needsKnowledgeReload = true;
+        updateStatus("error", "Cloudflare 登入已過期");
+        setAuthGate("Cloudflare 登入已過期，請重新登入。", "login_required");
+        return;
+      }
       console.error('❌ Failed to load knowledge:', error);
       state.entries = [];
       updateStatus("error", "未能載入知識庫");
@@ -455,6 +631,11 @@
       });
     } finally {
       setLoading(false);
+      if (authClient && state.auth.status !== "authenticated") {
+        elements.questionInput.disabled = true;
+        elements.sendButton.disabled = true;
+        elements.reloadButton.disabled = true;
+      }
     }
   }
 
@@ -1735,6 +1916,7 @@ ${knowledgeContext}
     event.preventDefault();
     const question = elements.questionInput.value.trim();
     if (!question) return;
+    if (!(await ensureCloudflareSession())) return;
 
     addUserMessage(question);
     elements.questionInput.value = "";
@@ -1749,7 +1931,8 @@ ${knowledgeContext}
     }
   });
 
-  elements.reloadButton.addEventListener("click", () => {
+  elements.reloadButton.addEventListener("click", async () => {
+    if (!(await ensureCloudflareSession({ force: true }))) return;
     console.log("🔄 Reload button clicked!");
     console.log("📦 Loading knowledge from ZIP URLs:", config.knowledgeUrls);
     loadKnowledge().then(() => {
@@ -1767,13 +1950,20 @@ ${knowledgeContext}
     });
   });
 
-  elements.exportButton.addEventListener("click", downloadUnansweredQuestions);
-  elements.githubSyncButton.addEventListener("click", prepareGitHubIssueDraft);
+  elements.exportButton.addEventListener("click", async () => {
+    if (await ensureCloudflareSession()) downloadUnansweredQuestions();
+  });
+  elements.githubSyncButton.addEventListener("click", async () => {
+    if (await ensureCloudflareSession()) prepareGitHubIssueDraft();
+  });
   elements.githubSyncCancel.addEventListener("click", () => {
     elements.githubSyncDialog.close();
     state.githubIssueDraft = null;
   });
   elements.githubSyncConfirm.addEventListener("click", openGitHubIssueDraft);
+  elements.authLoginButton.addEventListener("click", beginCloudflareLogin);
+  elements.authRetryButton.addEventListener("click", retryCloudflareLogin);
+  elements.authLogoutButton.addEventListener("click", logoutCloudflare);
 
   // Settings panel event listeners
   elements.settingsButton.addEventListener("click", () => {
@@ -1823,8 +2013,10 @@ ${knowledgeContext}
     }
   }
 
-  async function start() {
-    elements.botName.textContent = config.interface.botName;
+  async function initializeAuthenticatedApp() {
+    if (state.appInitialized) return;
+    state.appInitialized = true;
+
     addBotMessage({
       content: config.interface.welcomeMessage,
       isSystem: true
@@ -1856,6 +2048,27 @@ ${knowledgeContext}
     console.log("🌐 Source mode:", state.sourceMode);
     console.log("📋 Pending questions:", state.unansweredQuestions.length);
     console.log("🤖 AI Settings:", state.aiSettings);
+  }
+
+  async function start() {
+    elements.botName.textContent = config.interface.botName;
+
+    if (!authClient) {
+      elements.authGate.hidden = true;
+      await initializeAuthenticatedApp();
+      return;
+    }
+
+    const session = await checkCloudflareSession({ showChecking: true });
+    if (session.authenticated) {
+      await unlockChatroom(session);
+      return;
+    }
+
+    const message = session.reason === "network_error"
+      ? "未能連接 Cloudflare Access，請檢查網絡後再試。"
+      : "請使用公司帳戶登入 Cloudflare Access。";
+    setAuthGate(message, session.reason === "network_error" ? "error" : "login_required");
   }
 
   start();
